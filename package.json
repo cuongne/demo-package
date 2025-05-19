@@ -6,8 +6,5 @@
   "author": "Cuongne",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
-  "types": "./index.d.ts",
-  "peerDependencies": {
-    "react": "^18.2.0"
-  }
+  "types": "./index.d.ts"
 }
