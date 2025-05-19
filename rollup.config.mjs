@@ -38,7 +38,7 @@ export default [
         preferBuiltins: false // 👈 Thêm dòng này nếu bạn build cho browser
       }),
       commonjs(),
-      typescript({ tsconfig: './tsconfig.json', exclude: [] }),
+      typescript({ tsconfig: './tsconfig.json', exclude: ['**/*.test.tsx', '**/*.test.ts', '**/*.stories.ts'] }),
       postcss({ extensions: ['.css'], inject: true, extract: false }),
       json(),
       generatePackageJson({
