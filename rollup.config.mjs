@@ -61,10 +61,6 @@ export default [
           main: './cjs/index.js',
           module: './esm/index.js',
           types: './index.d.ts',
-          peerDependencies: {
-            "react": "^18.2.0",
-            "react-dom": "^18.2.0"
-          }
         }
       })
     ],
