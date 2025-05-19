@@ -2790,13 +2790,19 @@ function requireReact_development () {
 	return react_development.exports;
 }
 
-if (process.env.NODE_ENV === 'production') {
-  react.exports = requireReact_production_min();
-} else {
-  react.exports = requireReact_development();
-}
+var hasRequiredReact;
 
-var reactExports = react.exports;
+function requireReact () {
+	if (hasRequiredReact) return react.exports;
+	hasRequiredReact = 1;
+
+	if (process.env.NODE_ENV === 'production') {
+	  react.exports = requireReact_production_min();
+	} else {
+	  react.exports = requireReact_development();
+	}
+	return react.exports;
+}
 
 /**
  * @license React
@@ -2813,7 +2819,7 @@ var hasRequiredReactJsxRuntime_production_min;
 function requireReactJsxRuntime_production_min () {
 	if (hasRequiredReactJsxRuntime_production_min) return reactJsxRuntime_production_min;
 	hasRequiredReactJsxRuntime_production_min = 1;
-var f=reactExports,k=Symbol.for("react.element"),l=Symbol.for("react.fragment"),m=Object.prototype.hasOwnProperty,n=f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,p={key:!0,ref:!0,__self:!0,__source:!0};
+var f=requireReact(),k=Symbol.for("react.element"),l=Symbol.for("react.fragment"),m=Object.prototype.hasOwnProperty,n=f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,p={key:!0,ref:!0,__self:!0,__source:!0};
 	function q(c,a,g){var b,d={},e=null,h=null;void 0!==g&&(e=""+g);void 0!==a.key&&(e=""+a.key);void 0!==a.ref&&(h=a.ref);for(b in a)m.call(a,b)&&!p.hasOwnProperty(b)&&(d[b]=a[b]);if(c&&c.defaultProps)for(b in a=c.defaultProps,a)void 0===d[b]&&(d[b]=a[b]);return {$$typeof:k,type:c,key:e,ref:h,props:d,_owner:n.current}}reactJsxRuntime_production_min.Fragment=l;reactJsxRuntime_production_min.jsx=q;reactJsxRuntime_production_min.jsxs=q;
 	return reactJsxRuntime_production_min;
 }
@@ -2839,7 +2845,7 @@ function requireReactJsxRuntime_development () {
 	if (process.env.NODE_ENV !== "production") {
 	  (function() {
 
-	var React = reactExports;
+	var React = requireReact();
 
 	// ATTENTION
 	// When adding new symbols to this file,
@@ -4148,19 +4154,48 @@ if (process.env.NODE_ENV === 'production') {
 
 var jsxRuntimeExports = jsxRuntime.exports;
 
-const Button = ({ initialValue = 0, onValueChange, className = '', }) => {
-    const [count, setCount] = reactExports.useState(initialValue);
-    const handleIncrease = () => {
-        const newValue = count + 1;
-        setCount(newValue);
-        onValueChange?.(newValue);
+function styleInject(css, ref) {
+  if ( ref === void 0 ) ref = {};
+  var insertAt = ref.insertAt;
+
+  if (!css || typeof document === 'undefined') { return; }
+
+  var head = document.head || document.getElementsByTagName('head')[0];
+  var style = document.createElement('style');
+  style.type = 'text/css';
+
+  if (insertAt === 'top') {
+    if (head.firstChild) {
+      head.insertBefore(style, head.firstChild);
+    } else {
+      head.appendChild(style);
+    }
+  } else {
+    head.appendChild(style);
+  }
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var css_248z = "button {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  border-radius: 0.75rem;\n  border-width: 1px;\n  text-align: center;\n  transition-property: all;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 300ms;\n}\n\nbutton:hover {\n  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);\n  filter: brightness(1.25);\n}\n\nbutton:disabled {\n  background-color: #737373;\n  border-color: #737373;\n  color: #e5e5e5;\n  cursor: not-allowed;\n}\n";
+styleInject(css_248z);
+
+const Button = ({ variant, ...props }) => {
+    const styles = () => {
+        const propStyle = props.style ?? {};
+        if (props.disabled)
+            return propStyle;
+        if (variant === 'primary')
+            return { borderColor: '#6366F1', backgroundColor: '#6366F1', color: '#FAFAFA', ...propStyle };
+        if (variant === 'secondary')
+            return { borderColor: '#6366F1', backgroundColor: '#FAFAFA', color: '#6366F1', ...propStyle };
+        return propStyle;
     };
-    const handleDecrease = () => {
-        const newValue = count - 1;
-        setCount(newValue);
-        onValueChange?.(newValue);
-    };
-    return (jsxRuntimeExports.jsxs("div", { className: `button-container ${className}`, children: [jsxRuntimeExports.jsx("button", { onClick: handleDecrease, children: "-" }), jsxRuntimeExports.jsx("span", { children: count }), jsxRuntimeExports.jsx("button", { onClick: handleIncrease, children: "+" })] }));
+    return (jsxRuntimeExports.jsx("button", { ...props, style: styles(), children: props.children }));
 };
 
 export { Button };

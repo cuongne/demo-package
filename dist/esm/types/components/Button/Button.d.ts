@@ -1,8 +1,7 @@
-import React from 'react';
-interface ButtonProps {
-    initialValue?: number;
-    onValueChange?: (value: number) => void;
-    className?: string;
+/// <reference types="react" />
+import './Button.css';
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+    variant?: 'primary' | 'secondary';
 }
-export declare const Button: React.FC<ButtonProps>;
-export {};
+declare const Button: React.FC<ButtonProps>;
+export default Button;

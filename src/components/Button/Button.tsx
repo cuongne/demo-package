@@ -1,35 +1,23 @@
-import React, { useState } from 'react';
+import './Button.css';
 
-interface ButtonProps {
-  initialValue?: number;
-  onValueChange?: (value: number) => void;
-  className?: string;
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: 'primary' | 'secondary';
 }
 
-export const Button: React.FC<ButtonProps> = ({
-  initialValue = 0,
-  onValueChange,
-  className = '',
-}) => {
-  const [count, setCount] = useState(initialValue);
-
-  const handleIncrease = () => {
-    const newValue = count + 1;
-    setCount(newValue);
-    onValueChange?.(newValue);
-  };
-
-  const handleDecrease = () => {
-    const newValue = count - 1;
-    setCount(newValue);
-    onValueChange?.(newValue);
+const Button: React.FC<ButtonProps> = ({ variant, ...props }) => {
+  const styles = () => {
+    const propStyle = props.style ?? {};
+    if (props.disabled) return propStyle;
+    if (variant === 'primary') return { borderColor: '#6366F1', backgroundColor: '#6366F1', color: '#FAFAFA', ...propStyle };
+    if (variant === 'secondary') return { borderColor: '#6366F1', backgroundColor: '#FAFAFA', color: '#6366F1', ...propStyle };
+    return propStyle;
   };
 
   return (
-    <div className={`button-container ${className}`}>
-      <button onClick={handleDecrease}>-</button>
-      <span>{count}</span>
-      <button onClick={handleIncrease}>+</button>
-    </div>
+    <button {...props} style={styles()}>
+      {props.children}
+    </button>
   );
 };
+
+export default Button;

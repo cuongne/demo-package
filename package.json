@@ -16,9 +16,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/nickderaj"
-  },
   "babel": {
     "sourceType": "unambiguous",
     "presets": [
