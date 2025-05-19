@@ -27,11 +27,11 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z$5 = ".header-module_header__xOW2p {\n  position: sticky;\n  top: 0;\n  background-color: white;\n  z-index: 50;\n  height: 116px;\n}\n.header-module_header__xOW2p * {\n  font-family: 'Inter', sans-serif;\n}\n.header-module_headerShadow__q6x9W {\n  box-shadow: 0px 4px 4px 0px #75757526;\n}\n.header-module_container__eaqPg {\n  max-width: 1260px;\n  margin: 0 auto;\n  padding: 2rem 0;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  font-family: 'Inter', sans-serif;\n}\n.header-module_groupSearch__p7PDX {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 64px;\n}\n.header-module_groupSearchSticky__1rzbQ {\n  gap: 24px;\n}\n.header-module_containerSearch__1LzDI {\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n.header-module_logo__PLqHm {\n  width: 160px;\n  height: 30px;\n}\n.header-module_title__2RYyd {\n  font-size: 2rem;\n  color: #646cff;\n}\n.header-module_input__lDF-3 {\n  height: 2.5rem;\n  width: 100%;\n  border-radius: 9999px;\n  border: 1px solid #dd3f24;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  outline: none;\n  font-family: 'Inter', sans-serif;\n  font-weight: 400;\n}\n.header-module_input__lDF-3:focus {\n  border-color: #dd3f24;\n  outline: none;\n  box-shadow: none;\n}\n.header-module_button__xfBS1 {\n  position: absolute;\n  right: 0;\n  margin-left: 0.5rem;\n  border-radius: 0.5rem;\n  padding: 0.5rem 1rem;\n  color: #dd3f24;\n  border: none;\n  background-color: transparent;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_item__wVEfv {\n  cursor: pointer;\n  overscroll-behavior: contain;\n  border-bottom: 1px solid #e5e7eb;\n  padding: 0.625rem 1rem;\n  transition: all 0.2s ease;\n}\n.header-module_item__wVEfv:last-child {\n  border-bottom: 0;\n}\n.header-module_item__wVEfv:hover {\n  background-color: #e5e7eb;\n  color: #dd3f24;\n}\n.header-module_hiddenButtons__YuMTG {\n  margin-left: 1rem;\n  display: inline-flex;\n  gap: 0.25rem;\n  border-radius: 9999px;\n  border: 1px solid #dd3f24;\n  background-color: #fef4f2;\n  padding: 0.4rem 1.5rem;\n  font-weight: 500;\n  color: #dd3f24;\n  text-decoration: none;\n  font-family: 'Inter', sans-serif;\n  font-size: 14px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_iconWrapper__N8BMw {\n  display: inline-flex;\n  height: 1rem;\n  width: 1rem;\n  align-items: center;\n  justify-content: center;\n  font-size: 1rem;\n}\n.header-module_hiddenEmployer__BxDoY {\n  margin-left: 0.5rem;\n  display: inline-flex;\n  gap: 0.25rem;\n  border-radius: 9999px;\n  border: 1px solid #dd3f24;\n  background-color: #fef4f2;\n  padding: 0.5rem 1.5rem;\n  font-weight: 500;\n  color: #dd3f24;\n  text-decoration: none;\n  font-family: 'Inter', sans-serif;\n  font-size: 14px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_loginButton__XXdaS {\n  display: inline-flex;\n  align-items: center;\n  gap: 0.25rem;\n  border-radius: 9999px;\n  background-color: #dd3f24;\n  padding: 0.5rem 1.5rem;\n  font-weight: 500;\n  color: white;\n  text-decoration: none;\n  font-size: 14px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_loginIcon__eMTnB {\n  height: 0.75rem;\n  width: 0.75rem;\n}\n.header-module_localeButton__Xl-jM {\n  width: 2rem;\n  height: 2rem;\n  text-transform: uppercase;\n  font-size: 0.875rem;\n  transition: all 0.2s;\n  background-color: #dd3f24;\n  border-radius: 9999px;\n  color: white;\n  padding: 2px;\n  border: none;\n  font-size: 14px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_containerSwitch__u4wkH {\n  display: flex;\n  align-items: center;\n  margin-left: 8px;\n}\n.header-module_divider__mTsWk {\n  margin-left: 1rem;\n  margin-right: 1rem;\n  height: 1.25rem;\n  width: 1px;\n  background-color: #dd3f24;\n}\n.header-module_dividerX__o4Yv- {\n  height: 1px;\n  width: 100%;\n  background-color: #dd3f24;\n  max-width: 1260px;\n  margin: 0 auto;\n  opacity: 1;\n  transition: opacity 0.3s ease-in-out;\n}\n.header-module_dividerHidden__kvocr {\n  height: 1px;\n  width: 100%;\n  margin: 0 auto;\n  opacity: 0;\n}\n.header-module_containerMenuScroll__1Q2Xk {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 3rem; /* gap-12 = 48px */\n  padding-left: 1rem; /* px-4 = 16px */\n  padding-right: 1rem;\n  padding-top: 0.5rem; /* py-2 = 8px */\n  padding-bottom: 0.5rem;\n  max-width: 1260px;\n  margin: 0 auto;\n  opacity: 1;\n  visibility: visible;\n  transition:\n    opacity 0.3s ease,\n    visibility 0.3s ease;\n}\n.header-module_containerMenuScrollHidden__y8zu6 {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 3rem; /* gap-12 = 48px */\n  padding-left: 1rem; /* px-4 = 16px */\n  padding-right: 1rem;\n  padding-top: 0.5rem; /* py-2 = 8px */\n  padding-bottom: 0.5rem;\n  max-width: 1260px;\n  margin: 0 auto;\n  opacity: 1;\n  opacity: 0;\n  visibility: hidden;\n}\n.header-module_stickyMenu__OMYs- {\n  display: flex;\n  align-items: center;\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_searchContainer__KqfEs {\n  margin: 0;\n}\n.header-module_searchContainerSticky__NFc77 {\n  margin-right: 0.5rem;\n  width: 315px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_searchContainerNonSticky__JFjHT {\n  margin: 0.25rem 0;\n  margin-left: 4rem;\n  width: 475px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_suggestContainer__NOjCW {\n  position: absolute;\n  left: 0;\n  top: 3rem; /* 12 * 0.25rem */\n  z-index: 20;\n  width: 88%;\n  transform: translateX(2%);\n  border: 1px solid #e3e3e3;\n  background-color: white;\n  padding: 0 1rem;\n  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);\n}\n.header-module_suggestList__WbSW7 {\n  display: flex;\n  flex-direction: column;\n  gap: 0.25rem;\n  max-height: 20rem;\n  overflow-y: auto;\n}\n.header-module_suggestList__WbSW7::-webkit-scrollbar {\n  width: 4px;\n}\n.header-module_suggestList__WbSW7::-webkit-scrollbar-track {\n  background: white;\n}\n.header-module_suggestList__WbSW7::-webkit-scrollbar-thumb {\n  background: #e7e7e7;\n}\n.header-module_suggestList__WbSW7::-webkit-scrollbar-thumb:hover {\n  background: #d1d1d1;\n}\n.header-module_suggestItem__D7fjm {\n  display: flex;\n  width: 100%;\n  align-items: center;\n  padding: 0.25rem 0.75rem;\n  text-align: left;\n  font-size: 0.875rem;\n  transition: all 0.3s;\n  background-color: transparent;\n}\n.header-module_suggestItem__D7fjm:hover {\n  background-color: #fef4f2;\n  color: var(--primary-color);\n}\n.header-module_buttonNotification__1dizw {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 32px;\n  width: 32px;\n  border-radius: 9999px;\n  background-color: #dd3f24;\n}\n.header-module_loginContainer__XPugo {\n  display: flex;\n  align-items: center;\n}\n.header-module_notificationContainer__grSCM {\n  position: relative;\n}\n.header-module_notificationDropdown__unOrI {\n  position: absolute;\n  right: 0;\n  top: calc(100% + 0.5rem);\n  width: 320px;\n  background: white;\n  border-radius: 0.5rem;\n  box-shadow: 0px 0px 4px 0px #75757540;\n  z-index: 50;\n  visibility: hidden;\n  opacity: 0;\n  transform: translateY(0.5rem);\n  transition: all 0.3s ease;\n}\n.header-module_notificationDropdownVisible__OxHSb {\n  visibility: visible;\n  opacity: 1;\n  transform: translateY(0);\n}\n.header-module_notificationHeader__hBGty {\n  padding: 1rem;\n  border-bottom: 1px solid #e5e7eb;\n}\n.header-module_notificationTitle__B-GW5 {\n  font-weight: 600;\n  color: #111827;\n}\n.header-module_notificationContent__J-TOI {\n  max-height: 400px;\n  overflow-y: auto;\n}\n.header-module_emptyState__VaLXi {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  padding: 2rem 1rem;\n  text-align: center;\n}\n.header-module_emptyIcon__GI9Qv {\n  width: 48px;\n  height: 48px;\n  color: #9ca3af;\n  margin-bottom: 1rem;\n}\n.header-module_emptyText__RCLNO {\n  color: #6b7280;\n  font-size: 0.875rem;\n}\n@keyframes header-module_fadeIn__SHPf- {\n  from {\n    opacity: 0;\n  }\n  to {\n    opacity: 1;\n  }\n}\n@media (max-width: 1024px) {\n}\n@media (min-width: 1024px) {\n  .header-module_containerMenuScroll__1Q2Xk {\n    padding-top: 1rem; /* lg:py-4 = 16px */\n    padding-bottom: 1rem;\n  }\n  .header-module_searchContainerNonSticky__JFjHT {\n    margin-left: 0;\n    width: 475px;\n  }\n}\n";
-styleInject(css_248z$5);
+var css_248z$3 = ".header-module_header__xOW2p {\n  position: sticky;\n  top: 0;\n  background-color: white;\n  z-index: 50;\n  height: 116px;\n}\n.header-module_header__xOW2p * {\n  font-family: 'Inter', sans-serif;\n}\n.header-module_headerShadow__q6x9W {\n  box-shadow: 0px 4px 4px 0px #75757526;\n}\n.header-module_container__eaqPg {\n  max-width: 1260px;\n  margin: 0 auto;\n  padding: 2rem 0;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  font-family: 'Inter', sans-serif;\n}\n.header-module_groupSearch__p7PDX {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 64px;\n}\n.header-module_groupSearchSticky__1rzbQ {\n  gap: 24px;\n}\n.header-module_containerSearch__1LzDI {\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n.header-module_logo__PLqHm {\n  width: 160px;\n  height: 30px;\n}\n.header-module_title__2RYyd {\n  font-size: 2rem;\n  color: #646cff;\n}\n.header-module_input__lDF-3 {\n  height: 2.5rem;\n  width: 100%;\n  border-radius: 9999px;\n  border: 1px solid #dd3f24;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  outline: none;\n  font-family: 'Inter', sans-serif;\n  font-weight: 400;\n}\n.header-module_input__lDF-3:focus {\n  border-color: #dd3f24;\n  outline: none;\n  box-shadow: none;\n}\n.header-module_button__xfBS1 {\n  position: absolute;\n  right: 0;\n  margin-left: 0.5rem;\n  border-radius: 0.5rem;\n  padding: 0.5rem 1rem;\n  color: #dd3f24;\n  border: none;\n  background-color: transparent;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_item__wVEfv {\n  cursor: pointer;\n  overscroll-behavior: contain;\n  border-bottom: 1px solid #e5e7eb;\n  padding: 0.625rem 1rem;\n  transition: all 0.2s ease;\n}\n.header-module_item__wVEfv:last-child {\n  border-bottom: 0;\n}\n.header-module_item__wVEfv:hover {\n  background-color: #e5e7eb;\n  color: #dd3f24;\n}\n.header-module_hiddenButtons__YuMTG {\n  margin-left: 1rem;\n  display: inline-flex;\n  gap: 0.25rem;\n  border-radius: 9999px;\n  border: 1px solid #dd3f24;\n  background-color: #fef4f2;\n  padding: 0.4rem 1.5rem;\n  font-weight: 500;\n  color: #dd3f24;\n  text-decoration: none;\n  font-family: 'Inter', sans-serif;\n  font-size: 14px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_iconWrapper__N8BMw {\n  display: inline-flex;\n  height: 1rem;\n  width: 1rem;\n  align-items: center;\n  justify-content: center;\n  font-size: 1rem;\n}\n.header-module_hiddenEmployer__BxDoY {\n  margin-left: 0.5rem;\n  display: inline-flex;\n  gap: 0.25rem;\n  border-radius: 9999px;\n  border: 1px solid #dd3f24;\n  background-color: #fef4f2;\n  padding: 0.5rem 1.5rem;\n  font-weight: 500;\n  color: #dd3f24;\n  text-decoration: none;\n  font-family: 'Inter', sans-serif;\n  font-size: 14px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_loginButton__XXdaS {\n  display: inline-flex;\n  align-items: center;\n  gap: 0.25rem;\n  border-radius: 9999px;\n  background-color: #dd3f24;\n  padding: 0.5rem 1.5rem;\n  font-weight: 500;\n  color: white;\n  text-decoration: none;\n  font-size: 14px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_loginIcon__eMTnB {\n  height: 0.75rem;\n  width: 0.75rem;\n}\n.header-module_localeButton__Xl-jM {\n  width: 2rem;\n  height: 2rem;\n  text-transform: uppercase;\n  font-size: 0.875rem;\n  transition: all 0.2s;\n  background-color: #dd3f24;\n  border-radius: 9999px;\n  color: white;\n  padding: 2px;\n  border: none;\n  font-size: 14px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_containerSwitch__u4wkH {\n  display: flex;\n  align-items: center;\n  margin-left: 8px;\n}\n.header-module_divider__mTsWk {\n  margin-left: 1rem;\n  margin-right: 1rem;\n  height: 1.25rem;\n  width: 1px;\n  background-color: #dd3f24;\n}\n.header-module_dividerX__o4Yv- {\n  height: 1px;\n  width: 100%;\n  background-color: #dd3f24;\n  max-width: 1260px;\n  margin: 0 auto;\n  opacity: 1;\n  transition: opacity 0.3s ease-in-out;\n}\n.header-module_dividerHidden__kvocr {\n  height: 1px;\n  width: 100%;\n  margin: 0 auto;\n  opacity: 0;\n}\n.header-module_containerMenuScroll__1Q2Xk {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 3rem; /* gap-12 = 48px */\n  padding-left: 1rem; /* px-4 = 16px */\n  padding-right: 1rem;\n  padding-top: 0.5rem; /* py-2 = 8px */\n  padding-bottom: 0.5rem;\n  max-width: 1260px;\n  margin: 0 auto;\n  opacity: 1;\n  visibility: visible;\n  transition:\n    opacity 0.3s ease,\n    visibility 0.3s ease;\n}\n.header-module_containerMenuScrollHidden__y8zu6 {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 3rem; /* gap-12 = 48px */\n  padding-left: 1rem; /* px-4 = 16px */\n  padding-right: 1rem;\n  padding-top: 0.5rem; /* py-2 = 8px */\n  padding-bottom: 0.5rem;\n  max-width: 1260px;\n  margin: 0 auto;\n  opacity: 1;\n  opacity: 0;\n  visibility: hidden;\n}\n.header-module_stickyMenu__OMYs- {\n  display: flex;\n  align-items: center;\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_searchContainer__KqfEs {\n  margin: 0;\n}\n.header-module_searchContainerSticky__NFc77 {\n  margin-right: 0.5rem;\n  width: 315px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_searchContainerNonSticky__JFjHT {\n  margin: 0.25rem 0;\n  margin-left: 4rem;\n  width: 475px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_suggestContainer__NOjCW {\n  position: absolute;\n  left: 0;\n  top: 3rem; /* 12 * 0.25rem */\n  z-index: 20;\n  width: 88%;\n  transform: translateX(2%);\n  border: 1px solid #e3e3e3;\n  background-color: white;\n  padding: 0 1rem;\n  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);\n}\n.header-module_suggestList__WbSW7 {\n  display: flex;\n  flex-direction: column;\n  gap: 0.25rem;\n  max-height: 20rem;\n  overflow-y: auto;\n}\n.header-module_suggestList__WbSW7::-webkit-scrollbar {\n  width: 4px;\n}\n.header-module_suggestList__WbSW7::-webkit-scrollbar-track {\n  background: white;\n}\n.header-module_suggestList__WbSW7::-webkit-scrollbar-thumb {\n  background: #e7e7e7;\n}\n.header-module_suggestList__WbSW7::-webkit-scrollbar-thumb:hover {\n  background: #d1d1d1;\n}\n.header-module_suggestItem__D7fjm {\n  display: flex;\n  width: 100%;\n  align-items: center;\n  padding: 0.25rem 0.75rem;\n  text-align: left;\n  font-size: 0.875rem;\n  transition: all 0.3s;\n  background-color: transparent;\n}\n.header-module_suggestItem__D7fjm:hover {\n  background-color: #fef4f2;\n  color: var(--primary-color);\n}\n.header-module_buttonNotification__1dizw {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 32px;\n  width: 32px;\n  border-radius: 9999px;\n  background-color: #dd3f24;\n}\n.header-module_loginContainer__XPugo {\n  display: flex;\n  align-items: center;\n}\n.header-module_notificationContainer__grSCM {\n  position: relative;\n}\n.header-module_notificationDropdown__unOrI {\n  position: absolute;\n  right: 0;\n  top: calc(100% + 0.5rem);\n  width: 320px;\n  background: white;\n  border-radius: 0.5rem;\n  box-shadow: 0px 0px 4px 0px #75757540;\n  z-index: 50;\n  visibility: hidden;\n  opacity: 0;\n  transform: translateY(0.5rem);\n  transition: all 0.3s ease;\n}\n.header-module_notificationDropdownVisible__OxHSb {\n  visibility: visible;\n  opacity: 1;\n  transform: translateY(0);\n}\n.header-module_notificationHeader__hBGty {\n  padding: 1rem;\n  border-bottom: 1px solid #e5e7eb;\n}\n.header-module_notificationTitle__B-GW5 {\n  font-weight: 600;\n  color: #111827;\n}\n.header-module_notificationContent__J-TOI {\n  max-height: 400px;\n  overflow-y: auto;\n}\n.header-module_emptyState__VaLXi {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  padding: 2rem 1rem;\n  text-align: center;\n}\n.header-module_emptyIcon__GI9Qv {\n  width: 48px;\n  height: 48px;\n  color: #9ca3af;\n  margin-bottom: 1rem;\n}\n.header-module_emptyText__RCLNO {\n  color: #6b7280;\n  font-size: 0.875rem;\n}\n@keyframes header-module_fadeIn__SHPf- {\n  from {\n    opacity: 0;\n  }\n  to {\n    opacity: 1;\n  }\n}\n@media (max-width: 1024px) {\n}\n@media (min-width: 1024px) {\n  .header-module_containerMenuScroll__1Q2Xk {\n    padding-top: 1rem; /* lg:py-4 = 16px */\n    padding-bottom: 1rem;\n  }\n  .header-module_searchContainerNonSticky__JFjHT {\n    margin-left: 0;\n    width: 475px;\n  }\n}\n";
+styleInject(css_248z$3);
 
-var css_248z$4 = ".HeaderMobile-module_headerMobile__OBi74 {\n  padding: 0px;\n  margin: 0px;\n  box-sizing: border-box;\n  font-family: 'Inter', sans-serif;\n  position: sticky;\n  z-index: 50;\n  top: 0;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  background: white;\n  padding: 22px 28px;\n  box-shadow: 0px 2px 2px 0px #75757540;\n  transition: all 0.3s ease-in-out;\n}\n.HeaderMobile-module_headerMobileSticky__EkDcm {\n  padding: 22px 24px;\n}\n.HeaderMobile-module_containerImage__-p-2H {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  height: 20px;\n  width: 100%;\n}\n.HeaderMobile-module_logoLarge__h72jb {\n  width: 114px;\n  height: 20px;\n  transition: all 0.3s ease;\n}\n.HeaderMobile-module_logoSmall__DXQSi {\n  width: 24px;\n  height: 24px;\n  opacity: 0;\n  position: absolute;\n  left: 1rem;\n  transition: all 0.3s ease;\n}\n.HeaderMobile-module_logoLargeHidden__pwcG0 {\n  width: 0;\n  opacity: 0;\n  transform: translateY(10px);\n}\n.HeaderMobile-module_logoSmallVisible__hQ-js {\n  opacity: 1;\n  transform: translateY(0);\n}\n.HeaderMobile-module_notificationGroup__M4nlT {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n}\n.HeaderMobile-module_wrapperButton__SLd4U {\n  background-color: transparent;\n  color: var(--primary-color);\n}\n.HeaderMobile-module_menuList__lEJwB {\n  font-family: 'Inter', sans-serif;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 0.75rem 1rem;\n  position: fixed;\n  z-index: 49;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  background: white;\n  border-top: 0.5px solid #fed2ca;\n}\n.HeaderMobile-module_menuList__lEJwB button {\n  padding: 0;\n}\n.HeaderMobile-module_menuItem__QxVqp {\n  width: 15%;\n  display: flex;\n  background: transparent;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 0.25rem;\n  color: #4f4f4f;\n  text-decoration: none;\n  font-size: 0.75rem;\n}\n.HeaderMobile-module_menuItemActive__3Ob9B {\n  color: #dd3f24;\n}\n.HeaderMobile-module_subMenuItem__hQ0gd {\n  display: flex;\n  background: transparent;\n  align-items: center;\n  gap: 0.5rem;\n  color: #6d6d6d;\n  text-decoration: none;\n  font-size: 0.75rem;\n  height: 44px;\n  padding: 0 12px;\n}\n.HeaderMobile-module_subMenuItemActive__bedrf {\n  color: #dd3f24;\n  border-left: 4px solid #fdb1a4;\n  padding: 0 8px;\n}\n.HeaderMobile-module_menuIcon__HB-q5 {\n  width: 14px;\n  height: 14px;\n}\n.HeaderMobile-module_drawer__IhTt- {\n  position: fixed;\n  font-family: 'Inter', sans-serif;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  background: white;\n  z-index: 48;\n  border-radius: 16px 16px 0 0;\n  padding: 1rem;\n  transform: translateY(100%);\n  transition: transform 0.3s ease-in-out;\n  visibility: hidden;\n}\n.HeaderMobile-module_drawerOpen__oQkJ0 {\n  transform: translateY(0);\n  bottom: 6%;\n  visibility: visible;\n}\n.HeaderMobile-module_backdrop__gQQ8j {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.5);\n  opacity: 0;\n  pointer-events: none;\n  transition: opacity 0.3s ease-in-out;\n}\n.HeaderMobile-module_backdropOpen__qQedk {\n  opacity: 1;\n  pointer-events: auto;\n}\n.HeaderMobile-module_wrapperStick__inMle {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.HeaderMobile-module_dragHandle__WClp8 {\n  width: 32px;\n  height: 4px;\n  border-radius: 100px;\n  background-color: #b0b0b0;\n}\n.HeaderMobile-module_accountContainer__xJhA2 {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 12px 16px;\n  border-bottom: 0.5px solid #6d6d6d;\n  margin-bottom: 8px;\n}\n.HeaderMobile-module_information__0kGzq {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n}\n.HeaderMobile-module_avatar__aa2f0 {\n  width: 56px;\n  height: 52px;\n  border: 2px solid #dd3f24;\n  border-radius: 100%;\n}\n.HeaderMobile-module_avatar__aa2f0 img {\n  width: 100%;\n  height: 100%;\n}\n.HeaderMobile-module_hello__ELeSt {\n  font-size: 14px;\n  color: #5d5d5d;\n}\n.HeaderMobile-module_name__4u40M {\n  font-size: 20px;\n  color: #dd3f24;\n  font-weight: 500;\n}\n.HeaderMobile-module_email__vJrz5 {\n  font-size: 14px;\n  color: #888888;\n}\n.HeaderMobile-module_input__hhSHM {\n  height: 56px;\n  width: 100%;\n  border-radius: 9999px;\n  border: 1px solid #dd3f24;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  outline: none;\n  font-family: 'Inter', sans-serif;\n  font-weight: 400;\n}\n.HeaderMobile-module_input__hhSHM:focus {\n  border-color: #dd3f24;\n  outline: none;\n  box-shadow: none;\n}\n.HeaderMobile-module_input__hhSHM:focus {\n  border-color: #dd3f24;\n  outline: none;\n  box-shadow: none;\n}\n.HeaderMobile-module_inputSticky__sBPgN {\n  width: 100%;\n  height: 28px;\n}\n.HeaderMobile-module_containerSearch__h2YoZ {\n  height: 100%;\n  padding: 20px;\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n.HeaderMobile-module_hiddenSearch__wG1-i {\n  height: 100%;\n  width: 100%;\n  padding: 0 20px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  opacity: 0;\n  transition: opacity 0.3s ease-in-out;\n}\n.HeaderMobile-module_containerSearchSticky__-i93P {\n  opacity: 1;\n}\n.HeaderMobile-module_button__-bWJj {\n  position: absolute;\n  right: 5%;\n  margin-left: 0.5rem;\n  border-radius: 0.5rem;\n  padding: 0.5rem 1rem;\n  color: #dd3f24;\n  border: none;\n  background-color: transparent;\n  animation: HeaderMobile-module_fadeIn__QBp6v 0.3s ease-in-out;\n}\n.HeaderMobile-module_buttonSticky__ruTcp {\n}\n.HeaderMobile-module_buttonSticky__ruTcp svg {\n  height: 12px;\n  width: 12px;\n}\n.HeaderMobile-module_suggestContainer__DLX0E {\n  position: absolute;\n  left: 0;\n  top: 3rem; /* 12 * 0.25rem */\n  z-index: 20;\n  width: 88%;\n  transform: translateX(2%);\n  border: 1px solid #e3e3e3;\n  background-color: white;\n  padding: 0 1rem;\n  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);\n}\n.HeaderMobile-module_suggestList__9Ug2G {\n  display: flex;\n  flex-direction: column;\n  gap: 0.25rem;\n  max-height: 20rem;\n  overflow-y: auto;\n}\n.HeaderMobile-module_suggestList__9Ug2G::-webkit-scrollbar {\n  width: 4px;\n}\n.HeaderMobile-module_suggestList__9Ug2G::-webkit-scrollbar-track {\n  background: white;\n}\n.HeaderMobile-module_suggestList__9Ug2G::-webkit-scrollbar-thumb {\n  background: #e7e7e7;\n}\n.HeaderMobile-module_suggestList__9Ug2G::-webkit-scrollbar-thumb:hover {\n  background: #d1d1d1;\n}\n.HeaderMobile-module_suggestItem__-FCOb {\n  display: flex;\n  width: 100%;\n  align-items: center;\n  padding: 0.25rem 0.75rem;\n  text-align: left;\n  font-size: 0.875rem;\n  transition: all 0.3s;\n}\n.HeaderMobile-module_suggestItem__-FCOb:hover {\n  background-color: #fef4f2;\n  color: var(--primary-color);\n}\n";
-styleInject(css_248z$4);
+var css_248z$2 = ".HeaderMobile-module_headerMobile__OBi74 {\n  padding: 0px;\n  margin: 0px;\n  box-sizing: border-box;\n  font-family: 'Inter', sans-serif;\n  position: sticky;\n  z-index: 50;\n  top: 0;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  background: white;\n  padding: 22px 28px;\n  box-shadow: 0px 2px 2px 0px #75757540;\n  transition: all 0.3s ease-in-out;\n}\n.HeaderMobile-module_headerMobileSticky__EkDcm {\n  padding: 22px 24px;\n}\n.HeaderMobile-module_containerImage__-p-2H {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  height: 20px;\n  width: 100%;\n}\n.HeaderMobile-module_logoLarge__h72jb {\n  width: 114px;\n  height: 20px;\n  transition: all 0.3s ease;\n}\n.HeaderMobile-module_logoSmall__DXQSi {\n  width: 24px;\n  height: 24px;\n  opacity: 0;\n  position: absolute;\n  left: 1rem;\n  transition: all 0.3s ease;\n}\n.HeaderMobile-module_logoLargeHidden__pwcG0 {\n  width: 0;\n  opacity: 0;\n  transform: translateY(10px);\n}\n.HeaderMobile-module_logoSmallVisible__hQ-js {\n  opacity: 1;\n  transform: translateY(0);\n}\n.HeaderMobile-module_notificationGroup__M4nlT {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n}\n.HeaderMobile-module_wrapperButton__SLd4U {\n  background-color: transparent;\n  color: var(--primary-color);\n}\n.HeaderMobile-module_menuList__lEJwB {\n  font-family: 'Inter', sans-serif;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 0.75rem 1rem;\n  position: fixed;\n  z-index: 49;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  background: white;\n  border-top: 0.5px solid #fed2ca;\n}\n.HeaderMobile-module_menuList__lEJwB button {\n  padding: 0;\n}\n.HeaderMobile-module_menuItem__QxVqp {\n  width: 15%;\n  display: flex;\n  background: transparent;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 0.25rem;\n  color: #4f4f4f;\n  text-decoration: none;\n  font-size: 0.75rem;\n}\n.HeaderMobile-module_menuItemActive__3Ob9B {\n  color: #dd3f24;\n}\n.HeaderMobile-module_subMenuItem__hQ0gd {\n  display: flex;\n  background: transparent;\n  align-items: center;\n  gap: 0.5rem;\n  color: #6d6d6d;\n  text-decoration: none;\n  font-size: 0.75rem;\n  height: 44px;\n  padding: 0 12px;\n}\n.HeaderMobile-module_subMenuItemActive__bedrf {\n  color: #dd3f24;\n  border-left: 4px solid #fdb1a4;\n  padding: 0 8px;\n}\n.HeaderMobile-module_menuIcon__HB-q5 {\n  width: 14px;\n  height: 14px;\n}\n.HeaderMobile-module_drawer__IhTt- {\n  position: fixed;\n  font-family: 'Inter', sans-serif;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  background: white;\n  z-index: 48;\n  border-radius: 16px 16px 0 0;\n  padding: 1rem;\n  transform: translateY(100%);\n  transition: transform 0.3s ease-in-out;\n  visibility: hidden;\n}\n.HeaderMobile-module_drawerOpen__oQkJ0 {\n  transform: translateY(0);\n  bottom: 6%;\n  visibility: visible;\n}\n.HeaderMobile-module_backdrop__gQQ8j {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.5);\n  opacity: 0;\n  pointer-events: none;\n  transition: opacity 0.3s ease-in-out;\n}\n.HeaderMobile-module_backdropOpen__qQedk {\n  opacity: 1;\n  pointer-events: auto;\n}\n.HeaderMobile-module_wrapperStick__inMle {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.HeaderMobile-module_dragHandle__WClp8 {\n  width: 32px;\n  height: 4px;\n  border-radius: 100px;\n  background-color: #b0b0b0;\n}\n.HeaderMobile-module_accountContainer__xJhA2 {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 12px 16px;\n  border-bottom: 0.5px solid #6d6d6d;\n  margin-bottom: 8px;\n}\n.HeaderMobile-module_information__0kGzq {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n}\n.HeaderMobile-module_avatar__aa2f0 {\n  width: 56px;\n  height: 52px;\n  border: 2px solid #dd3f24;\n  border-radius: 100%;\n}\n.HeaderMobile-module_avatar__aa2f0 img {\n  width: 100%;\n  height: 100%;\n}\n.HeaderMobile-module_hello__ELeSt {\n  font-size: 14px;\n  color: #5d5d5d;\n}\n.HeaderMobile-module_name__4u40M {\n  font-size: 20px;\n  color: #dd3f24;\n  font-weight: 500;\n}\n.HeaderMobile-module_email__vJrz5 {\n  font-size: 14px;\n  color: #888888;\n}\n.HeaderMobile-module_input__hhSHM {\n  height: 56px;\n  width: 100%;\n  border-radius: 9999px;\n  border: 1px solid #dd3f24;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  outline: none;\n  font-family: 'Inter', sans-serif;\n  font-weight: 400;\n}\n.HeaderMobile-module_input__hhSHM:focus {\n  border-color: #dd3f24;\n  outline: none;\n  box-shadow: none;\n}\n.HeaderMobile-module_input__hhSHM:focus {\n  border-color: #dd3f24;\n  outline: none;\n  box-shadow: none;\n}\n.HeaderMobile-module_inputSticky__sBPgN {\n  width: 100%;\n  height: 28px;\n}\n.HeaderMobile-module_containerSearch__h2YoZ {\n  height: 100%;\n  padding: 20px;\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n.HeaderMobile-module_hiddenSearch__wG1-i {\n  height: 100%;\n  width: 100%;\n  padding: 0 20px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  opacity: 0;\n  transition: opacity 0.3s ease-in-out;\n}\n.HeaderMobile-module_containerSearchSticky__-i93P {\n  opacity: 1;\n}\n.HeaderMobile-module_button__-bWJj {\n  position: absolute;\n  right: 5%;\n  margin-left: 0.5rem;\n  border-radius: 0.5rem;\n  padding: 0.5rem 1rem;\n  color: #dd3f24;\n  border: none;\n  background-color: transparent;\n  animation: HeaderMobile-module_fadeIn__QBp6v 0.3s ease-in-out;\n}\n.HeaderMobile-module_buttonSticky__ruTcp {\n}\n.HeaderMobile-module_buttonSticky__ruTcp svg {\n  height: 12px;\n  width: 12px;\n}\n.HeaderMobile-module_suggestContainer__DLX0E {\n  position: absolute;\n  left: 0;\n  top: 3rem; /* 12 * 0.25rem */\n  z-index: 20;\n  width: 88%;\n  transform: translateX(2%);\n  border: 1px solid #e3e3e3;\n  background-color: white;\n  padding: 0 1rem;\n  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);\n}\n.HeaderMobile-module_suggestList__9Ug2G {\n  display: flex;\n  flex-direction: column;\n  gap: 0.25rem;\n  max-height: 20rem;\n  overflow-y: auto;\n}\n.HeaderMobile-module_suggestList__9Ug2G::-webkit-scrollbar {\n  width: 4px;\n}\n.HeaderMobile-module_suggestList__9Ug2G::-webkit-scrollbar-track {\n  background: white;\n}\n.HeaderMobile-module_suggestList__9Ug2G::-webkit-scrollbar-thumb {\n  background: #e7e7e7;\n}\n.HeaderMobile-module_suggestList__9Ug2G::-webkit-scrollbar-thumb:hover {\n  background: #d1d1d1;\n}\n.HeaderMobile-module_suggestItem__-FCOb {\n  display: flex;\n  width: 100%;\n  align-items: center;\n  padding: 0.25rem 0.75rem;\n  text-align: left;\n  font-size: 0.875rem;\n  transition: all 0.3s;\n}\n.HeaderMobile-module_suggestItem__-FCOb:hover {\n  background-color: #fef4f2;\n  color: var(--primary-color);\n}\n";
+styleInject(css_248z$2);
 
 var jsxRuntime = {exports: {}};
 
@@ -4185,7 +4185,6 @@ var jsxRuntimeExports = jsxRuntime.exports;
 
 const Top100Icon = () => (jsxRuntimeExports.jsxs("svg", { width: "9", height: "10", viewBox: "0 0 9 10", fill: "currentColor", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M4.60853 0.000223614L4.79961 0.148927L5.24099 1.06575C5.6455 1.20797 6.61566 1.01499 6.46341 1.72295C6.27753 2.03646 5.93787 2.24442 5.71534 2.53668C5.73226 2.83543 5.83918 3.15475 5.86044 3.4488C5.88625 3.80458 5.66914 4.01254 5.32949 3.88485C5.06032 3.78356 4.77749 3.55614 4.50746 3.43964C4.22767 3.53758 3.88237 3.83901 3.6093 3.91012C3.33623 3.98123 3.12932 3.79429 3.13604 3.51186C3.14341 3.20193 3.27333 2.85175 3.28526 2.53646C3.1098 2.33789 2.9198 2.15408 2.73761 1.96199C2.70789 1.93069 2.66668 1.91481 2.63979 1.8844C2.44307 1.66257 2.47668 1.39155 2.7285 1.24017L3.75961 1.06552C3.89907 0.861139 4.09753 0.210645 4.26345 0.0793831C4.30314 0.0480771 4.35954 0.0431576 4.39207 0H4.60831L4.60853 0.000223614Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M9.00005 6.98399V9.39254C8.92587 9.68436 8.70464 9.93369 8.40273 9.96992C8.13204 10.0026 7.44493 10.0026 7.17424 9.96992C6.8656 9.9328 6.60772 9.65373 6.57713 9.33642C6.57713 8.51441 6.57605 7.83775 6.57605 7.08328C6.57605 6.71096 6.8502 6.43547 7.21437 6.40327C7.46661 6.3809 8.3305 6.37241 8.54089 6.4424C8.78858 6.52514 8.9313 6.73533 9.00005 6.98377V6.98399Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M7.59383 0.000223614C7.83437 0.0916819 7.93652 0.399823 7.75715 0.603312C7.71746 0.648258 7.41771 0.833411 7.3559 0.858679C7.06114 0.979207 6.80586 0.762078 6.86355 0.440073C6.90433 0.212434 7.2429 0.127907 7.39928 0H7.59405L7.59383 0.000223614Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M1.60157 0.000244141C1.85903 0.169073 2.31385 0.310621 2.09826 0.724755C1.9306 1.04654 1.56665 0.831642 1.35713 0.687188C1.06042 0.482804 1.08905 0.156551 1.40702 0.000244141H1.60179H1.60157Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M3.69463 4.62557C4.01064 4.58152 4.98991 4.58152 5.30593 4.62557C5.61934 4.6694 5.86378 4.95406 5.88568 5.27696L5.8846 9.33645C5.84361 9.68171 5.58399 9.94312 5.24737 9.97308C4.88082 10.0057 4.07115 10.0129 3.71284 9.96995C3.39575 9.93171 3.13591 9.64146 3.11487 9.31521L3.1179 5.23559C3.15803 4.9308 3.39423 4.66761 3.69441 4.62557H3.69463Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M0.57954 6.05312C0.83786 6.01712 1.58636 6.01712 1.84468 6.05312C2.15831 6.09695 2.40253 6.38161 2.42444 6.70451C2.42444 7.6314 2.4214 8.55269 2.4214 9.3568C2.4214 9.69156 2.10517 9.94491 1.78634 9.97331C1.50307 9.99858 0.853476 10.0051 0.579757 9.96682C0.265695 9.923 0 9.63632 0 9.31544C0 8.53346 0.00303651 7.51936 0.00303651 6.66314C0.0431618 6.35836 0.279359 6.09516 0.57954 6.05312Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M2.04816 3.48701C2.18437 3.62028 2.17678 3.88549 2.03905 4.01474C1.98613 4.06438 1.63216 4.27033 1.56752 4.28061C1.21247 4.33764 1.01249 3.90002 1.26604 3.65762C1.31983 3.60619 1.65884 3.40718 1.72521 3.39532C1.84211 3.37453 1.96097 3.40181 2.04794 3.48678L2.04816 3.48701Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M6.9523 4.00671C6.70894 3.76073 6.92041 3.34749 7.2566 3.39199C7.33468 3.40228 7.65568 3.59011 7.72184 3.64825C8.00835 3.8996 7.77085 4.3835 7.38348 4.26476C7.32405 4.24642 6.99611 4.05098 6.9523 4.00671Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M0.968443 1.7898C1.06778 1.77258 1.31547 1.77258 1.41763 1.78443C1.7549 1.82334 1.84903 2.27974 1.56577 2.45013C1.43932 2.52616 0.970395 2.52505 0.845247 2.44119C0.589963 2.27012 0.671949 1.84101 0.968443 1.7898Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M7.5451 1.7898C7.64444 1.77258 7.89213 1.77258 7.99429 1.78443C8.33156 1.82334 8.42569 2.27974 8.14243 2.45013C8.01598 2.52616 7.54705 2.52505 7.42191 2.44119C7.16662 2.27012 7.24861 1.84101 7.5451 1.7898Z", fill: "currentColor" })] }));
 const ItGuy = () => (jsxRuntimeExports.jsxs("svg", { width: "10", height: "10", viewBox: "0 0 10 10", fill: "currentColor", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M9.9332 9.13168V9.85525C9.87892 9.92941 9.83584 9.97042 9.74718 10H0.19687C0.123747 9.97063 0.0350885 9.92837 0.0152024 9.84075C-0.00613378 9.7467 -0.00240514 9.29098 0.010438 9.18306C0.0236954 9.07202 0.115876 8.99414 0.227942 8.98709L9.69643 8.98627C9.81056 8.98212 9.87105 9.04924 9.9334 9.13168H9.9332Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M7.56613 8.40819L7.54376 8.36614C7.5593 8.32388 7.55432 8.27914 7.55867 8.23543C7.63594 7.45034 7.79751 6.66795 7.84019 5.881C7.81305 5.76437 7.73516 5.66743 7.626 5.61978C5.89632 5.56634 4.15276 5.61336 2.41791 5.59596C2.23313 5.61233 2.09538 5.77245 2.09703 5.95847C2.16664 6.71974 2.31019 7.47562 2.38497 8.23543C2.39015 8.28805 2.4148 8.37671 2.37751 8.4084H1.83997C1.76353 8.4084 1.65395 8.25262 1.6641 8.1708C1.6641 7.21005 1.66327 6.32201 1.66327 5.39979C1.66327 3.95474 4.07218 3.81471 5.14645 3.84081C6.18695 3.86608 8.27996 4.03677 8.27996 5.39979C8.27996 6.3013 8.27913 7.28525 8.27913 8.1708C8.28928 8.25262 8.1797 8.4084 8.10326 8.4084H7.56572L7.56613 8.40819Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M2.46037 5.90674H7.48347L7.51103 5.94092L7.1943 8.4911L7.13298 8.51244L2.75866 8.50229L2.72116 8.37427C2.67476 7.61218 2.47425 6.81674 2.42929 6.06148C2.42619 6.00803 2.41479 5.94092 2.45995 5.90674H2.46037ZM4.90491 6.90457C4.3307 6.9779 4.38911 7.86034 4.98114 7.85061C5.6293 7.83983 5.57171 6.81943 4.90491 6.90457Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M4.90552 0.000805143C7.14023 -0.0584389 6.7336 3.17057 5.20029 3.47901C3.39314 3.84235 2.59003 0.0623278 4.90552 0.000805143Z", fill: "currentColor" })] }));
-const Gear = () => (jsxRuntimeExports.jsxs("svg", { width: "10", height: "10", viewBox: "0 0 10 10", fill: "currentColor", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M5.71304 0.000976529C5.80659 0.0439438 5.88178 0.0923797 5.91791 0.195501L6.0265 1.07106C6.16634 1.10074 6.30501 1.1443 6.43879 1.19469C6.65558 1.27613 6.85636 1.38765 7.06651 1.48276L7.78367 0.951335C7.92449 0.905242 8.01394 0.947233 8.11999 1.03336C8.32428 1.19937 8.81606 1.68686 8.97718 1.89115C9.04769 1.9804 9.08187 2.05403 9.06331 2.17258C9.0348 2.35695 8.60493 2.73819 8.51841 2.93447C8.61333 3.14481 8.72485 3.34559 8.80649 3.56218C8.85668 3.69577 8.90043 3.83444 8.93012 3.97447L9.80567 4.08306C9.90879 4.11939 9.95723 4.19439 10.0002 4.28794V5.69102C9.95723 5.78457 9.90879 5.85976 9.80567 5.89589L8.93012 6.00448C8.90043 6.14432 8.85688 6.28299 8.80649 6.41677C8.72504 6.63356 8.61352 6.83434 8.51841 7.04449C8.60493 7.24077 9.0348 7.622 9.06331 7.80637C9.08304 7.93391 9.04359 8.00441 8.96761 8.09796C8.83051 8.2669 8.24088 8.87001 8.07721 8.98094C7.9155 9.0907 7.81004 9.05301 7.66317 8.95321C7.4661 8.81942 7.2913 8.64365 7.09541 8.50694L7.03272 8.49971C6.71945 8.68212 6.38079 8.82606 6.02631 8.9079L5.92182 9.76822C5.87768 9.90279 5.78452 9.96646 5.64527 9.97876C5.32457 10.0071 4.69764 10.0071 4.37695 9.97876C4.23828 9.96646 4.14473 9.90337 4.1004 9.76822L3.99591 8.9079C3.76525 8.85399 3.53655 8.77529 3.32191 8.67568C3.26976 8.65146 3.01567 8.54092 3.02465 8.48975L4.17364 7.33666C4.3168 7.36401 4.45371 7.4142 4.59823 7.43842C6.27571 7.72005 7.75066 6.23104 7.46122 4.5559C7.41064 4.26314 7.24521 3.58171 6.82472 3.86979L5.49762 5.19416C5.4775 5.20842 5.45758 5.20217 5.4357 5.19982C5.37887 5.19377 5.0033 5.09553 4.9574 5.07307C4.91814 5.05393 4.87576 4.85706 4.86053 4.79827C4.84373 4.73324 4.78416 4.55023 4.80584 4.50238L6.12162 3.18622C6.37219 2.80381 5.94467 2.66573 5.64937 2.58683C3.91798 2.12415 2.26589 3.63952 2.56158 5.40177C2.5858 5.54629 2.63619 5.6832 2.66334 5.82636L1.51025 6.97535C1.45889 6.98453 1.34834 6.73024 1.32432 6.67809C1.22471 6.46345 1.1462 6.23475 1.0921 6.00409L0.231779 5.8996C0.0974088 5.85566 0.0335438 5.76269 0.0212395 5.62305C-0.00707984 5.30236 -0.00707984 4.67562 0.0212395 4.35473C0.0331532 4.22017 0.0909637 4.13209 0.216545 4.08228L1.0921 3.97369C1.12179 3.83385 1.16534 3.69519 1.21573 3.5614C1.29717 3.34461 1.40869 3.14384 1.50381 2.93369L0.972379 2.21653C0.926287 2.07571 0.968277 1.98626 1.05441 1.88021C1.22042 1.67592 1.7079 1.18414 1.91219 1.02301C2.00145 0.952506 2.07508 0.918328 2.19363 0.936882C2.47409 1.06832 2.69048 1.32027 2.95551 1.48179C3.16586 1.38687 3.36663 1.27535 3.58323 1.19371C3.71682 1.14352 3.85548 1.09977 3.99552 1.07008L4.10411 0.194525C4.14044 0.0914031 4.21543 0.0429673 4.30898 0H5.71206L5.71304 0.000976529Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M5.71301 0.000976562H10.0004V4.28833C9.9574 4.19478 9.90896 4.11959 9.80584 4.08345L8.93028 3.97486C8.9006 3.83503 8.85705 3.69636 8.80666 3.56257C8.72521 3.34578 8.61369 3.14501 8.51858 2.93486C8.6051 2.73858 9.03497 2.35734 9.06348 2.17297C9.08184 2.05442 9.04766 1.9806 8.97735 1.89154C8.81623 1.68744 8.32445 1.19996 8.12016 1.03375C8.01411 0.947624 7.92466 0.905633 7.78384 0.951725L7.06668 1.48315C6.85633 1.38823 6.65556 1.27671 6.43896 1.19508C6.30537 1.14488 6.16671 1.10113 6.02667 1.07145L5.91808 0.195892C5.88176 0.0927703 5.80676 0.0443345 5.71321 0.00136717L5.71301 0.000976562Z", fill: "white" }), jsxRuntimeExports.jsx("path", { d: "M5.36227 3.1193L4.20254 4.30774C4.17305 4.37316 4.16973 4.4173 4.17832 4.48781C4.20039 4.66808 4.35097 5.20048 4.41738 5.37918C4.46132 5.49695 4.50429 5.53992 4.62206 5.58386C4.79783 5.64929 5.33629 5.80124 5.51343 5.82292C5.60288 5.83386 5.68276 5.82057 5.75229 5.76023L6.88194 4.63917C7.14365 5.97604 5.8935 7.15529 4.5703 6.84378C4.37148 6.79691 4.1625 6.63773 3.96817 6.74339L0.773166 9.92043C0.662232 9.99524 0.54583 10.0036 0.433334 9.92864C0.375523 9.89016 0.0661591 9.57338 0.0442848 9.51889C0.0040518 9.41967 0.0190903 9.32905 0.0724088 9.23921L3.19965 6.11099C3.40101 5.91471 3.23343 5.70573 3.17465 5.49207C2.80591 4.15325 4.00255 2.8529 5.36227 3.1195V3.1193Z", fill: "currentColor" })] }));
 const Service = () => (jsxRuntimeExports.jsxs("svg", { width: "12", height: "10", viewBox: "0 0 12 10", fill: "currentColor", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M11.3728 3.69536V4.02696C11.0113 4.65004 10.0927 4.63532 9.45421 4.66642V4.25198C9.45421 4.1613 9.34074 3.81997 9.29992 3.71933C9.12522 3.28946 8.75825 2.87787 8.3412 2.67635C8.30085 2.61772 8.64147 2.39104 8.6982 2.35899C9.68967 1.79905 10.9187 2.28968 11.285 3.34524L11.3731 3.69536H11.3728Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M5.2614 0C5.85813 0.140757 6.14653 0.839321 5.7582 1.33779C5.42209 1.76932 4.77599 1.75887 4.44629 1.32449C4.06745 0.825554 4.36558 0.136959 4.95353 0H5.2614Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M9.7383 0C10.3367 0.138858 10.6227 0.840271 10.2351 1.33779C9.87265 1.80302 9.1615 1.74724 8.86646 1.23881C8.5764 0.738679 8.88426 0.129364 9.4302 0H9.73806H9.7383Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M4.46216 6.80565C4.38667 6.88516 4.43011 7.07672 4.56161 7.08479C5.22505 7.19801 6.00289 7.56331 6.65327 7.64615C7.28869 7.7271 7.73375 7.31313 7.72592 6.68198L9.99892 6.0297C10.3737 5.93381 11.1482 5.84028 11.2071 6.38504C11.2427 6.71474 11.0414 6.99008 10.778 7.16407C9.4988 7.60082 8.21631 8.24716 6.93241 8.64807C6.57446 8.75987 6.25117 8.83393 5.87732 8.75394C5.26136 8.6222 4.18705 8.12017 3.60741 8.23624C3.37408 8.283 3.18513 8.42637 2.96438 8.50494L2.01825 6.18541C2.48633 5.99932 2.93068 5.73062 3.39117 5.5329C4.04795 5.25115 4.43106 5.2388 5.06435 5.58725C5.17615 5.64873 5.30599 5.76504 5.4109 5.80919C5.8797 6.00691 6.55452 6.05035 7.03329 6.2476C7.65329 6.50301 7.44013 7.47573 6.63547 7.30862C5.96183 7.16881 5.27608 6.90795 4.59912 6.7615C4.56327 6.75343 4.48328 6.78333 4.46239 6.80541L4.46216 6.80565Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M7.12778 2.75456C8.08768 2.65629 8.97139 3.29647 9.11595 4.25827C9.18122 4.6917 9.0858 4.86663 8.68822 5.0494C8.00484 5.36344 6.57187 5.36747 5.90868 5.00193C5.57518 4.81821 5.5194 4.64826 5.57233 4.27868C5.68413 3.49989 6.3357 2.83574 7.12754 2.75456H7.12778Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M2.81368 9.56307C2.78425 9.59251 2.71232 9.62598 2.67221 9.64663C2.54071 9.71404 1.92855 9.97965 1.81342 9.99603C1.6805 10.0148 1.54022 9.96493 1.46141 9.85361L0.0191847 6.41633C-0.0380202 6.25872 0.0386486 6.0985 0.170386 6.00759C0.248004 5.95394 1.02276 5.62828 1.10608 5.61641C1.239 5.59766 1.37905 5.64751 1.45809 5.75883L2.91052 9.23314C2.94019 9.33758 2.88821 9.4883 2.81368 9.56307Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M5.23767 4.66635C4.74395 4.66683 3.6967 4.60084 3.39406 4.15317C3.21556 3.88946 3.38551 3.32856 3.52841 3.06343C4.09381 2.01285 5.52061 1.81394 6.37465 2.64092C5.94454 2.89585 5.58589 3.25071 5.39267 3.71974C5.3471 3.83059 5.23791 4.14605 5.23791 4.25191V4.66635H5.23767Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M7.22179 0.62181C8.34571 0.469422 8.51614 2.1521 7.45013 2.27126C6.35161 2.39397 6.18166 0.762805 7.22179 0.62181Z", fill: "currentColor" })] }));
 const Design = () => (jsxRuntimeExports.jsx("svg", { width: "10", height: "10", viewBox: "0 0 10 10", fill: "currentColor", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M3.57143 0H6.42857V10H3.57143V0ZM0 10V3.57143H2.85714V10H0ZM1.42857 0C1.04969 0 0.686328 0.15051 0.418419 0.418419C0.15051 0.686328 0 1.04969 0 1.42857C0 1.80745 0.15051 2.17081 0.418419 2.43872C0.686328 2.70663 1.04969 2.85714 1.42857 2.85714C1.80745 2.85714 2.17081 2.70663 2.43872 2.43872C2.70663 2.17081 2.85714 1.80745 2.85714 1.42857C2.85714 1.04969 2.70663 0.686328 2.43872 0.418419C2.17081 0.15051 1.80745 0 1.42857 0ZM7.14286 0H10V2.85714H7.14286V0ZM10 3.57143H7.14286V6.42857H10V3.57143Z", fill: "currentColor" }) }));
 const CreateCv = () => (jsxRuntimeExports.jsxs("svg", { width: "12", height: "16", viewBox: "0 0 12 16", fill: "currentColor", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M7.41384 0.612793L7.41268 3.54282C7.41268 4.51256 7.77091 5.17149 8.81322 5.17149L12 5.17206V13.9734C11.8843 14.7171 11.3281 15.2945 10.5717 15.387H1.42945C0.64042 15.282 0.0586931 14.672 0 13.8737L0.00144564 2.09949C0.00144564 1.18353 0.43485 0.612793 1.35688 0.612793H7.41413H7.41384ZM2.29453 7.11241C1.73911 7.10547 1.71685 7.97083 2.29453 7.97083L7.86112 7.97141C8.46164 7.97141 8.47234 7.10547 7.89004 7.10547L2.29482 7.11241H2.29453ZM2.29453 8.95907C1.75732 8.95213 1.69516 9.79147 2.29453 9.81807H9.70403C10.2866 9.8279 10.3043 8.95589 9.70692 8.95213L2.29453 8.95907ZM2.29453 10.8347C1.72812 10.828 1.72003 11.6647 2.29453 11.6647H9.70403C10.2901 11.6647 10.3225 10.828 9.70403 10.828L2.29453 10.8347ZM2.29453 12.6813C1.71049 12.6813 1.75357 13.54 2.29453 13.54L9.70403 13.5415C10.2803 13.5432 10.2967 12.6741 9.70403 12.6741L2.29453 12.6813Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M11.7405 4.33545H8.95701C8.49181 4.33545 8.2793 4.05905 8.2793 3.71498V0.872559L11.7405 4.33545Z", fill: "currentColor" })] }));
@@ -4212,13 +4211,151 @@ const FollowingJobs = () => (jsxRuntimeExports.jsxs("svg", { width: "16", height
 const Setting = () => (jsxRuntimeExports.jsxs("svg", { width: "16", height: "16", viewBox: "0 0 16 16", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsxs("mask", { id: "mask0_309_646", maskUnits: "userSpaceOnUse", x: "0", y: "0", width: "16", height: "16", children: [jsxRuntimeExports.jsx("path", { d: "M12.4401 4.90985C12.8861 5.54935 13.1881 6.27801 13.3252 7.04555H15V8.95445H13.3252C13.1881 9.72199 12.8861 10.4506 12.4401 11.0901L13.6248 12.2749L12.2749 13.6248L11.0901 12.4401C10.4506 12.8861 9.72199 13.1881 8.95445 13.3252V15H7.04555V13.3252C6.27801 13.1881 5.54935 12.8861 4.90985 12.4401L3.7251 13.6248L2.37515 12.2749L3.5599 11.0901C3.11385 10.4506 2.81186 9.72199 2.67475 8.95445H1V7.04555H2.67475C2.81186 6.27801 3.11385 5.54935 3.5599 4.90985L2.37515 3.7251L3.7251 2.37515L4.90985 3.5599C5.54935 3.11385 6.27801 2.81186 7.04555 2.67475V1H8.95445V2.67475C9.72199 2.81186 10.4506 3.11385 11.0901 3.5599L12.2749 2.37515L13.6248 3.7251L12.4401 4.90985Z", fill: "white", stroke: "white", strokeWidth: "2", strokeLinejoin: "round" }), jsxRuntimeExports.jsx("path", { d: "M8 9.75C8.46413 9.75 8.90925 9.56563 9.23744 9.23744C9.56563 8.90925 9.75 8.46413 9.75 8C9.75 7.53587 9.56563 7.09075 9.23744 6.76256C8.90925 6.43437 8.46413 6.25 8 6.25C7.53587 6.25 7.09075 6.43437 6.76256 6.76256C6.43437 7.09075 6.25 7.53587 6.25 8C6.25 8.46413 6.43437 8.90925 6.76256 9.23744C7.09075 9.56563 7.53587 9.75 8 9.75Z", fill: "black", stroke: "black", strokeWidth: "2", strokeLinejoin: "round" })] }), jsxRuntimeExports.jsx("g", { mask: "url(#mask0_309_646)", children: jsxRuntimeExports.jsx("path", { d: "M-0.399994 -0.399902H16.4V16.4001H-0.399994V-0.399902Z", fill: "currentColor" }) })] }));
 const Logout = () => (jsxRuntimeExports.jsx("svg", { width: "16", height: "14", viewBox: "0 0 16 14", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M4.30777 7C4.30777 6.83123 4.37261 6.66936 4.48801 6.55002C4.60342 6.43068 4.75995 6.36364 4.92316 6.36364H10.4617V2.22727C10.4617 0.954545 9.16209 0 8.00014 0H2.15388C1.58283 0.000631681 1.03533 0.235493 0.631533 0.653051C0.227734 1.07061 0.000610867 1.63676 0 2.22727V11.7727C0.000610867 12.3632 0.227734 12.9294 0.631533 13.3469C1.03533 13.7645 1.58283 13.9994 2.15388 14H8.30784C8.8789 13.9994 9.42639 13.7645 9.83019 13.3469C10.234 12.9294 10.4611 12.3632 10.4617 11.7727V7.63636H4.92316C4.75995 7.63636 4.60342 7.56932 4.48801 7.44998C4.37261 7.33064 4.30777 7.16877 4.30777 7ZM15.8199 6.55017L12.7429 3.36835C12.6266 3.25405 12.4716 3.19127 12.3112 3.19339C12.1507 3.19552 11.9974 3.26238 11.8839 3.37973C11.7704 3.49707 11.7058 3.65562 11.7037 3.82156C11.7017 3.98749 11.7624 4.1477 11.8729 4.26801L13.8991 6.36364H10.4617V7.63636H13.8991L11.8729 9.73199C11.8134 9.79049 11.7657 9.86073 11.7328 9.93857C11.7 10.0164 11.6825 10.1003 11.6814 10.1852C11.6804 10.2701 11.6958 10.3544 11.7267 10.4331C11.7577 10.5118 11.8035 10.5833 11.8616 10.6433C11.9197 10.7034 11.9888 10.7508 12.0649 10.7828C12.141 10.8148 12.2225 10.8307 12.3047 10.8296C12.3868 10.8286 12.4679 10.8105 12.5431 10.7765C12.6184 10.7425 12.6863 10.6932 12.7429 10.6316L15.8199 7.44983C15.9352 7.3305 16 7.1687 16 7C16 6.8313 15.9352 6.6695 15.8199 6.55017Z", fill: "currentColor" }) }));
 const Jobs = () => (jsxRuntimeExports.jsxs("svg", { width: "18", height: "15", viewBox: "0 0 18 15", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M17.4143 7.43701V13.0556C17.4143 13.9392 16.6414 14.6951 15.7838 14.6951L2.31002 14.7C1.19691 14.7 0.585693 13.7861 0.585693 13.0394V7.43734L8.99984 10.1597C9.26395 10.1877 17.414 7.43734 17.414 7.43734L17.4143 7.43701Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M17.4144 6.32009C14.6343 7.27584 9.00031 9.14024 9.00031 9.14024L0.601318 6.32173V4.25149C0.601318 2.87682 1.37259 2.80436 2.18041 2.80436H6.20668V1.80217C6.20668 1.39741 6.2439 0.709417 7.31551 0.709417C8.38711 0.709417 9.54665 0.700195 10.5629 0.700195C11.7979 0.700195 11.7939 1.55253 11.7939 1.80217V2.80436H15.8202C16.9274 2.80436 17.4102 2.99637 17.4102 4.25116L17.4144 6.31976V6.32009ZM7.58687 2.08146V2.80469H10.4134V2.08146H7.58687Z", fill: "currentColor" })] }));
-const DashboardUs = () => (jsxRuntimeExports.jsxs("svg", { width: "14", height: "14", viewBox: "0 0 14 14", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsxs("g", { "clip-path": "url(#clip0_553_16673)", children: [jsxRuntimeExports.jsx("path", { d: "M13.0903 0.5H0.909733C0.407301 0.5 0 0.89973 0 1.39282V5.80339C0 6.29648 0.407301 6.69621 0.909733 6.69621H13.0903C13.5927 6.69621 14 6.29648 14 5.80339V1.39282C14 0.89973 13.5927 0.5 13.0903 0.5Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M5.76325 7.30383H0.909733C0.407301 7.30383 0 7.70356 0 8.19665V12.6072C0 13.1003 0.407301 13.5 0.909733 13.5H5.76325C6.26568 13.5 6.67298 13.1003 6.67298 12.6072V8.19665C6.67298 7.70356 6.26568 7.30383 5.76325 7.30383Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M13.0903 7.30383H8.23676C7.73433 7.30383 7.32703 7.70356 7.32703 8.19665V12.6072C7.32703 13.1003 7.73433 13.5 8.23676 13.5H13.0903C13.5927 13.5 14 13.1003 14 12.6072V8.19665C14 7.70356 13.5927 7.30383 13.0903 7.30383Z", fill: "currentColor" })] }), jsxRuntimeExports.jsx("defs", { children: jsxRuntimeExports.jsx("clipPath", { id: "clip0_553_16673", children: jsxRuntimeExports.jsx("rect", { width: "14", height: "13", fill: "white", transform: "translate(0 0.5)" }) }) })] }));
-const CvManagementUs = () => (jsxRuntimeExports.jsxs("svg", { width: "14", height: "16", viewBox: "0 0 14 16", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M12.2146 0.222168C12.9113 0.337627 13.5271 0.713433 13.8163 1.30787C13.9055 1.49092 13.9395 1.6785 14 1.86802V14.1322C13.8503 15.0116 13.1164 15.6907 12.1247 15.7777H1.87674C0.840988 15.6801 0.0766162 14.9601 0 14.0206L0.0017901 1.9492C0.0637275 1.10476 0.844926 0.313694 1.78688 0.222168H12.2146ZM8.57206 5.9343C8.54199 5.89711 8.82304 5.54847 8.86385 5.47247C9.68192 3.9521 8.17645 2.29687 6.36559 2.73057C5.27721 2.99124 4.63134 4.01678 4.83828 5.00061C4.90344 5.31108 5.09068 5.65099 5.3216 5.88708V5.9343C4.44517 6.23993 3.73128 6.93785 3.39295 7.72537C3.22218 8.12252 2.91858 8.9469 3.54296 8.9469L10.0911 8.96986C10.9228 8.96986 10.6536 8.29393 10.4653 7.82207C10.1427 7.01386 9.43525 6.29717 8.57206 5.93398V5.9343ZM2.54445 10.4304C1.8907 10.4304 1.94082 11.3896 2.54445 11.3896H11.4244C12.1014 11.3896 12.1064 10.421 11.4244 10.421L2.54445 10.4301V10.4304ZM2.54445 12.3971C1.86564 12.3971 1.90252 13.3573 2.54445 13.3573L11.4244 13.3589C12.1265 13.3589 12.1365 12.3887 11.4119 12.3887L2.54445 12.3968V12.3971Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M9.35746 8.00056H4.42932C5.32043 6.07658 8.47745 6.05232 9.35746 8.00056Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M6.81509 3.61886C8.2622 3.51602 8.36997 5.56322 6.91104 5.58198C5.53696 5.59977 5.4317 3.71718 6.81509 3.61886Z", fill: "currentColor" })] }));
-const AppliedJobsUs = () => (jsxRuntimeExports.jsxs("svg", { width: "100%", height: "18", viewBox: "0 0 15 18", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M1 1.48077C1 0.939105 1.43652 0.5 1.975 0.5H5.875H6.2C10.5078 0.5 14 4.01284 14 8.34615V8.67308V16.5192C14 17.0609 13.5635 17.5 13.025 17.5H1.975C1.43652 17.5 1 17.0609 1 16.5192V1.48077Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M5.875 0.5H1.975C1.43652 0.5 1 0.939105 1 1.48077V16.5192C1 17.0609 1.43652 17.5 1.975 17.5H13.025C13.5635 17.5 14 17.0609 14 16.5192V8.67308M5.875 0.5H6.2C10.5078 0.5 14 4.01284 14 8.34615V8.67308M5.875 0.5C7.49043 0.5 8.8 1.81732 8.8 3.44231V4.75C8.8 5.29166 9.23652 5.73077 9.775 5.73077H11.075C12.6904 5.73077 14 7.04809 14 8.67308M4.9 11.6154L6.85 13.5769L10.1 9", stroke: "#FEF4F2", "stroke-linecap": "round", "stroke-linejoin": "round" })] }));
-const FollowingJobsUs = () => (jsxRuntimeExports.jsxs("svg", { width: "16", height: "18", viewBox: "0 0 16 18", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M1 3.18182C1 1.97683 1.85473 1 2.90909 1H4.18182H11.8182H13.0909C14.1453 1 15 1.97683 15 3.18182V14.8182C15 16.0232 14.1453 17 13.0909 17H2.90909C1.85473 17 1 16.0232 1 14.8182V3.18182Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M11.8182 1V13.3636L8 11.1818L4.18182 13.3636V1M11.8182 1H13.0909C14.1453 1 15 1.97683 15 3.18182V14.8182C15 16.0232 14.1453 17 13.0909 17H2.90909C1.85473 17 1 16.0232 1 14.8182V3.18182C1 1.97683 1.85473 1 2.90909 1H4.18182M11.8182 1H4.18182", stroke: "#FEF4F2", "stroke-linecap": "round", "stroke-linejoin": "round" })] }));
-const LogoutUs = () => (jsxRuntimeExports.jsx("svg", { width: "16", height: "14", viewBox: "0 0 16 14", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M4.30777 7C4.30777 6.83123 4.37261 6.66936 4.48801 6.55002C4.60342 6.43068 4.75995 6.36364 4.92316 6.36364H10.4617V2.22727C10.4617 0.954545 9.16209 0 8.00014 0H2.15388C1.58283 0.000631681 1.03533 0.235493 0.631533 0.653051C0.227734 1.07061 0.000610867 1.63676 0 2.22727V11.7727C0.000610867 12.3632 0.227734 12.9294 0.631533 13.3469C1.03533 13.7645 1.58283 13.9994 2.15388 14H8.30784C8.8789 13.9994 9.42639 13.7645 9.83019 13.3469C10.234 12.9294 10.4611 12.3632 10.4617 11.7727V7.63636H4.92316C4.75995 7.63636 4.60342 7.56932 4.48801 7.44998C4.37261 7.33064 4.30777 7.16877 4.30777 7ZM15.8199 6.55017L12.7429 3.36835C12.6266 3.25405 12.4716 3.19127 12.3112 3.19339C12.1507 3.19552 11.9974 3.26238 11.8839 3.37973C11.7704 3.49707 11.7058 3.65562 11.7037 3.82156C11.7017 3.98749 11.7624 4.1477 11.8729 4.26801L13.8991 6.36364H10.4617V7.63636H13.8991L11.8729 9.73199C11.8134 9.79049 11.7657 9.86073 11.7328 9.93857C11.7 10.0164 11.6825 10.1003 11.6814 10.1852C11.6804 10.2701 11.6958 10.3544 11.7267 10.4331C11.7577 10.5118 11.8035 10.5833 11.8616 10.6433C11.9197 10.7034 11.9888 10.7508 12.0649 10.7828C12.141 10.8148 12.2225 10.8307 12.3047 10.8296C12.3868 10.8286 12.4679 10.8105 12.5431 10.7765C12.6184 10.7425 12.6863 10.6932 12.7429 10.6316L15.8199 7.44983C15.9352 7.3305 16 7.1687 16 7C16 6.8313 15.9352 6.6695 15.8199 6.55017Z", fill: "currentColor" }) }));
-const JobManagement = () => (jsxRuntimeExports.jsx("svg", { stroke: "currentColor", fill: "currentColor", "stroke-width": "0", viewBox: "0 0 256 256", height: "1em", width: "1em", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M210.78,39.25l-130.25-23A16,16,0,0,0,62,29.23l-29.75,169a16,16,0,0,0,13,18.53l130.25,23a16,16,0,0,0,18.54-13l29.75-169A16,16,0,0,0,210.78,39.25ZM135.5,131.56a8,8,0,0,1-7.87,6.61,8.27,8.27,0,0,1-1.4-.12l-41.5-7.33A8,8,0,0,1,87.52,115L129,122.29A8,8,0,0,1,135.5,131.56Zm47-24.18a8,8,0,0,1-7.86,6.61,7.55,7.55,0,0,1-1.41-.13l-83-14.65a8,8,0,0,1,2.79-15.76l83,14.66A8,8,0,0,1,182.53,107.38Zm5.55-31.52a8,8,0,0,1-7.87,6.61,8.36,8.36,0,0,1-1.4-.12l-83-14.66a8,8,0,1,1,2.78-15.75l83,14.65A8,8,0,0,1,188.08,75.86Z" }) }));
 const Topdev = () => (jsxRuntimeExports.jsxs("svg", { width: "14", height: "15", viewBox: "0 0 14 15", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M7.7987 10.2646C7.7987 10.3845 7.77517 10.5031 7.72945 10.6138C7.68373 10.7245 7.61673 10.825 7.5323 10.9096C7.44786 10.9941 7.34765 11.061 7.23743 11.1065C7.12722 11.1519 7.00917 11.175 6.89007 11.1743C6.77119 11.175 6.65336 11.1519 6.54341 11.1064C6.43345 11.0609 6.33355 10.9939 6.24949 10.9093C6.16542 10.8247 6.09886 10.7241 6.05365 10.6135C6.00844 10.5028 5.98548 10.3842 5.9861 10.2646C5.98548 10.1447 6.00841 10.0259 6.05356 9.91498C6.09871 9.80406 6.1652 9.70321 6.2492 9.61823C6.3332 9.53325 6.43307 9.46582 6.54305 9.4198C6.65303 9.37379 6.77096 9.3501 6.89007 9.3501C7.13106 9.3501 7.36216 9.44645 7.53257 9.61795C7.70297 9.78945 7.7987 10.022 7.7987 10.2646Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M10.9413 10.3207C10.9413 10.4983 10.8712 10.6685 10.7465 10.794C10.6217 10.9196 10.4526 10.9901 10.2762 10.9901C10.0998 10.9901 9.93061 10.9196 9.80588 10.794C9.68115 10.6685 9.61108 10.4983 9.61108 10.3207C9.61231 10.1436 9.68277 9.97405 9.80724 9.84879C9.9317 9.72352 10.1002 9.6526 10.2762 9.65137C10.4522 9.6526 10.6206 9.72352 10.7451 9.84879C10.8696 9.97405 10.94 10.1436 10.9413 10.3207Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M6.54299 4.05657C6.54299 4.20534 6.48427 4.34802 6.37974 4.45322C6.27522 4.55842 6.13345 4.61752 5.98562 4.61752C5.91204 4.61814 5.83906 4.60409 5.77089 4.57617C5.70273 4.54826 5.64073 4.50705 5.58848 4.4549C5.53622 4.40275 5.49475 4.3407 5.46645 4.27233C5.43815 4.20397 5.42358 4.13063 5.42358 4.05657C5.42358 3.98251 5.43815 3.90918 5.46645 3.84081C5.49475 3.77245 5.53622 3.7104 5.58848 3.65825C5.64073 3.6061 5.70273 3.56487 5.77089 3.53696C5.83906 3.50905 5.91204 3.495 5.98562 3.49563C6.13345 3.49563 6.27522 3.55472 6.37974 3.65992C6.48427 3.76512 6.54299 3.9078 6.54299 4.05657Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M5.95316 1.83151C5.95316 1.96947 5.89902 2.10185 5.80253 2.19984C5.70604 2.29783 5.57502 2.3535 5.43794 2.35475C5.30087 2.3535 5.16983 2.29783 5.07334 2.19984C4.97685 2.10185 4.92272 1.96947 4.92273 1.83151C4.92273 1.69399 4.97701 1.5621 5.07363 1.46486C5.17025 1.36762 5.3013 1.31299 5.43794 1.31299C5.57459 1.31299 5.70563 1.36762 5.80225 1.46486C5.89887 1.5621 5.95316 1.69399 5.95316 1.83151Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M3.94369 6.02216C3.94369 6.09994 3.92839 6.17695 3.89868 6.24875C3.86896 6.32055 3.82541 6.38571 3.77055 6.44048C3.71569 6.49526 3.6506 6.53856 3.57903 6.5679C3.50746 6.59723 3.43081 6.61201 3.35353 6.61139C3.19826 6.61139 3.04934 6.54931 2.93955 6.43881C2.82975 6.32831 2.76807 6.17844 2.76807 6.02216C2.76806 5.86545 2.8296 5.71509 2.93926 5.60384C3.04893 5.49259 3.19783 5.42947 3.35353 5.42822C3.51005 5.42822 3.66016 5.49079 3.77084 5.60218C3.88151 5.71356 3.94369 5.86464 3.94369 6.02216Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M11.7607 4.17911C11.7613 4.25317 11.7473 4.32662 11.7196 4.39522C11.6918 4.46383 11.6509 4.52622 11.5991 4.57881C11.5472 4.6314 11.4856 4.67314 11.4177 4.70163C11.3497 4.73011 11.2769 4.74477 11.2033 4.74477C11.0542 4.74477 10.9113 4.68517 10.8059 4.57909C10.7005 4.47301 10.6412 4.32913 10.6412 4.17911C10.6425 4.02991 10.7022 3.88724 10.8075 3.78217C10.9128 3.67711 11.055 3.61816 11.2033 3.61816C11.3511 3.61816 11.4929 3.67727 11.5974 3.78247C11.7019 3.88767 11.7607 4.03034 11.7607 4.17911Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M2.02365 8.30792C2.02365 8.44294 1.97036 8.57243 1.8755 8.6679C1.78063 8.76338 1.65197 8.81701 1.51781 8.81701C1.38366 8.81701 1.25498 8.76338 1.16012 8.6679C1.06525 8.57243 1.01196 8.44294 1.01196 8.30792C1.01196 8.1729 1.06525 8.04341 1.16012 7.94793C1.25498 7.85246 1.38366 7.79883 1.51781 7.79883C1.65197 7.79883 1.78063 7.85246 1.8755 7.94793C1.97036 8.04341 2.02365 8.1729 2.02365 8.30792Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M13.7419 6.404C13.7419 6.52902 13.6926 6.64892 13.6047 6.73732C13.5169 6.82572 13.3978 6.87538 13.2735 6.87538C13.1493 6.87538 13.0302 6.82572 12.9424 6.73732C12.8545 6.64892 12.8052 6.52902 12.8052 6.404C12.8052 6.27898 12.8545 6.15908 12.9424 6.07068C13.0302 5.98228 13.1493 5.93262 13.2735 5.93262C13.3978 5.93262 13.5169 5.98228 13.6047 6.07068C13.6926 6.15908 13.7419 6.27898 13.7419 6.404Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M1.00725 7.49719C1.00725 7.6047 0.964825 7.70781 0.889285 7.78384C0.813745 7.85986 0.711285 7.90258 0.604455 7.90258C0.498003 7.90135 0.396261 7.85825 0.320984 7.78249C0.245706 7.70672 0.202877 7.60432 0.20166 7.49719C0.202877 7.39005 0.245706 7.28765 0.320984 7.21189C0.396261 7.13613 0.498003 7.09302 0.604455 7.0918C0.711285 7.0918 0.813745 7.1345 0.889285 7.21053C0.964825 7.28655 1.00725 7.38967 1.00725 7.49719Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M8.8103 12.7534C8.8103 12.8872 8.7575 13.0155 8.66352 13.1101C8.56953 13.2046 8.44206 13.2578 8.30915 13.2578C8.17623 13.2578 8.04875 13.2046 7.95476 13.1101C7.86078 13.0155 7.80798 12.8872 7.80798 12.7534C7.80798 12.6196 7.86078 12.4913 7.95476 12.3967C8.04875 12.3022 8.17623 12.249 8.30915 12.249C8.44206 12.249 8.56953 12.3022 8.66352 12.3967C8.7575 12.4913 8.8103 12.6196 8.8103 12.7534Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M11.0254 1.90701C11.0254 2.01746 10.9822 2.12346 10.905 2.202C10.8278 2.28055 10.723 2.3253 10.6133 2.32654C10.5027 2.32654 10.3967 2.28233 10.3185 2.20366C10.2403 2.12498 10.1964 2.01827 10.1964 1.90701C10.1976 1.79656 10.2421 1.69105 10.3201 1.61339C10.3982 1.53573 10.5035 1.49218 10.6133 1.49219C10.7222 1.49341 10.8263 1.53751 10.9034 1.61504C10.9804 1.69257 11.0242 1.79737 11.0254 1.90701Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M8.51945 1.11973C8.52007 1.17438 8.50985 1.2286 8.48936 1.27921C8.46887 1.32982 8.43852 1.3758 8.40012 1.41445C8.36172 1.45309 8.31604 1.48363 8.26575 1.50425C8.21546 1.52487 8.16158 1.53517 8.10728 1.53454C8.05276 1.53516 7.99866 1.5249 7.94812 1.50433C7.89757 1.48376 7.85157 1.4533 7.8128 1.41472C7.77403 1.37614 7.74325 1.3302 7.72225 1.27956C7.70124 1.22892 7.69043 1.1746 7.69043 1.11973C7.69043 1.00846 7.73435 0.901746 7.81253 0.823069C7.8907 0.744391 7.99672 0.700195 8.10728 0.700195C8.1618 0.700192 8.21579 0.71107 8.26611 0.73221C8.31642 0.753351 8.36206 0.784329 8.4004 0.823349C8.43873 0.862369 8.46899 0.908656 8.48943 0.959529C8.50987 1.0104 8.52007 1.06486 8.51945 1.11973Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M3.18502 2.64219C3.18502 2.69706 3.1742 2.75139 3.1532 2.80202C3.13219 2.85266 3.1014 2.8986 3.06263 2.93718C3.02386 2.97576 2.97788 3.00622 2.92733 3.02679C2.87678 3.04736 2.82268 3.05763 2.76816 3.05701C2.71385 3.05764 2.65997 3.04734 2.60968 3.02672C2.55939 3.00609 2.51371 2.97556 2.47531 2.93692C2.43691 2.89827 2.40658 2.85228 2.38609 2.80167C2.3656 2.75106 2.35536 2.69684 2.35598 2.64219C2.35536 2.58732 2.36558 2.53287 2.38602 2.482C2.40645 2.43112 2.4367 2.38484 2.47504 2.34582C2.51337 2.3068 2.55902 2.27582 2.60934 2.25468C2.65965 2.23354 2.71363 2.22265 2.76816 2.22266C2.87871 2.22266 2.98474 2.26685 3.06292 2.34553C3.14109 2.42421 3.18502 2.53092 3.18502 2.64219Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M1.53155 10.3116C1.53217 10.3663 1.52193 10.4205 1.50144 10.4711C1.48095 10.5217 1.45062 10.5677 1.41222 10.6063C1.37382 10.645 1.32814 10.6755 1.27785 10.6961C1.22756 10.7168 1.17368 10.7271 1.11937 10.7264C1.06485 10.7271 1.01075 10.7168 0.960201 10.6962C0.909652 10.6757 0.863668 10.6452 0.824897 10.6066C0.786126 10.568 0.755338 10.5221 0.734332 10.4715C0.713327 10.4208 0.702511 10.3665 0.702515 10.3116C0.702515 10.2004 0.746436 10.0936 0.824611 10.015C0.902786 9.93629 1.00882 9.89209 1.11937 9.89209C1.1739 9.89209 1.22788 9.90296 1.27819 9.9241C1.32851 9.94525 1.37416 9.97622 1.41249 10.0152C1.45083 10.0543 1.48108 10.1006 1.50152 10.1514C1.52195 10.2023 1.53217 10.2568 1.53155 10.3116Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M11.4938 12.2488C11.4938 12.3593 11.4505 12.4653 11.3734 12.5438C11.2962 12.6224 11.1914 12.6671 11.0816 12.6684C10.9711 12.6684 10.8651 12.6242 10.7869 12.5455C10.7087 12.4668 10.6648 12.3601 10.6648 12.2488C10.6648 12.194 10.6756 12.1396 10.6966 12.089C10.7176 12.0383 10.7484 11.9924 10.7872 11.9538C10.8259 11.9152 10.8719 11.8848 10.9225 11.8642C10.973 11.8437 11.0271 11.8334 11.0816 11.834C11.191 11.834 11.2958 11.8777 11.3731 11.9555C11.4504 12.0333 11.4938 12.1388 11.4938 12.2488Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M8.33246 14.2853C8.33123 14.3957 8.28676 14.5012 8.20872 14.5789C8.13068 14.6565 8.02535 14.7001 7.9156 14.7001C7.80629 14.7001 7.70145 14.6564 7.62415 14.5786C7.54686 14.5008 7.50344 14.3953 7.50344 14.2853C7.50283 14.2304 7.51303 14.1759 7.53346 14.1251C7.5539 14.0742 7.58416 14.0279 7.6225 13.9889C7.66083 13.9499 7.70647 13.9189 7.75679 13.8977C7.8071 13.8766 7.86108 13.8657 7.9156 13.8657C8.02616 13.8657 8.13219 13.9099 8.21037 13.9886C8.28854 14.0673 8.33246 14.174 8.33246 14.2853Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M13.3673 10.8776C13.3613 10.9985 13.3093 11.1125 13.2221 11.1958C13.1349 11.2792 13.0192 11.3256 12.8989 11.3254C12.7786 11.3256 12.6629 11.2792 12.5757 11.1958C12.4885 11.1125 12.4366 10.9985 12.4305 10.8776C12.4305 10.7526 12.4799 10.6327 12.5677 10.5443C12.6556 10.4559 12.7747 10.4062 12.8989 10.4062C13.0231 10.4062 13.1423 10.4559 13.2301 10.5443C13.3179 10.6327 13.3673 10.7526 13.3673 10.8776Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M2.51035 12.1504C2.51035 12.2454 2.47285 12.3365 2.40609 12.4037C2.33934 12.4709 2.24879 12.5087 2.15438 12.5087C2.06079 12.5074 1.97145 12.4691 1.9057 12.4021C1.83995 12.335 1.80309 12.2446 1.8031 12.1504C1.80431 12.057 1.84171 11.9678 1.90733 11.9018C1.97295 11.8357 2.06159 11.7981 2.15438 11.7969C2.24798 11.7969 2.33783 11.834 2.40445 11.9001C2.47107 11.9663 2.50912 12.0562 2.51035 12.1504Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M6.63223 13.9697C6.63223 14.0747 6.59078 14.1754 6.517 14.2497C6.44321 14.3239 6.34314 14.3656 6.2388 14.3656C6.18696 14.3663 6.13552 14.3565 6.0875 14.3368C6.03948 14.3171 5.99586 14.288 5.9592 14.2511C5.92254 14.2142 5.89359 14.1703 5.87404 14.122C5.85449 14.0736 5.84474 14.0219 5.84537 13.9697C5.84537 13.8647 5.88682 13.764 5.9606 13.6897C6.03438 13.6154 6.13445 13.5737 6.2388 13.5737C6.34277 13.575 6.44213 13.6171 6.51565 13.6911C6.58917 13.7651 6.63101 13.8651 6.63223 13.9697Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M5.54988 1.07229C5.54989 1.16649 5.51303 1.2569 5.44728 1.32395C5.38154 1.391 5.2922 1.4293 5.1986 1.43054C5.15207 1.43054 5.10601 1.42124 5.06308 1.40318C5.02016 1.38512 4.98122 1.35866 4.94853 1.32533C4.91585 1.292 4.89008 1.25247 4.87271 1.20903C4.85533 1.16559 4.8467 1.11911 4.84732 1.07229C4.84732 0.978523 4.88433 0.888598 4.95021 0.822297C5.01608 0.755995 5.10544 0.71875 5.1986 0.71875C5.29139 0.719971 5.38004 0.757611 5.44565 0.823649C5.51127 0.889687 5.54867 0.978903 5.54988 1.07229Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M6.10207 7.19253L3.64111 9.24951L3.78774 9.4272L6.2487 7.37022L6.10207 7.19253Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M5.89606 3.83402L3.45557 5.91553L3.60395 6.09174L6.04444 4.01023L5.89606 3.83402Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M9.09589 4.98528L6.65098 7.05936L6.5011 6.88495L8.94601 4.80615L9.09589 4.98528Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M8.46677 2.36021L5.71753 4.00635L5.83487 4.20485L8.58412 2.55871L8.46677 2.36021Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M6.29484 7.12549L7.03487 10.2602L6.81005 10.312L6.07471 7.17734L6.29484 7.12549Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M10.1778 10.4906L6.97876 10.3822L6.98813 10.1465L10.1871 10.2596L10.1778 10.4906Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M11.1877 7.43962L10.1494 10.4849L10.3665 10.5598L11.4048 7.51459L11.1877 7.43962Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M3.49917 6.0885L3.27246 6.12451L3.77124 9.30468L3.99795 9.26867L3.49917 6.0885Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M8.94138 4.96888L8.80005 5.15088L11.3205 7.13347L11.4619 6.95148L8.94138 4.96888Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M3.7729 9.13711L3.70239 9.35693L6.74671 10.3459L6.81722 10.1261L3.7729 9.13711Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M1.29119 8.19332L1.21765 8.41211L4.24795 9.4438L4.3215 9.22501L1.29119 8.19332Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M3.38531 5.71246L1.44409 8.27148L1.62651 8.41164L3.56773 5.85262L3.38531 5.71246Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M5.78825 3.90373L5.71924 4.12402L8.77017 5.09216L8.83918 4.87186L5.78825 3.90373Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M8.37589 2.18107L8.25049 2.37451L10.9297 4.13365L11.0551 3.94021L8.37589 2.18107Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M4.06535 9.1709L5.0302 12.2443L4.81006 12.3103L3.84521 9.24161L4.06535 9.1709Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M7.13509 10.2332L4.6427 12.2515L4.78657 12.4314L7.27897 10.4132L7.13509 10.2332Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M10.0383 10.4978L7.9812 12.9634L8.15696 13.1119L10.2141 10.6463L10.0383 10.4978Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M1.54676 5.12002L1.31726 5.12256L1.35243 8.3419L1.58193 8.33936L1.54676 5.12002Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M8.94153 5.00861L10.9415 4.25439L11.0211 4.47594L9.02115 5.22544L8.94153 5.00861Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M6.0329 4.3428L5.80469 4.36719L6.03016 6.50468L6.25838 6.4803L6.0329 4.3428Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M8.78096 2.75363L8.55432 2.79004L8.89101 4.91267L9.11765 4.87625L8.78096 2.75363Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M12.4872 9.49844L10.4539 10.1562L10.5241 10.3761L12.5574 9.71833L12.4872 9.49844Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M4.99751 12.1548L7.99979 12.5979L7.967 12.8289L4.96472 12.381L4.99751 12.1548Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M1.41214 8.3183L0.987061 10.4248L1.21197 10.4708L1.63704 8.36427L1.41214 8.3183Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M12.4445 9.37849L11.5219 7.44111L11.7326 7.3374L12.6553 9.2795L12.4445 9.37849Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M12.4501 9.83515L11.1226 12.0239L11.3184 12.1443L12.646 9.95548L12.4501 9.83515Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M11.392 4.55007L11.1635 4.57129L11.3596 6.71171L11.5882 6.69049L11.392 4.55007Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M1.59164 5.06536L1.49829 5.27637L3.44943 6.15065L3.54277 5.93965L1.59164 5.06536Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M8.08572 12.768L6.25671 13.8779L6.37523 14.0757L8.20423 12.9658L8.08572 12.768Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M8.57141 12.697L10.8992 12.2397L10.9414 12.4707L8.61357 12.9233L8.57141 12.697Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M5.64391 1.85647L5.41797 1.89697L5.79252 4.01317L6.01846 3.97267L5.64391 1.85647Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M11.4034 4.17809L11.2297 4.3291L12.9722 6.35857L13.1458 6.20756L11.4034 4.17809Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M2.88525 2.43953L5.15687 1.76074L5.22244 1.98229L2.95083 2.6658L2.88525 2.43953Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M5.78573 1.69534L5.73853 1.92139L8.07616 2.41588L8.12337 2.18983L5.78573 1.69534Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M4.80651 12.188L3.15918 12.7734L3.2356 12.9912L4.88293 12.4058L4.80651 12.188Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M5.19886 12.2951L5.00867 12.4243L6.20391 14.2057L6.39411 14.0764L5.19886 12.2951Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M7.68395 1.10176L5.56604 1.68848L5.62695 1.91117L7.74485 1.32445L7.68395 1.10176Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M12.6367 9.19922L13.0629 6.61133L13.2878 6.64904L12.8662 9.23693L12.6367 9.19922Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M10.5486 13.2609L8.23157 14.1309L8.31179 14.3473L10.6288 13.4773L10.5486 13.2609Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M2.75891 2.43479L5.23661 0.99707L5.34902 1.19976L2.87132 2.63748L2.75891 2.43479Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M5.2644 0.950195L8.12617 0.964337V1.19531L5.2644 1.18117V0.950195Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M8.46246 1.07869L8.39294 1.29883L10.4284 1.94985L10.4979 1.72971L8.46246 1.07869Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M12.9713 6.39106L11.7811 6.94531L11.8775 7.15494L13.0677 6.60069L12.9713 6.39106Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M8.28224 1.25463L8.06482 1.32861L8.48485 2.57896L8.70228 2.50498L8.28224 1.25463Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M12.2712 3.76896L10.5101 1.89757L10.6741 1.7373L12.4398 3.60869L12.2712 3.76896Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M12.5959 3.90989L12.3856 4.00244L13.3746 6.27851L13.5849 6.18596L12.5959 3.90989Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M2.48342 2.90712L0.982422 4.79541L1.16163 4.9397L2.66263 3.05141L2.48342 2.90712Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M0.9602 4.77781L0.425415 7.38135L0.650169 7.42811L1.18495 4.82457L0.9602 4.77781Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M0.582274 7.49432L0.356567 7.53613L0.834793 10.1508L1.0605 10.109L0.582274 7.49432Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M1.13881 10.2797L0.944336 10.4023L2.07088 12.2119L2.26536 12.0892L1.13881 10.2797Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M2.30032 12.0126L2.16577 12.1997L3.10681 12.885L3.24135 12.6979L2.30032 12.0126Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M3.51739 12.8512L3.37793 13.0347L4.77659 14.1117L4.91604 13.9282L3.51739 12.8512Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M6.53278 13.8704L4.77173 13.8818L4.77321 14.1128L6.53427 14.1014L6.53278 13.8704Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M10.8568 13.1683L12.6882 11.0801L12.8568 11.2309L11.0301 13.3239L10.8568 13.1683Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M13.6398 6.45177L13.4108 6.4668L13.5692 8.91279L13.7982 8.89777L13.6398 6.45177Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M3.32318 12.7861L3.25256 13.0059L6.14039 13.9457L6.21101 13.7259L3.32318 12.7861Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M13.4821 8.63947L12.8226 10.6099L13.0407 10.6838L13.7001 8.71339L13.4821 8.63947Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M5.94485 13.8249L5.90125 14.0513L7.5812 14.3791L7.62481 14.1527L5.94485 13.8249Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M10.4853 10.5411L10.2722 10.627L10.9387 12.3031L11.1518 12.2173L10.4853 10.5411Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M12.6561 11.0189L10.9672 12.0703L11.0879 12.2667L12.7768 11.2153L12.6561 11.0189Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M7.0674 7.10149C7.0674 7.22136 7.04387 7.34005 6.99815 7.45074C6.95243 7.56142 6.88542 7.66193 6.80098 7.74647C6.71655 7.83101 6.61635 7.89793 6.50613 7.94337C6.39592 7.98881 6.27786 8.01188 6.15875 8.01126C6.03965 8.01188 5.92161 7.98881 5.81139 7.94337C5.70118 7.89793 5.60096 7.83101 5.51653 7.74647C5.43209 7.66193 5.3651 7.56142 5.31937 7.45074C5.27365 7.34005 5.25012 7.22136 5.25012 7.10149C5.25012 6.85895 5.34585 6.62635 5.51626 6.45485C5.68666 6.28336 5.91777 6.18701 6.15875 6.18701C6.39974 6.18701 6.63086 6.28336 6.80127 6.45485C6.97167 6.62635 7.0674 6.85895 7.0674 7.10149Z", fill: "#A9A5A4" }), jsxRuntimeExports.jsx("path", { d: "M9.62036 5.11238C9.62036 5.20338 9.60254 5.29348 9.56794 5.37755C9.53334 5.46162 9.48264 5.53801 9.4187 5.60236C9.35477 5.6667 9.27887 5.71774 9.19534 5.75256C9.1118 5.78739 9.02226 5.80531 8.93185 5.80531C8.84104 5.80593 8.751 5.78847 8.66693 5.75392C8.58285 5.71938 8.50639 5.66843 8.44196 5.60403C8.37753 5.53962 8.3264 5.46302 8.29151 5.37864C8.25661 5.29426 8.23865 5.20378 8.23865 5.11238C8.23865 5.02099 8.25661 4.93049 8.29151 4.84612C8.3264 4.76174 8.37753 4.68514 8.44196 4.62073C8.50639 4.55632 8.58285 4.50538 8.66693 4.47083C8.751 4.43629 8.84104 4.41883 8.93185 4.41945C9.02226 4.41945 9.1118 4.43737 9.19534 4.47219C9.27887 4.50702 9.35477 4.55805 9.4187 4.6224C9.48264 4.68674 9.53334 4.76314 9.56794 4.84721C9.60254 4.93128 9.62036 5.02139 9.62036 5.11238Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M9.05844 2.41136C9.05844 2.56013 8.99972 2.70281 8.8952 2.80801C8.79067 2.91321 8.6489 2.97231 8.50108 2.97231C8.35363 2.97108 8.21258 2.91158 8.10832 2.80665C8.00405 2.70172 7.94495 2.55975 7.94373 2.41136C7.94372 2.26215 8.00228 2.11899 8.10667 2.01304C8.21107 1.90709 8.35283 1.84695 8.50108 1.8457C8.57467 1.8457 8.64754 1.86037 8.71547 1.88885C8.7834 1.91734 8.84505 1.95907 8.89687 2.01166C8.94869 2.06425 8.98965 2.12665 9.01738 2.19525C9.04511 2.26385 9.05906 2.3373 9.05844 2.41136Z", fill: "#A9A5A4" }), jsxRuntimeExports.jsx("path", { d: "M2.68949 2.71781L1.44592 4.97754L1.64669 5.08945L2.89026 2.82972L2.68949 2.71781Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M12.1588 7.21963C12.1577 7.39858 12.0879 7.57016 11.9639 7.69845C11.8399 7.82673 11.6714 7.90177 11.4937 7.90786C11.4029 7.90848 11.3129 7.89101 11.2288 7.85647C11.1447 7.82193 11.0683 7.77098 11.0038 7.70657C10.9394 7.64217 10.8883 7.56557 10.8534 7.48119C10.8185 7.39681 10.8005 7.30632 10.8005 7.21492C10.8005 7.12353 10.8185 7.03303 10.8534 6.94865C10.8883 6.86428 10.9394 6.78768 11.0038 6.72327C11.0683 6.65886 11.1447 6.60792 11.2288 6.57337C11.3129 6.53883 11.4029 6.52137 11.4937 6.52199C11.6731 6.52813 11.8429 6.60448 11.9672 6.73479C12.0914 6.86509 12.1602 7.03905 12.1588 7.21963Z", fill: "#A9A5A4" }), jsxRuntimeExports.jsx("path", { d: "M4.54818 9.23188C4.54818 9.31956 4.53093 9.40637 4.49745 9.48732C4.46397 9.56827 4.41491 9.64176 4.35309 9.70354C4.29126 9.76532 4.21792 9.81417 4.13725 9.8473C4.05659 9.88042 3.9702 9.89715 3.88308 9.89653C3.79636 9.89653 3.71048 9.87934 3.63036 9.84594C3.55023 9.81254 3.47743 9.76358 3.41611 9.70186C3.35478 9.64014 3.30613 9.56687 3.27294 9.48623C3.23976 9.40559 3.22267 9.31916 3.22267 9.23188C3.22205 9.1442 3.23869 9.05727 3.2716 8.97608C3.30451 8.8949 3.35305 8.82107 3.41444 8.75885C3.47582 8.69663 3.54884 8.64725 3.62927 8.61356C3.7097 8.57986 3.79596 8.56251 3.88308 8.56252C3.9706 8.56189 4.05736 8.57877 4.13834 8.61219C4.21931 8.64561 4.29287 8.69489 4.35476 8.75717C4.41664 8.81946 4.46561 8.89349 4.49881 8.97498C4.53201 9.05648 4.5488 9.1438 4.54818 9.23188Z", fill: "#A9A5A4" }), jsxRuntimeExports.jsx("path", { d: "M5.43319 12.3053C5.43319 12.4383 5.38104 12.5659 5.28806 12.6603C5.19509 12.7548 5.06881 12.8085 4.93671 12.8097C4.80379 12.8097 4.67633 12.7566 4.58234 12.662C4.48836 12.5674 4.43555 12.4391 4.43555 12.3053C4.43678 12.1724 4.49013 12.0453 4.58399 11.9517C4.67784 11.8581 4.8046 11.8057 4.93671 11.8057C5.06801 11.8069 5.19358 11.8599 5.28642 11.9534C5.37926 12.0468 5.43196 12.1732 5.43319 12.3053Z", fill: "#A9A5A4" }), jsxRuntimeExports.jsx("path", { d: "M13.1614 9.50535C13.1614 9.63912 13.1086 9.76741 13.0146 9.862C12.9206 9.95659 12.7931 10.0097 12.6602 10.0097C12.5273 10.0097 12.3998 9.95659 12.3058 9.862C12.2119 9.76741 12.1591 9.63912 12.1591 9.50535C12.1591 9.37158 12.2119 9.24329 12.3058 9.1487C12.3998 9.05411 12.5273 9.00098 12.6602 9.00098C12.7931 9.00098 12.9206 9.05411 13.0146 9.1487C13.1086 9.24329 13.1614 9.37158 13.1614 9.50535Z", fill: "#A9A5A4" }), jsxRuntimeExports.jsx("path", { d: "M11.1286 13.3662C11.1286 13.4712 11.0871 13.5719 11.0133 13.6462C10.9395 13.7204 10.8395 13.7621 10.7351 13.7621C10.6833 13.7628 10.6319 13.753 10.5838 13.7333C10.5358 13.7136 10.4922 13.6845 10.4555 13.6476C10.4189 13.6107 10.3899 13.5668 10.3704 13.5184C10.3508 13.4701 10.3411 13.4183 10.3417 13.3662C10.3417 13.2612 10.3832 13.1604 10.4569 13.0862C10.5307 13.0119 10.6308 12.9702 10.7351 12.9702C10.8391 12.9714 10.9385 13.0135 11.012 13.0875C11.0855 13.1615 11.1274 13.2615 11.1286 13.3662Z", fill: "#A9A5A4" }), jsxRuntimeExports.jsx("path", { d: "M2.03282 5.15009C2.03282 5.27511 1.98348 5.39501 1.89564 5.48341C1.8078 5.57181 1.68866 5.62148 1.56444 5.62148C1.44022 5.62148 1.3211 5.57181 1.23326 5.48341C1.14542 5.39501 1.09607 5.27511 1.09607 5.15009C1.09607 5.02508 1.14542 4.90518 1.23326 4.81678C1.3211 4.72837 1.44022 4.67871 1.56444 4.67871C1.68866 4.67871 1.8078 4.72837 1.89564 4.81678C1.98348 4.90518 2.03282 5.02508 2.03282 5.15009Z", fill: "#A9A5A4" }), jsxRuntimeExports.jsx("path", { d: "M3.69074 12.7532C3.69074 12.8645 3.64682 12.9712 3.56864 13.0499C3.49047 13.1286 3.38445 13.1728 3.27389 13.1728C3.21937 13.1728 3.16538 13.1619 3.11506 13.1407C3.06475 13.1196 3.01911 13.0886 2.98077 13.0496C2.94244 13.0106 2.91217 12.9643 2.89174 12.9134C2.8713 12.8625 2.8611 12.8081 2.86172 12.7532C2.86109 12.6986 2.87132 12.6444 2.89181 12.5937C2.9123 12.5431 2.94265 12.4971 2.98104 12.4585C3.01944 12.4199 3.06513 12.3893 3.11542 12.3687C3.16571 12.3481 3.21959 12.3378 3.27389 12.3384C3.32841 12.3378 3.3825 12.3481 3.43305 12.3686C3.4836 12.3892 3.5296 12.4196 3.56837 12.4582C3.60714 12.4968 3.63792 12.5428 3.65892 12.5934C3.67993 12.644 3.69074 12.6984 3.69074 12.7532Z", fill: "#A9A5A4" }), jsxRuntimeExports.jsx("path", { d: "M12.8991 3.75947C12.8992 3.88051 12.8531 3.99697 12.7703 4.08472C12.6874 4.17248 12.5742 4.2248 12.4541 4.23085C12.334 4.2248 12.2208 4.17248 12.138 4.08472C12.0551 3.99697 12.009 3.88051 12.0092 3.75947C12.009 3.63843 12.0551 3.52197 12.138 3.43421C12.2208 3.34646 12.334 3.29414 12.4541 3.28809C12.5742 3.29414 12.6874 3.34646 12.7703 3.43421C12.8531 3.52197 12.8992 3.63843 12.8991 3.75947Z", fill: "#A9A5A4" })] }));
+
+[
+    {
+        id: 1,
+        name: 'Hot Jobs',
+        icon: jsxRuntimeExports.jsx(BsFire, {}),
+        subMenu: [
+            {
+                id: 'A1',
+                name: 'Top 100 Highest Salary',
+                link: '/jobs/search?ordering=high_low_salary',
+                icon: jsxRuntimeExports.jsx(Top100Icon, {}),
+            },
+            {
+                id: 'A2',
+                name: 'By Location',
+                link: '/',
+                icon: jsxRuntimeExports.jsx(IoLocationSharp, {}),
+            },
+            {
+                id: 'A3',
+                name: 'Recommend Jobs',
+                link: '/',
+                icon: jsxRuntimeExports.jsx(BiSolidLike, {}),
+            },
+        ],
+    },
+    {
+        id: 2,
+        name: 'Jobs',
+        icon: jsxRuntimeExports.jsx(Jobs, {}),
+        subMenu: [
+            {
+                id: 'IT',
+                name: 'IT',
+                link: '/',
+                icon: jsxRuntimeExports.jsx(ItGuy, {}),
+            },
+            {
+                id: 'Business & Finance',
+                name: 'Business & Finance',
+                link: '/',
+                icon: jsxRuntimeExports.jsx(IoBarChart, {}),
+            },
+            {
+                id: 'Management',
+                name: 'Management',
+                link: '/',
+                icon: jsxRuntimeExports.jsx(HiUsers, {}),
+            },
+            {
+                id: 'Manufacturing & Engineer',
+                name: 'Manufacturing & Engineer',
+                link: '/',
+                icon: jsxRuntimeExports.jsx(Setting, {}),
+            },
+            {
+                id: 'Service',
+                name: 'Service',
+                link: '/',
+                icon: jsxRuntimeExports.jsx(Service, {}),
+            },
+            {
+                id: 'Design',
+                name: 'Design',
+                link: '/',
+                icon: jsxRuntimeExports.jsx(Design, {}),
+            },
+        ],
+    },
+    {
+        id: 3,
+        name: 'Company',
+        link: '/',
+        icon: jsxRuntimeExports.jsx(Companies, {}),
+    },
+    {
+        id: 4,
+        name: 'Tools',
+        icon: jsxRuntimeExports.jsx(Tools, {}),
+        subMenu: [
+            {
+                id: 'Create CV',
+                name: 'Create CV',
+                link: '/tao-cv-online?src=topdev.vn&medium=mainmenu',
+                icon: jsxRuntimeExports.jsx(CreateCv, {}),
+            },
+            {
+                id: 'Convert CV',
+                name: 'Convert CV',
+                link: '/tao-cv-online?src=topdev.vn&medium=mainmenu',
+                icon: jsxRuntimeExports.jsx(ConvertCv, {}),
+            },
+            {
+                id: 'Personality Test',
+                name: 'Personality Test',
+                link: '/page/trac-nghiem-tinh-cach?src=topdev.vn&medium=mainmenu',
+                icon: jsxRuntimeExports.jsx(BsFillEmojiSmileFill, {}),
+            },
+            {
+                id: 'Salary',
+                name: 'Salary',
+                link: '/tool/tinh-luong-gross-net?src=topdev.vn&medium=mainmenu',
+                icon: jsxRuntimeExports.jsx(Salary, {}),
+            },
+            {
+                id: 'Interview',
+                name: 'Interview',
+                link: '/interview?src=topdev.vn&medium=mainmenu',
+                icon: jsxRuntimeExports.jsx(Interview, {}),
+            },
+            {
+                id: 'Blog',
+                name: 'Blog',
+                link: `/blog?src=topdev.vn&medium=mainmenu`,
+                icon: jsxRuntimeExports.jsx(Blog, {}),
+            },
+        ],
+    },
+    {
+        id: 5,
+        name: 'Blog',
+        link: '/blog?src=topdev.vn&medium=mainmenu',
+        icon: jsxRuntimeExports.jsx(Blog, {}),
+    },
+    {
+        id: 6,
+        name: 'Fresher Jobs',
+        link: '/top-viec-lam-it-fresher?src=topdev.vn&medium=mainmenu',
+        icon: jsxRuntimeExports.jsx(WiStars, {}),
+    },
+    {
+        id: 7,
+        name: 'NIPA',
+        color: '#0B4DA1',
+        link: '/nha-tuyen-dung/to-chuc/korean-it-companies-83771',
+    },
+    {
+        id: 8,
+        name: 'TopDev',
+        icon: jsxRuntimeExports.jsx(Topdev, {}),
+        link: '/',
+    },
+];
 
 function bind(fn, thisArg) {
   return function wrap() {
@@ -7964,217 +8101,6 @@ axiosInstance.interceptors.response.use((response) => response.data, (error) => 
     return Promise.reject(error);
 });
 
-[
-    {
-        id: 1,
-        name: 'Hot Jobs',
-        icon: jsxRuntimeExports.jsx(BsFire, {}),
-        color: '#DD3F24',
-        subMenu: [
-            {
-                id: 'A1',
-                name: 'Top 100 Highest Salary',
-                link: '/jobs/search?ordering=high_low_salary',
-                icon: jsxRuntimeExports.jsx(Top100Icon, {}),
-            },
-            {
-                id: 'A2',
-                name: 'By Location',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(IoLocationSharp, {}),
-            },
-            {
-                id: 'A3',
-                name: 'Recommend Jobs',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(BiSolidLike, {}),
-            },
-        ],
-    },
-    {
-        id: 2,
-        name: 'Jobs',
-        subMenu: [
-            {
-                id: 'IT',
-                name: 'IT',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(ItGuy, {}),
-            },
-            {
-                id: 'Business & Finance',
-                name: 'Business & Finance',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(IoBarChart, {}),
-            },
-            {
-                id: 'Management',
-                name: 'Management',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(HiUsers, {}),
-            },
-            {
-                id: 'Manufacturing & Engineer',
-                name: 'Manufacturing & Engineer',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(Gear, {}),
-            },
-            {
-                id: 'Service',
-                name: 'Service',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(Service, {}),
-            },
-            {
-                id: 'Design',
-                name: 'Design',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(Design, {}),
-            },
-        ],
-    },
-    {
-        id: 3,
-        name: 'Company',
-        link: '/',
-    },
-    {
-        id: 4,
-        name: 'Tools',
-        subMenu: [
-            {
-                id: 'Create CV',
-                name: 'Create CV',
-                link: '/tao-cv-online?src=topdev.vn&medium=mainmenu',
-                icon: jsxRuntimeExports.jsx(CreateCv, {}),
-            },
-            {
-                id: 'Convert CV',
-                name: 'Convert CV',
-                link: '/tao-cv-online?src=topdev.vn&medium=mainmenu',
-                icon: jsxRuntimeExports.jsx(ConvertCv, {}),
-            },
-            {
-                id: 'Personality Test',
-                name: 'Personality Test',
-                link: '/page/trac-nghiem-tinh-cach?src=topdev.vn&medium=mainmenu',
-                icon: jsxRuntimeExports.jsx(BsFillEmojiSmileFill, {}),
-            },
-            {
-                id: 'Salary',
-                name: 'Salary',
-                link: '/tool/tinh-luong-gross-net?src=topdev.vn&medium=mainmenu',
-                icon: jsxRuntimeExports.jsx(Salary, {}),
-            },
-            {
-                id: 'Interview',
-                name: 'Interview',
-                link: '/interview?src=topdev.vn&medium=mainmenu',
-                icon: jsxRuntimeExports.jsx(Interview, {}),
-            },
-            {
-                id: 'Blog',
-                name: 'Blog',
-                link: `/blog?src=topdev.vn&medium=mainmenu`,
-                icon: jsxRuntimeExports.jsx(Blog, {}),
-            },
-        ],
-    },
-    {
-        id: 5,
-        name: 'Blog',
-        link: '/blog?src=topdev.vn&medium=mainmenu',
-    },
-    {
-        id: 6,
-        name: 'Fresher Jobs',
-        link: '/top-viec-lam-it-fresher?src=topdev.vn&medium=mainmenu',
-        color: '#039FFE',
-        icon: jsxRuntimeExports.jsx(WiStars, {}),
-    },
-    {
-        id: 7,
-        name: 'NIPA',
-        color: '#0B4DA1',
-        link: '/nha-tuyen-dung/to-chuc/korean-it-companies-83771',
-    },
-];
-
-var css_248z$3 = ".scroll-module_menuItem__3Cyxn {\n  position: relative;\n  font-size: 14px;\n  font-family: 'Inter', sans-serif;\n}\n.scroll-module_menuItem__3Cyxn::before {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 100%;\n  height: 1rem;\n  width: 100%;\n}\n.scroll-module_menuLink__0ixoI {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  border-radius: 9999px;\n  padding: 0.25rem 1rem;\n  font-weight: 600;\n  transition: background-color 0.3s;\n  text-decoration: none;\n}\n.scroll-module_menuLink__0ixoI:hover {\n  background-color: #fef4f2;\n}\n.scroll-module_nonScrollLink__4imw5 {\n  padding: 0.25rem 0.5rem;\n}\n.scroll-module_arrowIcon__hhSK0 {\n  transition: transform 0.3s;\n}\n.scroll-module_menuItem__3Cyxn:hover .scroll-module_arrowIcon__hhSK0 {\n  transform: rotate(180deg);\n}\n.scroll-module_submenu__Ux2oK {\n  position: absolute;\n  left: 0;\n  top: calc(100% + 0.5rem);\n  display: none;\n  width: max-content;\n  border-radius: 0.5rem;\n  background-color: white;\n  padding: 1.5rem 1rem;\n  box-shadow: 0px 0px 4px 0px #75757540;\n  transition: all 0.3s;\n  z-index: 50;\n}\n.scroll-module_menuItem__3Cyxn:hover .scroll-module_submenu__Ux2oK {\n  display: block;\n}\n.scroll-module_submenuLink__Deeb8 {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  border-radius: 0.25rem;\n  padding: 0.5rem;\n  font-size: 0.875rem;\n  font-weight: 500;\n  color: #5d5d5d;\n  transition: colors 0.3s;\n  text-decoration: none;\n}\n.scroll-module_submenuLink__Deeb8:hover {\n  background-color: #fef4f2;\n  color: #dd3f24;\n}\n.scroll-module_submenuLinkJobs__i0IYk {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  border-radius: 0.25rem;\n  padding: 0 0.5rem;\n  font-size: 0.875rem;\n  font-weight: 500;\n  color: #5d5d5d;\n  transition: colors 0.3s;\n  text-decoration: none;\n}\n.scroll-module_submenuIcon__zJQPm {\n  color: #dd3f24;\n}\n.scroll-module_jobsContainer__EAvJx {\n  display: flex;\n  gap: 1rem;\n}\n.scroll-module_jobsList__is3ny {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n.scroll-module_jobLink__dnRY8 {\n  display: flex;\n  height: 30px;\n  width: 246px;\n  align-items: center;\n  justify-content: space-between;\n  border-radius: 0.25rem;\n  padding: 0 0.25rem;\n  font-size: 0.875rem;\n  font-weight: 500;\n  background-color: transparent;\n  color: #5d5d5d;\n  text-decoration: none;\n}\n.scroll-module_jobLink__dnRY8:hover {\n  background-color: #fef4f2;\n  color: #dd3f24;\n}\n.scroll-module_jobLink__dnRY8:hover * {\n  color: #dd3f24;\n}\n.scroll-module_divider__r3px6 {\n  height: 200px;\n  width: 1px;\n  background-color: #fed2ca;\n}\n.scroll-module_dividerSmall__P44BO {\n  height: 20px;\n  width: 1px;\n  background-color: #fed2ca;\n}\n.scroll-module_jobButtons__ozJn0 {\n  display: flex;\n  height: fit-content;\n  width: 600px;\n  flex-wrap: wrap;\n  gap: 0.75rem;\n  padding: 1.5rem 0;\n  max-height: 180px;\n  overflow-y: auto;\n}\n.scroll-module_jobButton__1bNEX {\n  height: 30px;\n  border-radius: 9999px;\n  padding: 0 1.5rem;\n  font-size: 0.875rem;\n  line-height: 14px;\n  transition: colors 0.3s;\n}\n.scroll-module_jobButtonActive__hHdT3 {\n  background-color: #fee6e2;\n  color: #dd3f24;\n}\n.scroll-module_jobButtonInactive__RfpKl {\n  background-color: #f6f6f6;\n  color: #4f4f4f;\n}\n.scroll-module_footer__jqE5q {\n  margin-top: 0.75rem;\n  padding-top: 0.75rem;\n  border-top: 1px solid #fed2ca;\n  display: flex;\n  justify-content: flex-end;\n  height: fit-content;\n}\n.scroll-module_footerButtons__aOaQ7 {\n  height: fit-content;\n  display: flex;\n  align-items: center;\n  gap: 0.75rem;\n}\n.scroll-module_cancelButton__45ujc {\n  border-radius: 56px;\n  background-color: #e7e7e7;\n  padding: 5px 1.5rem;\n  font-size: 0.875rem;\n  font-weight: 500;\n  color: #404040;\n}\n.scroll-module_selectButton__D-AnC {\n  border-radius: 56px;\n  background-color: #dd3f24;\n  padding: 5px 1.5rem;\n  font-size: 0.875rem;\n  font-weight: 500;\n  color: white;\n}\n.scroll-module_clearButton__Idpe- {\n  color: #dd3f24;\n  font-size: 14px;\n  background-color: transparent;\n}\nbutton {\n  border: none;\n  cursor: pointer;\n}\n";
-styleInject(css_248z$3);
-
-var css_248z$2 = ".style-module_accountContainer__YN0BE {\n  position: relative;\n  margin-right: 0.5rem;\n  border-radius: 9999px;\n  background-color: var(--primary-color);\n  color: white;\n  font-family: 'Inter', sans-serif;\n}\n\n.style-module_accountButton__6CA2p {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  height: 32px;\n  padding: 0 0.5rem;\n  transition: all 0.3s;\n}\n\n.style-module_accountButton__6CA2p svg {\n  width: 100%;\n  height: 100%;\n  color: white;\n}\n\n.style-module_accountIcon__BY1KY {\n  height: 1.25rem;\n  width: 1.25rem;\n}\n\n.style-module_accountName__E2EjA {\n  display: -webkit-box;\n  -webkit-line-clamp: 1;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  font-size: 0.875rem;\n  color: white;\n}\n\n.style-module_arrowIcon__g85dz {\n  height: 1rem;\n  width: 1rem;\n  transition: transform 0.5s;\n}\n\n.style-module_arrowIconRotated__wK5NG {\n  transform: rotate(180deg);\n}\n\n.style-module_dropdownMenu__rnm4A {\n  position: absolute;\n  right: 0;\n  top: 100%;\n  z-index: 50;\n  margin-top: 0.5rem;\n  width: max-content;\n  transform: translateX(50%);\n  border-radius: 0.5rem;\n  background-color: white;\n  padding: 0.5rem;\n  box-shadow: 0px 0px 4px 0px #75757540;\n  transition: all 0.3s;\n}\n\n.style-module_dropdownHidden__x075O {\n  visibility: hidden;\n  transform: translateX(50%) translateY(0.5rem);\n  opacity: 0;\n}\n\n.style-module_dropdownVisible__qSUTD {\n  visibility: visible;\n  transform: translateX(50%) translateY(0);\n  opacity: 1;\n}\n\n.style-module_menuItem__GbPAU {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  border-radius: 0.5rem;\n  padding: 0.5rem 1rem;\n  font-size: 0.875rem;\n  color: #6d6d6d;\n  transition: all 0.3s;\n  text-decoration: none;\n}\n\n.style-module_menuItem__GbPAU:hover {\n  background-color: #fef4f2;\n  color: var(--primary-color);\n}\n\n.style-module_menuIcon__hVpzL {\n  font-size: 1.125rem;\n}\n\n.style-module_menuIcon__hVpzL svg {\n  width: 14px;\n  height: 14px;\n}\n";
-styleInject(css_248z$2);
-
-({
-    account: {
-        resume: [
-            {
-                type: 'default',
-                href: '/users/profile?src=topdev.vn&medium=submenu',
-                title: 'Dashboard',
-                icon: jsxRuntimeExports.jsx(DashboardUs, {}),
-            },
-            {
-                type: 'default',
-                href: '/users/job-management?src=topdev.vn&medium=userprofilemenu',
-                title: 'Job Management',
-                icon: jsxRuntimeExports.jsx(JobManagement, {}),
-            },
-            {
-                type: 'default',
-                href: '/users/my-cv?src=topdev.vn&medium=submenu',
-                title: 'CV Management',
-                icon: jsxRuntimeExports.jsx(CvManagementUs, {}),
-            },
-            {
-                type: 'default',
-                href: '/users/jobs-applied?src=topdev.vn&medium=submenu',
-                title: 'Applied Jobs',
-                icon: jsxRuntimeExports.jsx(AppliedJobsUs, {}),
-            },
-            {
-                type: 'default',
-                href: '/users/jobs-followed?src=topdev.vn&medium=submenu',
-                title: 'Following Jobs',
-                icon: jsxRuntimeExports.jsx(FollowingJobsUs, {}),
-            },
-            {
-                type: 'default',
-                href: '/users/personality-test?src=topdev.vn&medium=submenu',
-                title: 'Personality Test',
-                icon: jsxRuntimeExports.jsx(Gear, {}),
-            },
-            {
-                type: 'logout',
-                href: '/logout',
-                title: 'Logout',
-                icon: jsxRuntimeExports.jsx(LogoutUs, {}),
-            },
-        ],
-        employer: [
-            {
-                type: 'default',
-                href: '/employer/dashboard',
-                title: 'Employer Dashboard',
-                icon: jsxRuntimeExports.jsx(DashboardUs, {}),
-            },
-            {
-                type: 'default',
-                href: '/products',
-                title: 'Recruitment Services',
-                icon: jsxRuntimeExports.jsx(CvManagementUs, {}),
-            },
-            {
-                type: 'logout',
-                href: '/logout',
-                title: 'Logout',
-                icon: jsxRuntimeExports.jsx(LogoutUs, {}),
-            },
-        ],
-    },
-});
-
 /*! js-cookie v3.0.5 | MIT */
 /* eslint-disable no-var */
 function assign (target) {
@@ -8306,150 +8232,6 @@ function init (converter, defaultAttributes) {
 }
 
 init(defaultConverter, { path: '/' });
-
-[
-    {
-        id: 1,
-        name: 'Hot Jobs',
-        icon: jsxRuntimeExports.jsx(BsFire, {}),
-        subMenu: [
-            {
-                id: 'A1',
-                name: 'Top 100 Highest Salary',
-                link: '/jobs/search?ordering=high_low_salary',
-                icon: jsxRuntimeExports.jsx(Top100Icon, {}),
-            },
-            {
-                id: 'A2',
-                name: 'By Location',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(IoLocationSharp, {}),
-            },
-            {
-                id: 'A3',
-                name: 'Recommend Jobs',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(BiSolidLike, {}),
-            },
-        ],
-    },
-    {
-        id: 2,
-        name: 'Jobs',
-        icon: jsxRuntimeExports.jsx(Jobs, {}),
-        subMenu: [
-            {
-                id: 'IT',
-                name: 'IT',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(ItGuy, {}),
-            },
-            {
-                id: 'Business & Finance',
-                name: 'Business & Finance',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(IoBarChart, {}),
-            },
-            {
-                id: 'Management',
-                name: 'Management',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(HiUsers, {}),
-            },
-            {
-                id: 'Manufacturing & Engineer',
-                name: 'Manufacturing & Engineer',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(Setting, {}),
-            },
-            {
-                id: 'Service',
-                name: 'Service',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(Service, {}),
-            },
-            {
-                id: 'Design',
-                name: 'Design',
-                link: '/',
-                icon: jsxRuntimeExports.jsx(Design, {}),
-            },
-        ],
-    },
-    {
-        id: 3,
-        name: 'Company',
-        link: '/',
-        icon: jsxRuntimeExports.jsx(Companies, {}),
-    },
-    {
-        id: 4,
-        name: 'Tools',
-        icon: jsxRuntimeExports.jsx(Tools, {}),
-        subMenu: [
-            {
-                id: 'Create CV',
-                name: 'Create CV',
-                link: '/tao-cv-online?src=topdev.vn&medium=mainmenu',
-                icon: jsxRuntimeExports.jsx(CreateCv, {}),
-            },
-            {
-                id: 'Convert CV',
-                name: 'Convert CV',
-                link: '/tao-cv-online?src=topdev.vn&medium=mainmenu',
-                icon: jsxRuntimeExports.jsx(ConvertCv, {}),
-            },
-            {
-                id: 'Personality Test',
-                name: 'Personality Test',
-                link: '/page/trac-nghiem-tinh-cach?src=topdev.vn&medium=mainmenu',
-                icon: jsxRuntimeExports.jsx(BsFillEmojiSmileFill, {}),
-            },
-            {
-                id: 'Salary',
-                name: 'Salary',
-                link: '/tool/tinh-luong-gross-net?src=topdev.vn&medium=mainmenu',
-                icon: jsxRuntimeExports.jsx(Salary, {}),
-            },
-            {
-                id: 'Interview',
-                name: 'Interview',
-                link: '/interview?src=topdev.vn&medium=mainmenu',
-                icon: jsxRuntimeExports.jsx(Interview, {}),
-            },
-            {
-                id: 'Blog',
-                name: 'Blog',
-                link: `/blog?src=topdev.vn&medium=mainmenu`,
-                icon: jsxRuntimeExports.jsx(Blog, {}),
-            },
-        ],
-    },
-    {
-        id: 5,
-        name: 'Blog',
-        link: '/blog?src=topdev.vn&medium=mainmenu',
-        icon: jsxRuntimeExports.jsx(Blog, {}),
-    },
-    {
-        id: 6,
-        name: 'Fresher Jobs',
-        link: '/top-viec-lam-it-fresher?src=topdev.vn&medium=mainmenu',
-        icon: jsxRuntimeExports.jsx(WiStars, {}),
-    },
-    {
-        id: 7,
-        name: 'NIPA',
-        color: '#0B4DA1',
-        link: '/nha-tuyen-dung/to-chuc/korean-it-companies-83771',
-    },
-    {
-        id: 8,
-        name: 'TopDev',
-        icon: jsxRuntimeExports.jsx(Topdev, {}),
-        link: '/',
-    },
-];
 
 var css_248z$1 = ".styles-module_container__EIonk {\n  display: flex;\n  align-items: center;\n  font-family: 'Inter', sans-serif;\n}\n.styles-module_container__EIonk button {\n  background-color: transparent;\n  padding: 0;\n  margin: 0;\n}\n.styles-module_divider__PU999 {\n  width: 1px;\n  height: 1rem;\n  background-color: #e5e7eb;\n}\n.styles-module_button__-5cJQ {\n  padding: 0 0.5rem;\n  text-transform: uppercase;\n  transition: all 0.3s;\n  color: #9ca3af;\n}\n.styles-module_buttonActive__HwOxT {\n  font-weight: 700;\n  color: var(--primary-color);\n}\n";
 styleInject(css_248z$1);
