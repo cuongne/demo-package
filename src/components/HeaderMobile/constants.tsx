@@ -1,0 +1,148 @@
+import {
+  Account,
+  BsFillEmojiSmileFill,
+  Companies,
+  ConvertCv,
+  CreateCv,
+  HotJob,
+  House,
+  Interview,
+  Salary,
+  Tools,
+  Dashboard,
+  CvManagement,
+  AppliedJobs,
+  FollowingJobs,
+  Setting,
+  Logout,
+  Blog,
+  Top100Icon,
+  IoLocationSharp,
+  BiSolidLike,
+} from '../../constants/icon';
+
+export const MENU_LIST = [
+  {
+    id: 'home',
+    name: 'Home',
+    link: '/',
+    icon: <House />,
+  },
+  {
+    id: 'hot jobs',
+    name: 'Hot Jobs',
+    icon: <HotJob />,
+    subMenu: [
+      {
+        id: 'yop 100 Highest Salary',
+        name: 'Top 100 Highest Salary',
+        link: '/jobs/search?ordering=high_low_salary',
+        icon: <Top100Icon />,
+      },
+      {
+        id: 'By Location',
+        name: 'By Location',
+        link: '/',
+        icon: <IoLocationSharp />,
+      },
+      {
+        id: 'Recommend Jobs',
+        name: 'Recommend Jobs',
+        link: '/',
+        icon: <BiSolidLike />,
+      },
+    ],
+  },
+  {
+    id: 'companies',
+    name: 'Companies',
+    link: '/companies',
+    icon: <Companies />,
+  },
+  {
+    id: 'tools',
+    name: 'Tools',
+    icon: <Tools />,
+    subMenu: [
+      {
+        id: 'Create CV',
+        name: 'Create CV',
+        link: '/tao-cv-online?src=topdev.vn&medium=mainmenu',
+        icon: <CreateCv />,
+      },
+      {
+        id: 'Convert CV',
+        name: 'Convert CV',
+        link: '/tao-cv-online?src=topdev.vn&medium=mainmenu',
+        icon: <ConvertCv />,
+      },
+      {
+        id: 'Personality Test',
+        name: 'Personality Test',
+        link: '/page/trac-nghiem-tinh-cach?src=topdev.vn&medium=mainmenu',
+        icon: <BsFillEmojiSmileFill />,
+      },
+      {
+        id: 'Salary',
+        name: 'Salary',
+        link: '/tool/tinh-luong-gross-net?src=topdev.vn&medium=mainmenu',
+        icon: <Salary />,
+      },
+      {
+        id: 'Interview',
+        name: 'Interview',
+        link: '/interview?src=topdev.vn&medium=mainmenu',
+        icon: <Interview />,
+      },
+      {
+        id: 'Blog',
+        name: 'Blog',
+        link: `/blog?src=topdev.vn&medium=mainmenu`,
+        icon: <Blog />,
+      },
+    ],
+  },
+  {
+    id: 'account',
+    name: 'Account',
+    icon: <Account />,
+    subMenu: [
+      {
+        id: 'Dashboard',
+        name: 'Dashboard',
+        link: '/users/profile?src=topdev.vn&medium=submenu',
+        icon: <Dashboard />,
+      },
+      {
+        id: 'CvManagement',
+        name: 'CV Management ',
+        link: '/users/my-cv?src=topdev.vn&medium=submenu',
+        icon: <CvManagement />,
+      },
+      {
+        id: 'AppliedJobs',
+        name: 'Applied Jobs',
+        link: '/users/jobs-applied?src=topdev.vn&medium=submenu',
+        icon: <AppliedJobs />,
+      },
+      {
+        id: 'FollowingJobs',
+        name: 'Following Jobs',
+        link: '/users/jobs-followed?src=topdev.vn&medium=submenu',
+        icon: <FollowingJobs />,
+      },
+      {
+        id: 'Setting',
+        name: 'Account Setting',
+        link: '/users/personality-test?src=topdev.vn&medium=submenu',
+        icon: <Setting />,
+      },
+      {
+        id: 'Logout',
+        name: 'Logout',
+        link: '/logout',
+        icon: <Logout />,
+      },
+    ],
+  },
+];

@@ -1,0 +1,155 @@
+import {
+  BiSolidLike,
+  Blog,
+  BsFillEmojiSmileFill,
+  BsFire,
+  ConvertCv,
+  CreateCv,
+  Design,
+  Gear,
+  HiUsers,
+  Interview,
+  IoBarChart,
+  IoLocationSharp,
+  ItGuy,
+  Salary,
+  Service,
+  Top100Icon,
+  WiStars,
+} from './icon';
+
+export const LIST_MENU = [
+  {
+    id: 1,
+    name: 'Hot Jobs',
+    icon: <BsFire />,
+    color: '#DD3F24',
+    subMenu: [
+      {
+        id: 'A1',
+        name: 'Top 100 Highest Salary',
+        link: '/jobs/search?ordering=high_low_salary',
+        icon: <Top100Icon />,
+      },
+      {
+        id: 'A2',
+        name: 'By Location',
+        link: '/',
+        icon: <IoLocationSharp />,
+      },
+      {
+        id: 'A3',
+        name: 'Recommend Jobs',
+        link: '/',
+        icon: <BiSolidLike />,
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: 'Jobs',
+    subMenu: [
+      {
+        id: 'IT',
+        name: 'IT',
+        link: '/',
+        icon: <ItGuy />,
+      },
+      {
+        id: 'Business & Finance',
+        name: 'Business & Finance',
+        link: '/',
+        icon: <IoBarChart />,
+      },
+      {
+        id: 'Management',
+        name: 'Management',
+        link: '/',
+        icon: <HiUsers />,
+      },
+      {
+        id: 'Manufacturing & Engineer',
+        name: 'Manufacturing & Engineer',
+        link: '/',
+        icon: <Gear />,
+      },
+      {
+        id: 'Service',
+        name: 'Service',
+        link: '/',
+        icon: <Service />,
+      },
+      {
+        id: 'Design',
+        name: 'Design',
+        link: '/',
+        icon: <Design />,
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: 'Company',
+    link: '/',
+  },
+  {
+    id: 4,
+    name: 'Tools',
+    subMenu: [
+      {
+        id: 'Create CV',
+        name: 'Create CV',
+        link: '/tao-cv-online?src=topdev.vn&medium=mainmenu',
+        icon: <CreateCv />,
+      },
+      {
+        id: 'Convert CV',
+        name: 'Convert CV',
+        link: '/tao-cv-online?src=topdev.vn&medium=mainmenu',
+        icon: <ConvertCv />,
+      },
+      {
+        id: 'Personality Test',
+        name: 'Personality Test',
+        link: '/page/trac-nghiem-tinh-cach?src=topdev.vn&medium=mainmenu',
+        icon: <BsFillEmojiSmileFill />,
+      },
+      {
+        id: 'Salary',
+        name: 'Salary',
+        link: '/tool/tinh-luong-gross-net?src=topdev.vn&medium=mainmenu',
+        icon: <Salary />,
+      },
+      {
+        id: 'Interview',
+        name: 'Interview',
+        link: '/interview?src=topdev.vn&medium=mainmenu',
+        icon: <Interview />,
+      },
+      {
+        id: 'Blog',
+        name: 'Blog',
+        link: `/blog?src=topdev.vn&medium=mainmenu`,
+        icon: <Blog />,
+      },
+    ],
+  },
+  {
+    id: 5,
+    name: 'Blog',
+    link: '/blog?src=topdev.vn&medium=mainmenu',
+  },
+  {
+    id: 6,
+    name: 'Fresher Jobs',
+    link: '/top-viec-lam-it-fresher?src=topdev.vn&medium=mainmenu',
+    color: '#039FFE',
+    icon: <WiStars />,
+  },
+  {
+    id: 7,
+    name: 'NIPA',
+    color: '#0B4DA1',
+    link: '/nha-tuyen-dung/to-chuc/korean-it-companies-83771',
+  },
+];
