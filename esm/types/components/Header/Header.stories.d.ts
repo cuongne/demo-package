@@ -1,7 +1,8 @@
 import type { StoryObj } from '@storybook/react';
+import Header from '.';
 declare const meta: {
     title: string;
-    component: () => import("react/jsx-runtime").JSX.Element;
+    component: typeof Header;
     parameters: {
         layout: string;
     };
