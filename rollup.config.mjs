@@ -52,7 +52,10 @@ export default [
           main: './cjs/index.js',
           module: './esm/index.js',
           types: './index.d.ts',
-          peerDependencies: packageJson.peerDependencies
+          peerDependencies: {
+            "react": "^18.2.0",
+            "react-dom": "^18.2.0"
+          }
         }
       })
     ],
@@ -61,6 +64,6 @@ export default [
     input: 'dist/esm/types/index.d.ts',
     output: [{ file: 'dist/index.d.ts', format: 'esm' }],
     plugins: [dts()],
-    external: [/\.css$/],
+    external: [/\.css$/,'react', 'react-dom'],
   },
 ];
