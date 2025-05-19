@@ -1,9 +1,7 @@
-/// <reference types="react" />
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-    variant?: 'primary' | 'secondary';
-    initialValue?: number;
-    onValueChange?: (value: number) => void;
-}
-declare const Button: React.FC<ButtonProps>;
+import * as react_jsx_runtime from 'react/jsx-runtime';
 
-export { Button };
+declare const Header: () => react_jsx_runtime.JSX.Element;
+
+declare const HeaderMobile: () => react_jsx_runtime.JSX.Element;
+
+export { Header, HeaderMobile };
