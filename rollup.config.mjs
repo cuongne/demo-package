@@ -17,17 +17,9 @@ const distDir = 'dist';
 export default [
   {
     input: 'src/index.ts',
-    output: [
-      {
-        file: packageJson.main,
-        format: 'cjs',
-        sourcemap: true,
-      },
-      {
-        file: packageJson.module,
-        format: 'esm',
-        sourcemap: true,
-      },
+   output: [
+      { file: packageJson.main,   format: 'cjs', sourcemap: true, exports: 'named' },
+      { file: packageJson.module, format: 'esm', sourcemap: true, exports: 'named' },
     ],
     plugins: [
       alias({
@@ -35,11 +27,7 @@ export default [
           {
             find: 'axios/lib/adapters/http',
             replacement: 'axios/lib/adapters/xhr' // dùng adapter browser
-          },
-          {
-            find: 'react',
-            replacement: path.resolve(__dirname, 'node_modules/react'),
-          },
+          }
         ]
       }),
       resolve({
