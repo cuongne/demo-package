@@ -66,7 +66,7 @@ const HeaderButtonsLogin = ({ isSticky = false }) => {
     </>
   );
 };
-export const Header = () => {
+export default function Header() {
   const [isSticky, setIsSticky] = useState(false);
   const [isLogin, setIsLogin] = useState(false);
   const [locale, setLocale] = useState<Lang>('vi');

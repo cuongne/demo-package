@@ -196,7 +196,7 @@ const InputSearchSticky = ({ isSticky = false, lang = 'vie' }) => {
   );
 };
 
-export const HeaderMobile = () => {
+export default function Header(){
   const [isSticky, setIsSticky] = useState(false);
   const [activeSubmenu, setActiveSubmenu] = useState<SubMenuItem | null>(null);
   const [isLogin, setIsLogin] = useState(false);

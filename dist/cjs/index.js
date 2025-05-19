@@ -28,11 +28,9 @@ function styleInject(css, ref) {
 }
 
 var css_248z$5 = ".header-module_header__xOW2p {\n  position: sticky;\n  top: 0;\n  background-color: white;\n  z-index: 50;\n  height: 116px;\n}\n.header-module_header__xOW2p * {\n  font-family: 'Inter', sans-serif;\n}\n.header-module_headerShadow__q6x9W {\n  box-shadow: 0px 4px 4px 0px #75757526;\n}\n.header-module_container__eaqPg {\n  max-width: 1260px;\n  margin: 0 auto;\n  padding: 2rem 0;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  font-family: 'Inter', sans-serif;\n}\n.header-module_groupSearch__p7PDX {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 64px;\n}\n.header-module_groupSearchSticky__1rzbQ {\n  gap: 24px;\n}\n.header-module_containerSearch__1LzDI {\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n.header-module_logo__PLqHm {\n  width: 160px;\n  height: 30px;\n}\n.header-module_title__2RYyd {\n  font-size: 2rem;\n  color: #646cff;\n}\n.header-module_input__lDF-3 {\n  height: 2.5rem;\n  width: 100%;\n  border-radius: 9999px;\n  border: 1px solid #dd3f24;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  outline: none;\n  font-family: 'Inter', sans-serif;\n  font-weight: 400;\n}\n.header-module_input__lDF-3:focus {\n  border-color: #dd3f24;\n  outline: none;\n  box-shadow: none;\n}\n.header-module_button__xfBS1 {\n  position: absolute;\n  right: 0;\n  margin-left: 0.5rem;\n  border-radius: 0.5rem;\n  padding: 0.5rem 1rem;\n  color: #dd3f24;\n  border: none;\n  background-color: transparent;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_item__wVEfv {\n  cursor: pointer;\n  overscroll-behavior: contain;\n  border-bottom: 1px solid #e5e7eb;\n  padding: 0.625rem 1rem;\n  transition: all 0.2s ease;\n}\n.header-module_item__wVEfv:last-child {\n  border-bottom: 0;\n}\n.header-module_item__wVEfv:hover {\n  background-color: #e5e7eb;\n  color: #dd3f24;\n}\n.header-module_hiddenButtons__YuMTG {\n  margin-left: 1rem;\n  display: inline-flex;\n  gap: 0.25rem;\n  border-radius: 9999px;\n  border: 1px solid #dd3f24;\n  background-color: #fef4f2;\n  padding: 0.4rem 1.5rem;\n  font-weight: 500;\n  color: #dd3f24;\n  text-decoration: none;\n  font-family: 'Inter', sans-serif;\n  font-size: 14px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_iconWrapper__N8BMw {\n  display: inline-flex;\n  height: 1rem;\n  width: 1rem;\n  align-items: center;\n  justify-content: center;\n  font-size: 1rem;\n}\n.header-module_hiddenEmployer__BxDoY {\n  margin-left: 0.5rem;\n  display: inline-flex;\n  gap: 0.25rem;\n  border-radius: 9999px;\n  border: 1px solid #dd3f24;\n  background-color: #fef4f2;\n  padding: 0.5rem 1.5rem;\n  font-weight: 500;\n  color: #dd3f24;\n  text-decoration: none;\n  font-family: 'Inter', sans-serif;\n  font-size: 14px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_loginButton__XXdaS {\n  display: inline-flex;\n  align-items: center;\n  gap: 0.25rem;\n  border-radius: 9999px;\n  background-color: #dd3f24;\n  padding: 0.5rem 1.5rem;\n  font-weight: 500;\n  color: white;\n  text-decoration: none;\n  font-size: 14px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_loginIcon__eMTnB {\n  height: 0.75rem;\n  width: 0.75rem;\n}\n.header-module_localeButton__Xl-jM {\n  width: 2rem;\n  height: 2rem;\n  text-transform: uppercase;\n  font-size: 0.875rem;\n  transition: all 0.2s;\n  background-color: #dd3f24;\n  border-radius: 9999px;\n  color: white;\n  padding: 2px;\n  border: none;\n  font-size: 14px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_containerSwitch__u4wkH {\n  display: flex;\n  align-items: center;\n  margin-left: 8px;\n}\n.header-module_divider__mTsWk {\n  margin-left: 1rem;\n  margin-right: 1rem;\n  height: 1.25rem;\n  width: 1px;\n  background-color: #dd3f24;\n}\n.header-module_dividerX__o4Yv- {\n  height: 1px;\n  width: 100%;\n  background-color: #dd3f24;\n  max-width: 1260px;\n  margin: 0 auto;\n  opacity: 1;\n  transition: opacity 0.3s ease-in-out;\n}\n.header-module_dividerHidden__kvocr {\n  height: 1px;\n  width: 100%;\n  margin: 0 auto;\n  opacity: 0;\n}\n.header-module_containerMenuScroll__1Q2Xk {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 3rem; /* gap-12 = 48px */\n  padding-left: 1rem; /* px-4 = 16px */\n  padding-right: 1rem;\n  padding-top: 0.5rem; /* py-2 = 8px */\n  padding-bottom: 0.5rem;\n  max-width: 1260px;\n  margin: 0 auto;\n  opacity: 1;\n  visibility: visible;\n  transition:\n    opacity 0.3s ease,\n    visibility 0.3s ease;\n}\n.header-module_containerMenuScrollHidden__y8zu6 {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 3rem; /* gap-12 = 48px */\n  padding-left: 1rem; /* px-4 = 16px */\n  padding-right: 1rem;\n  padding-top: 0.5rem; /* py-2 = 8px */\n  padding-bottom: 0.5rem;\n  max-width: 1260px;\n  margin: 0 auto;\n  opacity: 1;\n  opacity: 0;\n  visibility: hidden;\n}\n.header-module_stickyMenu__OMYs- {\n  display: flex;\n  align-items: center;\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_searchContainer__KqfEs {\n  margin: 0;\n}\n.header-module_searchContainerSticky__NFc77 {\n  margin-right: 0.5rem;\n  width: 315px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_searchContainerNonSticky__JFjHT {\n  margin: 0.25rem 0;\n  margin-left: 4rem;\n  width: 475px;\n  animation: header-module_fadeIn__SHPf- 0.3s ease-in-out;\n}\n.header-module_suggestContainer__NOjCW {\n  position: absolute;\n  left: 0;\n  top: 3rem; /* 12 * 0.25rem */\n  z-index: 20;\n  width: 88%;\n  transform: translateX(2%);\n  border: 1px solid #e3e3e3;\n  background-color: white;\n  padding: 0 1rem;\n  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);\n}\n.header-module_suggestList__WbSW7 {\n  display: flex;\n  flex-direction: column;\n  gap: 0.25rem;\n  max-height: 20rem;\n  overflow-y: auto;\n}\n.header-module_suggestList__WbSW7::-webkit-scrollbar {\n  width: 4px;\n}\n.header-module_suggestList__WbSW7::-webkit-scrollbar-track {\n  background: white;\n}\n.header-module_suggestList__WbSW7::-webkit-scrollbar-thumb {\n  background: #e7e7e7;\n}\n.header-module_suggestList__WbSW7::-webkit-scrollbar-thumb:hover {\n  background: #d1d1d1;\n}\n.header-module_suggestItem__D7fjm {\n  display: flex;\n  width: 100%;\n  align-items: center;\n  padding: 0.25rem 0.75rem;\n  text-align: left;\n  font-size: 0.875rem;\n  transition: all 0.3s;\n  background-color: transparent;\n}\n.header-module_suggestItem__D7fjm:hover {\n  background-color: #fef4f2;\n  color: var(--primary-color);\n}\n.header-module_buttonNotification__1dizw {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 32px;\n  width: 32px;\n  border-radius: 9999px;\n  background-color: #dd3f24;\n}\n.header-module_loginContainer__XPugo {\n  display: flex;\n  align-items: center;\n}\n.header-module_notificationContainer__grSCM {\n  position: relative;\n}\n.header-module_notificationDropdown__unOrI {\n  position: absolute;\n  right: 0;\n  top: calc(100% + 0.5rem);\n  width: 320px;\n  background: white;\n  border-radius: 0.5rem;\n  box-shadow: 0px 0px 4px 0px #75757540;\n  z-index: 50;\n  visibility: hidden;\n  opacity: 0;\n  transform: translateY(0.5rem);\n  transition: all 0.3s ease;\n}\n.header-module_notificationDropdownVisible__OxHSb {\n  visibility: visible;\n  opacity: 1;\n  transform: translateY(0);\n}\n.header-module_notificationHeader__hBGty {\n  padding: 1rem;\n  border-bottom: 1px solid #e5e7eb;\n}\n.header-module_notificationTitle__B-GW5 {\n  font-weight: 600;\n  color: #111827;\n}\n.header-module_notificationContent__J-TOI {\n  max-height: 400px;\n  overflow-y: auto;\n}\n.header-module_emptyState__VaLXi {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  padding: 2rem 1rem;\n  text-align: center;\n}\n.header-module_emptyIcon__GI9Qv {\n  width: 48px;\n  height: 48px;\n  color: #9ca3af;\n  margin-bottom: 1rem;\n}\n.header-module_emptyText__RCLNO {\n  color: #6b7280;\n  font-size: 0.875rem;\n}\n@keyframes header-module_fadeIn__SHPf- {\n  from {\n    opacity: 0;\n  }\n  to {\n    opacity: 1;\n  }\n}\n@media (max-width: 1024px) {\n}\n@media (min-width: 1024px) {\n  .header-module_containerMenuScroll__1Q2Xk {\n    padding-top: 1rem; /* lg:py-4 = 16px */\n    padding-bottom: 1rem;\n  }\n  .header-module_searchContainerNonSticky__JFjHT {\n    margin-left: 0;\n    width: 475px;\n  }\n}\n";
-var styles$5 = {"header":"header-module_header__xOW2p","headerShadow":"header-module_headerShadow__q6x9W header-module_header__xOW2p","container":"header-module_container__eaqPg","groupSearch":"header-module_groupSearch__p7PDX","groupSearchSticky":"header-module_groupSearchSticky__1rzbQ header-module_groupSearch__p7PDX","containerSearch":"header-module_containerSearch__1LzDI","logo":"header-module_logo__PLqHm","title":"header-module_title__2RYyd","input":"header-module_input__lDF-3","button":"header-module_button__xfBS1","fadeIn":"header-module_fadeIn__SHPf-","item":"header-module_item__wVEfv","hiddenButtons":"header-module_hiddenButtons__YuMTG","iconWrapper":"header-module_iconWrapper__N8BMw","hiddenEmployer":"header-module_hiddenEmployer__BxDoY","loginButton":"header-module_loginButton__XXdaS","loginIcon":"header-module_loginIcon__eMTnB","localeButton":"header-module_localeButton__Xl-jM","containerSwitch":"header-module_containerSwitch__u4wkH","divider":"header-module_divider__mTsWk","dividerX":"header-module_dividerX__o4Yv-","dividerHidden":"header-module_dividerHidden__kvocr","containerMenuScroll":"header-module_containerMenuScroll__1Q2Xk","containerMenuScrollHidden":"header-module_containerMenuScrollHidden__y8zu6","stickyMenu":"header-module_stickyMenu__OMYs-","searchContainer":"header-module_searchContainer__KqfEs","searchContainerSticky":"header-module_searchContainerSticky__NFc77","searchContainerNonSticky":"header-module_searchContainerNonSticky__JFjHT","suggestContainer":"header-module_suggestContainer__NOjCW","suggestList":"header-module_suggestList__WbSW7","suggestItem":"header-module_suggestItem__D7fjm","buttonNotification":"header-module_buttonNotification__1dizw","loginContainer":"header-module_loginContainer__XPugo","notificationContainer":"header-module_notificationContainer__grSCM","notificationDropdown":"header-module_notificationDropdown__unOrI","notificationDropdownVisible":"header-module_notificationDropdownVisible__OxHSb header-module_notificationDropdown__unOrI","notificationHeader":"header-module_notificationHeader__hBGty","notificationTitle":"header-module_notificationTitle__B-GW5","notificationContent":"header-module_notificationContent__J-TOI","emptyState":"header-module_emptyState__VaLXi","emptyIcon":"header-module_emptyIcon__GI9Qv","emptyText":"header-module_emptyText__RCLNO"};
 styleInject(css_248z$5);
 
 var css_248z$4 = ".HeaderMobile-module_headerMobile__OBi74 {\n  padding: 0px;\n  margin: 0px;\n  box-sizing: border-box;\n  font-family: 'Inter', sans-serif;\n  position: sticky;\n  z-index: 50;\n  top: 0;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  background: white;\n  padding: 22px 28px;\n  box-shadow: 0px 2px 2px 0px #75757540;\n  transition: all 0.3s ease-in-out;\n}\n.HeaderMobile-module_headerMobileSticky__EkDcm {\n  padding: 22px 24px;\n}\n.HeaderMobile-module_containerImage__-p-2H {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  height: 20px;\n  width: 100%;\n}\n.HeaderMobile-module_logoLarge__h72jb {\n  width: 114px;\n  height: 20px;\n  transition: all 0.3s ease;\n}\n.HeaderMobile-module_logoSmall__DXQSi {\n  width: 24px;\n  height: 24px;\n  opacity: 0;\n  position: absolute;\n  left: 1rem;\n  transition: all 0.3s ease;\n}\n.HeaderMobile-module_logoLargeHidden__pwcG0 {\n  width: 0;\n  opacity: 0;\n  transform: translateY(10px);\n}\n.HeaderMobile-module_logoSmallVisible__hQ-js {\n  opacity: 1;\n  transform: translateY(0);\n}\n.HeaderMobile-module_notificationGroup__M4nlT {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n}\n.HeaderMobile-module_wrapperButton__SLd4U {\n  background-color: transparent;\n  color: var(--primary-color);\n}\n.HeaderMobile-module_menuList__lEJwB {\n  font-family: 'Inter', sans-serif;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 0.75rem 1rem;\n  position: fixed;\n  z-index: 49;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  background: white;\n  border-top: 0.5px solid #fed2ca;\n}\n.HeaderMobile-module_menuList__lEJwB button {\n  padding: 0;\n}\n.HeaderMobile-module_menuItem__QxVqp {\n  width: 15%;\n  display: flex;\n  background: transparent;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 0.25rem;\n  color: #4f4f4f;\n  text-decoration: none;\n  font-size: 0.75rem;\n}\n.HeaderMobile-module_menuItemActive__3Ob9B {\n  color: #dd3f24;\n}\n.HeaderMobile-module_subMenuItem__hQ0gd {\n  display: flex;\n  background: transparent;\n  align-items: center;\n  gap: 0.5rem;\n  color: #6d6d6d;\n  text-decoration: none;\n  font-size: 0.75rem;\n  height: 44px;\n  padding: 0 12px;\n}\n.HeaderMobile-module_subMenuItemActive__bedrf {\n  color: #dd3f24;\n  border-left: 4px solid #fdb1a4;\n  padding: 0 8px;\n}\n.HeaderMobile-module_menuIcon__HB-q5 {\n  width: 14px;\n  height: 14px;\n}\n.HeaderMobile-module_drawer__IhTt- {\n  position: fixed;\n  font-family: 'Inter', sans-serif;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  background: white;\n  z-index: 48;\n  border-radius: 16px 16px 0 0;\n  padding: 1rem;\n  transform: translateY(100%);\n  transition: transform 0.3s ease-in-out;\n  visibility: hidden;\n}\n.HeaderMobile-module_drawerOpen__oQkJ0 {\n  transform: translateY(0);\n  bottom: 6%;\n  visibility: visible;\n}\n.HeaderMobile-module_backdrop__gQQ8j {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.5);\n  opacity: 0;\n  pointer-events: none;\n  transition: opacity 0.3s ease-in-out;\n}\n.HeaderMobile-module_backdropOpen__qQedk {\n  opacity: 1;\n  pointer-events: auto;\n}\n.HeaderMobile-module_wrapperStick__inMle {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.HeaderMobile-module_dragHandle__WClp8 {\n  width: 32px;\n  height: 4px;\n  border-radius: 100px;\n  background-color: #b0b0b0;\n}\n.HeaderMobile-module_accountContainer__xJhA2 {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 12px 16px;\n  border-bottom: 0.5px solid #6d6d6d;\n  margin-bottom: 8px;\n}\n.HeaderMobile-module_information__0kGzq {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n}\n.HeaderMobile-module_avatar__aa2f0 {\n  width: 56px;\n  height: 52px;\n  border: 2px solid #dd3f24;\n  border-radius: 100%;\n}\n.HeaderMobile-module_avatar__aa2f0 img {\n  width: 100%;\n  height: 100%;\n}\n.HeaderMobile-module_hello__ELeSt {\n  font-size: 14px;\n  color: #5d5d5d;\n}\n.HeaderMobile-module_name__4u40M {\n  font-size: 20px;\n  color: #dd3f24;\n  font-weight: 500;\n}\n.HeaderMobile-module_email__vJrz5 {\n  font-size: 14px;\n  color: #888888;\n}\n.HeaderMobile-module_input__hhSHM {\n  height: 56px;\n  width: 100%;\n  border-radius: 9999px;\n  border: 1px solid #dd3f24;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  outline: none;\n  font-family: 'Inter', sans-serif;\n  font-weight: 400;\n}\n.HeaderMobile-module_input__hhSHM:focus {\n  border-color: #dd3f24;\n  outline: none;\n  box-shadow: none;\n}\n.HeaderMobile-module_input__hhSHM:focus {\n  border-color: #dd3f24;\n  outline: none;\n  box-shadow: none;\n}\n.HeaderMobile-module_inputSticky__sBPgN {\n  width: 100%;\n  height: 28px;\n}\n.HeaderMobile-module_containerSearch__h2YoZ {\n  height: 100%;\n  padding: 20px;\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n.HeaderMobile-module_hiddenSearch__wG1-i {\n  height: 100%;\n  width: 100%;\n  padding: 0 20px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  opacity: 0;\n  transition: opacity 0.3s ease-in-out;\n}\n.HeaderMobile-module_containerSearchSticky__-i93P {\n  opacity: 1;\n}\n.HeaderMobile-module_button__-bWJj {\n  position: absolute;\n  right: 5%;\n  margin-left: 0.5rem;\n  border-radius: 0.5rem;\n  padding: 0.5rem 1rem;\n  color: #dd3f24;\n  border: none;\n  background-color: transparent;\n  animation: HeaderMobile-module_fadeIn__QBp6v 0.3s ease-in-out;\n}\n.HeaderMobile-module_buttonSticky__ruTcp {\n}\n.HeaderMobile-module_buttonSticky__ruTcp svg {\n  height: 12px;\n  width: 12px;\n}\n.HeaderMobile-module_suggestContainer__DLX0E {\n  position: absolute;\n  left: 0;\n  top: 3rem; /* 12 * 0.25rem */\n  z-index: 20;\n  width: 88%;\n  transform: translateX(2%);\n  border: 1px solid #e3e3e3;\n  background-color: white;\n  padding: 0 1rem;\n  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);\n}\n.HeaderMobile-module_suggestList__9Ug2G {\n  display: flex;\n  flex-direction: column;\n  gap: 0.25rem;\n  max-height: 20rem;\n  overflow-y: auto;\n}\n.HeaderMobile-module_suggestList__9Ug2G::-webkit-scrollbar {\n  width: 4px;\n}\n.HeaderMobile-module_suggestList__9Ug2G::-webkit-scrollbar-track {\n  background: white;\n}\n.HeaderMobile-module_suggestList__9Ug2G::-webkit-scrollbar-thumb {\n  background: #e7e7e7;\n}\n.HeaderMobile-module_suggestList__9Ug2G::-webkit-scrollbar-thumb:hover {\n  background: #d1d1d1;\n}\n.HeaderMobile-module_suggestItem__-FCOb {\n  display: flex;\n  width: 100%;\n  align-items: center;\n  padding: 0.25rem 0.75rem;\n  text-align: left;\n  font-size: 0.875rem;\n  transition: all 0.3s;\n}\n.HeaderMobile-module_suggestItem__-FCOb:hover {\n  background-color: #fef4f2;\n  color: var(--primary-color);\n}\n";
-var styles$4 = {"headerMobile":"HeaderMobile-module_headerMobile__OBi74","headerMobileSticky":"HeaderMobile-module_headerMobileSticky__EkDcm HeaderMobile-module_headerMobile__OBi74","containerImage":"HeaderMobile-module_containerImage__-p-2H","logoLarge":"HeaderMobile-module_logoLarge__h72jb","logoSmall":"HeaderMobile-module_logoSmall__DXQSi","logoLargeHidden":"HeaderMobile-module_logoLargeHidden__pwcG0 HeaderMobile-module_logoLarge__h72jb","logoSmallVisible":"HeaderMobile-module_logoSmallVisible__hQ-js HeaderMobile-module_logoSmall__DXQSi","notificationGroup":"HeaderMobile-module_notificationGroup__M4nlT","wrapperButton":"HeaderMobile-module_wrapperButton__SLd4U","menuList":"HeaderMobile-module_menuList__lEJwB","menuItem":"HeaderMobile-module_menuItem__QxVqp","menuItemActive":"HeaderMobile-module_menuItemActive__3Ob9B HeaderMobile-module_menuItem__QxVqp","subMenuItem":"HeaderMobile-module_subMenuItem__hQ0gd","subMenuItemActive":"HeaderMobile-module_subMenuItemActive__bedrf HeaderMobile-module_subMenuItem__hQ0gd","menuIcon":"HeaderMobile-module_menuIcon__HB-q5","drawer":"HeaderMobile-module_drawer__IhTt-","drawerOpen":"HeaderMobile-module_drawerOpen__oQkJ0 HeaderMobile-module_drawer__IhTt-","backdrop":"HeaderMobile-module_backdrop__gQQ8j","backdropOpen":"HeaderMobile-module_backdropOpen__qQedk HeaderMobile-module_backdrop__gQQ8j","wrapperStick":"HeaderMobile-module_wrapperStick__inMle","dragHandle":"HeaderMobile-module_dragHandle__WClp8","accountContainer":"HeaderMobile-module_accountContainer__xJhA2","information":"HeaderMobile-module_information__0kGzq","avatar":"HeaderMobile-module_avatar__aa2f0","hello":"HeaderMobile-module_hello__ELeSt","name":"HeaderMobile-module_name__4u40M","email":"HeaderMobile-module_email__vJrz5","input":"HeaderMobile-module_input__hhSHM","inputSticky":"HeaderMobile-module_inputSticky__sBPgN HeaderMobile-module_input__hhSHM","containerSearch":"HeaderMobile-module_containerSearch__h2YoZ","hiddenSearch":"HeaderMobile-module_hiddenSearch__wG1-i","containerSearchSticky":"HeaderMobile-module_containerSearchSticky__-i93P HeaderMobile-module_hiddenSearch__wG1-i","button":"HeaderMobile-module_button__-bWJj","fadeIn":"HeaderMobile-module_fadeIn__QBp6v","buttonSticky":"HeaderMobile-module_buttonSticky__ruTcp HeaderMobile-module_button__-bWJj","suggestContainer":"HeaderMobile-module_suggestContainer__DLX0E","suggestList":"HeaderMobile-module_suggestList__9Ug2G","suggestItem":"HeaderMobile-module_suggestItem__-FCOb"};
 styleInject(css_248z$4);
 
 var jsxRuntime = {exports: {}};
@@ -4185,10 +4183,6 @@ if (process.env.NODE_ENV === 'production') {
 
 var jsxRuntimeExports = jsxRuntime.exports;
 
-const SearchIcon = () => (jsxRuntimeExports.jsx("svg", { width: "20", height: "20", viewBox: "0 0 20 20", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M15.7832 14.3911L20 18.6069L18.6069 20L14.3911 15.7832C12.8224 17.0407 10.8713 17.7246 8.86088 17.7218C3.96968 17.7218 0 13.7521 0 8.86088C0 3.96968 3.96968 0 8.86088 0C13.7521 0 17.7218 3.96968 17.7218 8.86088C17.7246 10.8713 17.0407 12.8224 15.7832 14.3911ZM13.8082 13.6605C15.0574 12.3754 15.7552 10.6531 15.7527 8.86088C15.7527 5.05366 12.6681 1.96909 8.86088 1.96909C5.05366 1.96909 1.96909 5.05366 1.96909 8.86088C1.96909 12.6681 5.05366 15.7527 8.86088 15.7527C10.6531 15.7552 12.3754 15.0574 13.6605 13.8082L13.8082 13.6605Z", fill: "currentColor" }) }));
-const FaPhoneAlt = () => (jsxRuntimeExports.jsx("svg", { stroke: "currentColor", fill: "currentColor", strokeWidth: "0", viewBox: "0 0 512 512", height: "16px", width: "16px", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z" }) }));
-const FaUser = () => (jsxRuntimeExports.jsx("svg", { stroke: "currentColor", fill: "currentColor", strokeWidth: "0", viewBox: "0 0 448 512", height: "1em", width: "1em", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z" }) }));
-const Employer = () => (jsxRuntimeExports.jsxs("svg", { width: "13", height: "14", viewBox: "0 0 13 14", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M4.85305 0.519775C7.56091 0.824541 7.68098 3.62032 6.2354 5.47052C4.30477 7.9409 2.07845 4.37014 2.48495 2.42287C2.70592 1.36409 3.69103 0.541061 4.75757 0.519775H4.85305Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M10.8092 8.8139C11.4571 8.8139 12.4627 8.642 12.4627 9.47632L12.4579 12.8436C12.4579 13.3096 11.9984 13.4802 11.5593 13.4802C9.99112 13.4802 8.29934 13.4802 6.68325 13.4802C6.24386 13.4721 5.8083 13.2167 5.8083 12.7552C5.8083 11.7174 5.80734 10.5609 5.80734 9.53695C5.80734 8.67135 6.85313 8.80713 7.46495 8.81454V8.21953C7.46495 7.7835 7.88805 7.55872 8.18023 7.55872C8.5762 7.55872 9.80655 7.56775 10.1805 7.56775C10.4091 7.56775 10.8092 7.8351 10.8092 8.18727V8.81454V8.8139ZM10.2996 8.8139C10.2996 8.66426 10.305 8.35272 10.305 8.20727C10.305 8.04763 9.93013 8.05956 9.75035 8.05956C9.51373 8.05956 8.82495 8.05956 8.53277 8.05956C8.45421 8.05956 8.00652 8.04763 8.00652 8.20727V8.8139H10.2999H10.2996Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M0.154298 12.2238C0.0300815 12.2238 -0.0261194 12.0851 0.0115607 11.8542C0.312683 9.90627 0.434983 7.27658 2.74369 6.37873C2.93401 6.30455 3.35775 6.27649 3.49474 6.37324L4.8046 8.16991L6.06242 6.4171C6.19845 6.28294 6.46956 6.32035 6.64774 6.34099C7.03412 6.38614 7.81135 6.66704 8.06968 6.96342C8.09395 6.99148 8.1112 6.9989 8.10066 7.04437C7.47542 7.0834 7.00315 7.64487 6.92459 8.25312C6.3332 8.24925 5.76002 8.40598 5.45187 8.95327C5.39599 9.05228 5.26603 9.37446 5.26603 9.47347V12.2238H2.97265V10.4706C2.97265 10.3639 2.88228 10.2339 2.70186 10.2339C2.52144 10.2339 2.43107 10.3574 2.43107 10.4384V12.2238H0.154298Z", fill: "currentColor" })] }));
 const Top100Icon = () => (jsxRuntimeExports.jsxs("svg", { width: "9", height: "10", viewBox: "0 0 9 10", fill: "currentColor", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M4.60853 0.000223614L4.79961 0.148927L5.24099 1.06575C5.6455 1.20797 6.61566 1.01499 6.46341 1.72295C6.27753 2.03646 5.93787 2.24442 5.71534 2.53668C5.73226 2.83543 5.83918 3.15475 5.86044 3.4488C5.88625 3.80458 5.66914 4.01254 5.32949 3.88485C5.06032 3.78356 4.77749 3.55614 4.50746 3.43964C4.22767 3.53758 3.88237 3.83901 3.6093 3.91012C3.33623 3.98123 3.12932 3.79429 3.13604 3.51186C3.14341 3.20193 3.27333 2.85175 3.28526 2.53646C3.1098 2.33789 2.9198 2.15408 2.73761 1.96199C2.70789 1.93069 2.66668 1.91481 2.63979 1.8844C2.44307 1.66257 2.47668 1.39155 2.7285 1.24017L3.75961 1.06552C3.89907 0.861139 4.09753 0.210645 4.26345 0.0793831C4.30314 0.0480771 4.35954 0.0431576 4.39207 0H4.60831L4.60853 0.000223614Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M9.00005 6.98399V9.39254C8.92587 9.68436 8.70464 9.93369 8.40273 9.96992C8.13204 10.0026 7.44493 10.0026 7.17424 9.96992C6.8656 9.9328 6.60772 9.65373 6.57713 9.33642C6.57713 8.51441 6.57605 7.83775 6.57605 7.08328C6.57605 6.71096 6.8502 6.43547 7.21437 6.40327C7.46661 6.3809 8.3305 6.37241 8.54089 6.4424C8.78858 6.52514 8.9313 6.73533 9.00005 6.98377V6.98399Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M7.59383 0.000223614C7.83437 0.0916819 7.93652 0.399823 7.75715 0.603312C7.71746 0.648258 7.41771 0.833411 7.3559 0.858679C7.06114 0.979207 6.80586 0.762078 6.86355 0.440073C6.90433 0.212434 7.2429 0.127907 7.39928 0H7.59405L7.59383 0.000223614Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M1.60157 0.000244141C1.85903 0.169073 2.31385 0.310621 2.09826 0.724755C1.9306 1.04654 1.56665 0.831642 1.35713 0.687188C1.06042 0.482804 1.08905 0.156551 1.40702 0.000244141H1.60179H1.60157Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M3.69463 4.62557C4.01064 4.58152 4.98991 4.58152 5.30593 4.62557C5.61934 4.6694 5.86378 4.95406 5.88568 5.27696L5.8846 9.33645C5.84361 9.68171 5.58399 9.94312 5.24737 9.97308C4.88082 10.0057 4.07115 10.0129 3.71284 9.96995C3.39575 9.93171 3.13591 9.64146 3.11487 9.31521L3.1179 5.23559C3.15803 4.9308 3.39423 4.66761 3.69441 4.62557H3.69463Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M0.57954 6.05312C0.83786 6.01712 1.58636 6.01712 1.84468 6.05312C2.15831 6.09695 2.40253 6.38161 2.42444 6.70451C2.42444 7.6314 2.4214 8.55269 2.4214 9.3568C2.4214 9.69156 2.10517 9.94491 1.78634 9.97331C1.50307 9.99858 0.853476 10.0051 0.579757 9.96682C0.265695 9.923 0 9.63632 0 9.31544C0 8.53346 0.00303651 7.51936 0.00303651 6.66314C0.0431618 6.35836 0.279359 6.09516 0.57954 6.05312Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M2.04816 3.48701C2.18437 3.62028 2.17678 3.88549 2.03905 4.01474C1.98613 4.06438 1.63216 4.27033 1.56752 4.28061C1.21247 4.33764 1.01249 3.90002 1.26604 3.65762C1.31983 3.60619 1.65884 3.40718 1.72521 3.39532C1.84211 3.37453 1.96097 3.40181 2.04794 3.48678L2.04816 3.48701Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M6.9523 4.00671C6.70894 3.76073 6.92041 3.34749 7.2566 3.39199C7.33468 3.40228 7.65568 3.59011 7.72184 3.64825C8.00835 3.8996 7.77085 4.3835 7.38348 4.26476C7.32405 4.24642 6.99611 4.05098 6.9523 4.00671Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M0.968443 1.7898C1.06778 1.77258 1.31547 1.77258 1.41763 1.78443C1.7549 1.82334 1.84903 2.27974 1.56577 2.45013C1.43932 2.52616 0.970395 2.52505 0.845247 2.44119C0.589963 2.27012 0.671949 1.84101 0.968443 1.7898Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M7.5451 1.7898C7.64444 1.77258 7.89213 1.77258 7.99429 1.78443C8.33156 1.82334 8.42569 2.27974 8.14243 2.45013C8.01598 2.52616 7.54705 2.52505 7.42191 2.44119C7.16662 2.27012 7.24861 1.84101 7.5451 1.7898Z", fill: "currentColor" })] }));
 const ItGuy = () => (jsxRuntimeExports.jsxs("svg", { width: "10", height: "10", viewBox: "0 0 10 10", fill: "currentColor", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M9.9332 9.13168V9.85525C9.87892 9.92941 9.83584 9.97042 9.74718 10H0.19687C0.123747 9.97063 0.0350885 9.92837 0.0152024 9.84075C-0.00613378 9.7467 -0.00240514 9.29098 0.010438 9.18306C0.0236954 9.07202 0.115876 8.99414 0.227942 8.98709L9.69643 8.98627C9.81056 8.98212 9.87105 9.04924 9.9334 9.13168H9.9332Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M7.56613 8.40819L7.54376 8.36614C7.5593 8.32388 7.55432 8.27914 7.55867 8.23543C7.63594 7.45034 7.79751 6.66795 7.84019 5.881C7.81305 5.76437 7.73516 5.66743 7.626 5.61978C5.89632 5.56634 4.15276 5.61336 2.41791 5.59596C2.23313 5.61233 2.09538 5.77245 2.09703 5.95847C2.16664 6.71974 2.31019 7.47562 2.38497 8.23543C2.39015 8.28805 2.4148 8.37671 2.37751 8.4084H1.83997C1.76353 8.4084 1.65395 8.25262 1.6641 8.1708C1.6641 7.21005 1.66327 6.32201 1.66327 5.39979C1.66327 3.95474 4.07218 3.81471 5.14645 3.84081C6.18695 3.86608 8.27996 4.03677 8.27996 5.39979C8.27996 6.3013 8.27913 7.28525 8.27913 8.1708C8.28928 8.25262 8.1797 8.4084 8.10326 8.4084H7.56572L7.56613 8.40819Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M2.46037 5.90674H7.48347L7.51103 5.94092L7.1943 8.4911L7.13298 8.51244L2.75866 8.50229L2.72116 8.37427C2.67476 7.61218 2.47425 6.81674 2.42929 6.06148C2.42619 6.00803 2.41479 5.94092 2.45995 5.90674H2.46037ZM4.90491 6.90457C4.3307 6.9779 4.38911 7.86034 4.98114 7.85061C5.6293 7.83983 5.57171 6.81943 4.90491 6.90457Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M4.90552 0.000805143C7.14023 -0.0584389 6.7336 3.17057 5.20029 3.47901C3.39314 3.84235 2.59003 0.0623278 4.90552 0.000805143Z", fill: "currentColor" })] }));
 const Gear = () => (jsxRuntimeExports.jsxs("svg", { width: "10", height: "10", viewBox: "0 0 10 10", fill: "currentColor", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M5.71304 0.000976529C5.80659 0.0439438 5.88178 0.0923797 5.91791 0.195501L6.0265 1.07106C6.16634 1.10074 6.30501 1.1443 6.43879 1.19469C6.65558 1.27613 6.85636 1.38765 7.06651 1.48276L7.78367 0.951335C7.92449 0.905242 8.01394 0.947233 8.11999 1.03336C8.32428 1.19937 8.81606 1.68686 8.97718 1.89115C9.04769 1.9804 9.08187 2.05403 9.06331 2.17258C9.0348 2.35695 8.60493 2.73819 8.51841 2.93447C8.61333 3.14481 8.72485 3.34559 8.80649 3.56218C8.85668 3.69577 8.90043 3.83444 8.93012 3.97447L9.80567 4.08306C9.90879 4.11939 9.95723 4.19439 10.0002 4.28794V5.69102C9.95723 5.78457 9.90879 5.85976 9.80567 5.89589L8.93012 6.00448C8.90043 6.14432 8.85688 6.28299 8.80649 6.41677C8.72504 6.63356 8.61352 6.83434 8.51841 7.04449C8.60493 7.24077 9.0348 7.622 9.06331 7.80637C9.08304 7.93391 9.04359 8.00441 8.96761 8.09796C8.83051 8.2669 8.24088 8.87001 8.07721 8.98094C7.9155 9.0907 7.81004 9.05301 7.66317 8.95321C7.4661 8.81942 7.2913 8.64365 7.09541 8.50694L7.03272 8.49971C6.71945 8.68212 6.38079 8.82606 6.02631 8.9079L5.92182 9.76822C5.87768 9.90279 5.78452 9.96646 5.64527 9.97876C5.32457 10.0071 4.69764 10.0071 4.37695 9.97876C4.23828 9.96646 4.14473 9.90337 4.1004 9.76822L3.99591 8.9079C3.76525 8.85399 3.53655 8.77529 3.32191 8.67568C3.26976 8.65146 3.01567 8.54092 3.02465 8.48975L4.17364 7.33666C4.3168 7.36401 4.45371 7.4142 4.59823 7.43842C6.27571 7.72005 7.75066 6.23104 7.46122 4.5559C7.41064 4.26314 7.24521 3.58171 6.82472 3.86979L5.49762 5.19416C5.4775 5.20842 5.45758 5.20217 5.4357 5.19982C5.37887 5.19377 5.0033 5.09553 4.9574 5.07307C4.91814 5.05393 4.87576 4.85706 4.86053 4.79827C4.84373 4.73324 4.78416 4.55023 4.80584 4.50238L6.12162 3.18622C6.37219 2.80381 5.94467 2.66573 5.64937 2.58683C3.91798 2.12415 2.26589 3.63952 2.56158 5.40177C2.5858 5.54629 2.63619 5.6832 2.66334 5.82636L1.51025 6.97535C1.45889 6.98453 1.34834 6.73024 1.32432 6.67809C1.22471 6.46345 1.1462 6.23475 1.0921 6.00409L0.231779 5.8996C0.0974088 5.85566 0.0335438 5.76269 0.0212395 5.62305C-0.00707984 5.30236 -0.00707984 4.67562 0.0212395 4.35473C0.0331532 4.22017 0.0909637 4.13209 0.216545 4.08228L1.0921 3.97369C1.12179 3.83385 1.16534 3.69519 1.21573 3.5614C1.29717 3.34461 1.40869 3.14384 1.50381 2.93369L0.972379 2.21653C0.926287 2.07571 0.968277 1.98626 1.05441 1.88021C1.22042 1.67592 1.7079 1.18414 1.91219 1.02301C2.00145 0.952506 2.07508 0.918328 2.19363 0.936882C2.47409 1.06832 2.69048 1.32027 2.95551 1.48179C3.16586 1.38687 3.36663 1.27535 3.58323 1.19371C3.71682 1.14352 3.85548 1.09977 3.99552 1.07008L4.10411 0.194525C4.14044 0.0914031 4.21543 0.0429673 4.30898 0H5.71206L5.71304 0.000976529Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M5.71301 0.000976562H10.0004V4.28833C9.9574 4.19478 9.90896 4.11959 9.80584 4.08345L8.93028 3.97486C8.9006 3.83503 8.85705 3.69636 8.80666 3.56257C8.72521 3.34578 8.61369 3.14501 8.51858 2.93486C8.6051 2.73858 9.03497 2.35734 9.06348 2.17297C9.08184 2.05442 9.04766 1.9806 8.97735 1.89154C8.81623 1.68744 8.32445 1.19996 8.12016 1.03375C8.01411 0.947624 7.92466 0.905633 7.78384 0.951725L7.06668 1.48315C6.85633 1.38823 6.65556 1.27671 6.43896 1.19508C6.30537 1.14488 6.16671 1.10113 6.02667 1.07145L5.91808 0.195892C5.88176 0.0927703 5.80676 0.0443345 5.71321 0.00136717L5.71301 0.000976562Z", fill: "white" }), jsxRuntimeExports.jsx("path", { d: "M5.36227 3.1193L4.20254 4.30774C4.17305 4.37316 4.16973 4.4173 4.17832 4.48781C4.20039 4.66808 4.35097 5.20048 4.41738 5.37918C4.46132 5.49695 4.50429 5.53992 4.62206 5.58386C4.79783 5.64929 5.33629 5.80124 5.51343 5.82292C5.60288 5.83386 5.68276 5.82057 5.75229 5.76023L6.88194 4.63917C7.14365 5.97604 5.8935 7.15529 4.5703 6.84378C4.37148 6.79691 4.1625 6.63773 3.96817 6.74339L0.773166 9.92043C0.662232 9.99524 0.54583 10.0036 0.433334 9.92864C0.375523 9.89016 0.0661591 9.57338 0.0442848 9.51889C0.0040518 9.41967 0.0190903 9.32905 0.0724088 9.23921L3.19965 6.11099C3.40101 5.91471 3.23343 5.70573 3.17465 5.49207C2.80591 4.15325 4.00255 2.8529 5.36227 3.1195V3.1193Z", fill: "currentColor" })] }));
@@ -4206,10 +4200,6 @@ const IoBarChart = () => (jsxRuntimeExports.jsxs("svg", { stroke: "currentColor"
 const HiUsers = () => (jsxRuntimeExports.jsx("svg", { stroke: "currentColor", fill: "currentColor", strokeWidth: "0", viewBox: "0 0 20 20", "aria-hidden": "true", height: "1em", width: "1em", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" }) }));
 const BsFillEmojiSmileFill = () => (jsxRuntimeExports.jsx("svg", { stroke: "currentColor", fill: "currentColor", strokeWidth: "0", viewBox: "0 0 16 16", height: "1em", width: "1em", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5M4.285 9.567a.5.5 0 0 1 .683.183A3.5 3.5 0 0 0 8 11.5a3.5 3.5 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683M10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8" }) }));
 const WiStars = () => (jsxRuntimeExports.jsx("svg", { stroke: "currentColor", fill: "currentColor", strokeWidth: "0", version: "1.1", id: "Layer_1", x: "0px", y: "0px", viewBox: "0 0 30 30", height: "1em", width: "1em", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M5.37,16.18c0.65-0.03,1.2-0.28,1.65-0.75c0.45-0.47,0.68-1.03,0.68-1.68c0,0.65,0.22,1.21,0.67,1.68\nc0.45,0.47,1,0.72,1.65,0.75c-0.65,0.03-1.2,0.28-1.65,0.75c-0.45,0.47-0.67,1.03-0.67,1.68c0-0.65-0.22-1.21-0.68-1.68\nC6.57,16.46,6.02,16.21,5.37,16.18z M7.7,8.98c1.26-0.06,2.33-0.55,3.21-1.47c0.88-0.92,1.32-2.01,1.32-3.28\nc0,1.27,0.44,2.36,1.32,3.28s1.95,1.4,3.22,1.47c-0.83,0.04-1.59,0.27-2.29,0.71c-0.69,0.43-1.24,1.01-1.65,1.73\nc-0.4,0.72-0.6,1.49-0.6,2.33c0-1.27-0.44-2.37-1.32-3.29C10.03,9.53,8.96,9.04,7.7,8.98z M11.02,19.75\nc0.95-0.04,1.76-0.41,2.42-1.1c0.66-0.69,0.99-1.51,0.99-2.47c0,0.96,0.33,1.78,0.99,2.47c0.66,0.69,1.46,1.06,2.41,1.1\nc-0.95,0.04-1.75,0.41-2.41,1.1c-0.66,0.69-0.99,1.51-0.99,2.47c0-0.96-0.33-1.78-0.99-2.47C12.77,20.16,11.97,19.8,11.02,19.75z\n M17.83,15.01c0.95-0.04,1.75-0.41,2.41-1.1c0.66-0.69,0.98-1.51,0.98-2.48c0,0.96,0.33,1.78,0.99,2.47s1.47,1.06,2.42,1.1\nc-0.95,0.04-1.76,0.41-2.42,1.1c-0.66,0.69-0.99,1.51-0.99,2.47c0-0.96-0.33-1.78-0.98-2.47C19.58,15.42,18.78,15.05,17.83,15.01z" }) }));
-const IoIosArrowDown = () => (jsxRuntimeExports.jsx("svg", { stroke: "currentColor", fill: "currentColor", strokeWidth: "0", viewBox: "0 0 512 512", height: "1em", width: "1em", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z" }) }));
-const IoIosArrowForward = () => (jsxRuntimeExports.jsx("svg", { stroke: "currentColor", fill: "currentColor", strokeWidth: "0", viewBox: "0 0 512 512", height: "1em", width: "1em", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z" }) }));
-const Notification$1 = () => (jsxRuntimeExports.jsx("svg", { width: "14", height: "16", viewBox: "0 0 14 16", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M13.7057 11.0468C13.6452 10.9754 13.5858 10.9039 13.5276 10.835C12.7261 9.88464 12.2413 9.31107 12.2413 6.62071C12.2413 5.22786 11.9014 4.085 11.2315 3.22786C10.7376 2.59464 10.0698 2.11429 9.18975 1.75929C9.17843 1.75311 9.16831 1.74501 9.15988 1.73536C8.84333 0.696071 7.97708 0 7.00009 0C6.0231 0 5.15722 0.696071 4.84066 1.73429C4.83223 1.7436 4.82225 1.75144 4.81116 1.7575C2.75737 2.58643 1.75925 4.17679 1.75925 6.61964C1.75925 9.31107 1.27513 9.88464 0.472992 10.8339C0.414708 10.9029 0.355331 10.9729 0.294861 11.0457C0.13866 11.2304 0.0396932 11.4551 0.00967412 11.6932C-0.020345 11.9313 0.0198397 12.1729 0.125473 12.3893C0.350231 12.8536 0.829254 13.1418 1.37603 13.1418H12.6282C13.1724 13.1418 13.6481 12.8539 13.8736 12.3918C13.9797 12.1753 14.0203 11.9336 13.9905 11.6952C13.9607 11.4568 13.8619 11.2318 13.7057 11.0468ZM7.00009 16C7.52648 15.9996 8.04294 15.8595 8.4947 15.5946C8.94646 15.3297 9.31666 14.9498 9.56605 14.4954C9.5778 14.4736 9.5836 14.4492 9.5829 14.4246C9.58219 14.3999 9.575 14.3759 9.56202 14.3548C9.54904 14.3337 9.53072 14.3162 9.50883 14.3041C9.48694 14.292 9.46223 14.2857 9.4371 14.2857H4.56381C4.53865 14.2856 4.51389 14.2919 4.49195 14.304C4.47001 14.3161 4.45164 14.3335 4.43862 14.3546C4.4256 14.3758 4.41837 14.3998 4.41765 14.4245C4.41693 14.4491 4.42273 14.4735 4.43449 14.4954C4.68385 14.9498 5.054 15.3296 5.50569 15.5945C5.95737 15.8594 6.47376 15.9995 7.00009 16Z", fill: "currentColor" }) }));
-const Hamburger = () => (jsxRuntimeExports.jsx("svg", { width: "20", height: "14", viewBox: "0 0 20 14", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M1 1.85718H19M1 7.00003H19M1 12.1429H19", stroke: "currentColor", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round" }) }));
 const House = () => (jsxRuntimeExports.jsx("svg", { width: "14", height: "15", viewBox: "0 0 14 15", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M0.5 12.9V5.7C0.5 5.44667 0.557687 5.20667 0.673062 4.98C0.788437 4.75333 0.947417 4.56667 1.15 4.42L6.025 0.82C6.30937 0.606667 6.63437 0.5 7 0.5C7.36562 0.5 7.69062 0.606667 7.975 0.82L12.85 4.42C13.0531 4.56667 13.2124 4.75333 13.3277 4.98C13.4431 5.20667 13.5005 5.44667 13.5 5.7V12.9C13.5 13.34 13.3407 13.7168 13.0222 14.0304C12.7037 14.344 12.3213 14.5005 11.875 14.5H9.4375C9.20729 14.5 9.01446 14.4232 8.859 14.2696C8.70354 14.116 8.62554 13.9261 8.625 13.7V9.7C8.625 9.47333 8.547 9.28347 8.391 9.1304C8.235 8.97733 8.04216 8.90053 7.8125 8.9H6.1875C5.95729 8.9 5.76446 8.9768 5.609 9.1304C5.45354 9.284 5.37554 9.47386 5.375 9.7V13.7C5.375 13.9267 5.297 14.1168 5.141 14.2704C4.985 14.424 4.79217 14.5005 4.5625 14.5H2.125C1.67812 14.5 1.29571 14.3435 0.97775 14.0304C0.659791 13.7173 0.500542 13.3405 0.5 12.9Z", fill: "currentColor" }) }));
 const HotJob = () => (jsxRuntimeExports.jsx("svg", { width: "13", height: "15", viewBox: "0 0 13 15", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M5.97686 1.01026L5.12531 0.5L4.96311 1.47929C4.70494 3.02561 3.64861 4.46244 2.48346 5.47215C0.202516 7.44965 -0.296927 9.59882 0.409322 11.3729C1.08516 13.0706 2.80043 14.233 4.54139 14.427L4.94418 14.4716C3.948 13.8627 3.30866 12.44 3.53169 11.377C3.75201 10.3321 4.50354 9.35349 5.94713 8.45057L6.675 7.9964L6.94669 8.81079C7.10686 9.29199 7.38395 9.67857 7.66578 10.0712C7.80095 10.2605 7.93814 10.4517 8.06385 10.6552C8.49841 11.3614 8.6133 12.1467 8.33283 12.926C8.07736 13.6343 7.65632 14.1911 7.07577 14.5L7.73133 14.427C9.36551 14.2452 10.5651 13.6863 11.3444 12.7516C12.1168 11.825 12.3878 10.6322 12.3878 9.36227C12.3878 8.17956 11.9019 6.96034 11.3288 5.94591C10.657 4.75778 9.78047 3.77106 8.82349 2.81475C8.65791 3.14591 8.67075 3.27972 8.33013 3.81161C7.8878 2.63697 7.05755 1.64864 5.97686 1.01026Z", fill: "currentColor" }) }));
 const Companies = () => (jsxRuntimeExports.jsxs("svg", { width: "16", height: "15", viewBox: "0 0 16 15", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M1.57143 0.5C1.27556 0.5 1.03571 0.741077 1.03571 1.03846C1.03571 1.33585 1.27556 1.57692 1.57143 1.57692V13.4231H1.03571C0.739847 13.4231 0.5 13.6642 0.5 13.9615C0.5 14.2589 0.739847 14.5 1.03571 14.5H10.1429V1.57692C10.4387 1.57692 10.6786 1.33585 10.6786 1.03846C10.6786 0.741077 10.4387 0.5 10.1429 0.5H1.57143ZM4.25 12.8846V11.2692C4.25 10.9718 4.48985 10.7308 4.78571 10.7308H6.92857C7.22444 10.7308 7.46429 10.9718 7.46429 11.2692V12.8846C7.46429 13.182 7.22444 13.4231 6.92857 13.4231H4.78571C4.48985 13.4231 4.25 13.182 4.25 12.8846ZM3.71429 3.73077C3.71429 3.43339 3.95413 3.19231 4.25 3.19231H4.78571C5.08158 3.19231 5.32143 3.43339 5.32143 3.73077C5.32143 4.02815 5.08158 4.26923 4.78571 4.26923H4.25C3.95413 4.26923 3.71429 4.02815 3.71429 3.73077ZM4.25 5.34615C3.95413 5.34615 3.71429 5.58723 3.71429 5.88462C3.71429 6.182 3.95413 6.42308 4.25 6.42308H4.78571C5.08158 6.42308 5.32143 6.182 5.32143 5.88462C5.32143 5.58723 5.08158 5.34615 4.78571 5.34615H4.25ZM3.71429 8.03846C3.71429 7.74108 3.95413 7.5 4.25 7.5H4.78571C5.08158 7.5 5.32143 7.74108 5.32143 8.03846C5.32143 8.33585 5.08158 8.57692 4.78571 8.57692H4.25C3.95413 8.57692 3.71429 8.33585 3.71429 8.03846ZM6.92857 3.19231C6.6327 3.19231 6.39286 3.43339 6.39286 3.73077C6.39286 4.02815 6.6327 4.26923 6.92857 4.26923H7.46429C7.76015 4.26923 8 4.02815 8 3.73077C8 3.43339 7.76015 3.19231 7.46429 3.19231H6.92857ZM6.39286 5.88462C6.39286 5.58723 6.6327 5.34615 6.92857 5.34615H7.46429C7.76015 5.34615 8 5.58723 8 5.88462C8 6.182 7.76015 6.42308 7.46429 6.42308H6.92857C6.6327 6.42308 6.39286 6.182 6.39286 5.88462ZM6.92857 7.5C6.6327 7.5 6.39286 7.74108 6.39286 8.03846C6.39286 8.33585 6.6327 8.57692 6.92857 8.57692H7.46429C7.76015 8.57692 8 8.33585 8 8.03846C8 7.74108 7.76015 7.5 7.46429 7.5H6.92857Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M11.2143 3.73077V14.5H14.9643C15.2602 14.5 15.5 14.2589 15.5 13.9615C15.5 13.6642 15.2602 13.4231 14.9643 13.4231H14.4286V4.80769C14.7244 4.80769 14.9643 4.56661 14.9643 4.26923C14.9643 3.97185 14.7244 3.73077 14.4286 3.73077H11.2143ZM12.2857 6.96154C12.2857 6.66415 12.5256 6.42308 12.8214 6.42308H12.8268C13.1227 6.42308 13.3625 6.66415 13.3625 6.96154V6.96692C13.3625 7.26431 13.1227 7.50538 12.8268 7.50538H12.8214C12.5256 7.50538 12.2857 7.26431 12.2857 6.96692V6.96154ZM12.8214 8.57692C12.5256 8.57692 12.2857 8.818 12.2857 9.11539V9.12077C12.2857 9.41815 12.5256 9.65923 12.8214 9.65923H12.8268C13.1227 9.65923 13.3625 9.41815 13.3625 9.12077V9.11539C13.3625 8.818 13.1227 8.57692 12.8268 8.57692H12.8214ZM12.2857 11.2692C12.2857 10.9718 12.5256 10.7308 12.8214 10.7308H12.8268C13.1227 10.7308 13.3625 10.9718 13.3625 11.2692V11.2746C13.3625 11.572 13.1227 11.8131 12.8268 11.8131H12.8214C12.5256 11.8131 12.2857 11.572 12.2857 11.2746V11.2692Z", fill: "currentColor" })] }));
@@ -4221,12 +4211,7 @@ const AppliedJobs = () => (jsxRuntimeExports.jsxs("svg", { width: "100%", height
 const FollowingJobs = () => (jsxRuntimeExports.jsxs("svg", { width: "16", height: "18", viewBox: "0 0 16 18", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M1 3.18182C1 1.97683 1.85473 1 2.90909 1H4.18182H11.8182H13.0909C14.1453 1 15 1.97683 15 3.18182V14.8182C15 16.0232 14.1453 17 13.0909 17H2.90909C1.85473 17 1 16.0232 1 14.8182V3.18182Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M11.8182 1V13.3636L8 11.1818L4.18182 13.3636V1M11.8182 1H13.0909C14.1453 1 15 1.97683 15 3.18182V14.8182C15 16.0232 14.1453 17 13.0909 17H2.90909C1.85473 17 1 16.0232 1 14.8182V3.18182C1 1.97683 1.85473 1 2.90909 1H4.18182M11.8182 1H4.18182", stroke: "#FEF4F2", strokeLinecap: "round", strokeLinejoin: "round" })] }));
 const Setting = () => (jsxRuntimeExports.jsxs("svg", { width: "16", height: "16", viewBox: "0 0 16 16", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsxs("mask", { id: "mask0_309_646", maskUnits: "userSpaceOnUse", x: "0", y: "0", width: "16", height: "16", children: [jsxRuntimeExports.jsx("path", { d: "M12.4401 4.90985C12.8861 5.54935 13.1881 6.27801 13.3252 7.04555H15V8.95445H13.3252C13.1881 9.72199 12.8861 10.4506 12.4401 11.0901L13.6248 12.2749L12.2749 13.6248L11.0901 12.4401C10.4506 12.8861 9.72199 13.1881 8.95445 13.3252V15H7.04555V13.3252C6.27801 13.1881 5.54935 12.8861 4.90985 12.4401L3.7251 13.6248L2.37515 12.2749L3.5599 11.0901C3.11385 10.4506 2.81186 9.72199 2.67475 8.95445H1V7.04555H2.67475C2.81186 6.27801 3.11385 5.54935 3.5599 4.90985L2.37515 3.7251L3.7251 2.37515L4.90985 3.5599C5.54935 3.11385 6.27801 2.81186 7.04555 2.67475V1H8.95445V2.67475C9.72199 2.81186 10.4506 3.11385 11.0901 3.5599L12.2749 2.37515L13.6248 3.7251L12.4401 4.90985Z", fill: "white", stroke: "white", strokeWidth: "2", strokeLinejoin: "round" }), jsxRuntimeExports.jsx("path", { d: "M8 9.75C8.46413 9.75 8.90925 9.56563 9.23744 9.23744C9.56563 8.90925 9.75 8.46413 9.75 8C9.75 7.53587 9.56563 7.09075 9.23744 6.76256C8.90925 6.43437 8.46413 6.25 8 6.25C7.53587 6.25 7.09075 6.43437 6.76256 6.76256C6.43437 7.09075 6.25 7.53587 6.25 8C6.25 8.46413 6.43437 8.90925 6.76256 9.23744C7.09075 9.56563 7.53587 9.75 8 9.75Z", fill: "black", stroke: "black", strokeWidth: "2", strokeLinejoin: "round" })] }), jsxRuntimeExports.jsx("g", { mask: "url(#mask0_309_646)", children: jsxRuntimeExports.jsx("path", { d: "M-0.399994 -0.399902H16.4V16.4001H-0.399994V-0.399902Z", fill: "currentColor" }) })] }));
 const Logout = () => (jsxRuntimeExports.jsx("svg", { width: "16", height: "14", viewBox: "0 0 16 14", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M4.30777 7C4.30777 6.83123 4.37261 6.66936 4.48801 6.55002C4.60342 6.43068 4.75995 6.36364 4.92316 6.36364H10.4617V2.22727C10.4617 0.954545 9.16209 0 8.00014 0H2.15388C1.58283 0.000631681 1.03533 0.235493 0.631533 0.653051C0.227734 1.07061 0.000610867 1.63676 0 2.22727V11.7727C0.000610867 12.3632 0.227734 12.9294 0.631533 13.3469C1.03533 13.7645 1.58283 13.9994 2.15388 14H8.30784C8.8789 13.9994 9.42639 13.7645 9.83019 13.3469C10.234 12.9294 10.4611 12.3632 10.4617 11.7727V7.63636H4.92316C4.75995 7.63636 4.60342 7.56932 4.48801 7.44998C4.37261 7.33064 4.30777 7.16877 4.30777 7ZM15.8199 6.55017L12.7429 3.36835C12.6266 3.25405 12.4716 3.19127 12.3112 3.19339C12.1507 3.19552 11.9974 3.26238 11.8839 3.37973C11.7704 3.49707 11.7058 3.65562 11.7037 3.82156C11.7017 3.98749 11.7624 4.1477 11.8729 4.26801L13.8991 6.36364H10.4617V7.63636H13.8991L11.8729 9.73199C11.8134 9.79049 11.7657 9.86073 11.7328 9.93857C11.7 10.0164 11.6825 10.1003 11.6814 10.1852C11.6804 10.2701 11.6958 10.3544 11.7267 10.4331C11.7577 10.5118 11.8035 10.5833 11.8616 10.6433C11.9197 10.7034 11.9888 10.7508 12.0649 10.7828C12.141 10.8148 12.2225 10.8307 12.3047 10.8296C12.3868 10.8286 12.4679 10.8105 12.5431 10.7765C12.6184 10.7425 12.6863 10.6932 12.7429 10.6316L15.8199 7.44983C15.9352 7.3305 16 7.1687 16 7C16 6.8313 15.9352 6.6695 15.8199 6.55017Z", fill: "currentColor" }) }));
-const MdClear = () => (jsxRuntimeExports.jsx("svg", { width: "20", height: "20", viewBox: "0 0 20 20", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M15.0799 13.1521C15.1556 13.2272 15.1982 13.3294 15.1982 13.4361C15.1982 13.5427 15.1556 13.645 15.0799 13.7201L14.5199 14.2801C14.4448 14.3558 14.3425 14.3984 14.2359 14.3984C14.1292 14.3984 14.027 14.3558 13.9519 14.2801L10.3999 10.7281L6.84788 14.2801C6.77278 14.3558 6.67054 14.3984 6.56388 14.3984C6.45723 14.3984 6.35499 14.3558 6.27988 14.2801L5.71988 13.7201C5.64416 13.645 5.60156 13.5427 5.60156 13.4361C5.60156 13.3294 5.64416 13.2272 5.71988 13.1521L9.27188 9.60008L5.71988 6.04808C5.64416 5.97297 5.60156 5.87073 5.60156 5.76408C5.60156 5.65742 5.64416 5.55518 5.71988 5.48008L6.27988 4.92008C6.35499 4.84435 6.45723 4.80176 6.56388 4.80176C6.67054 4.80176 6.77278 4.84435 6.84788 4.92008L10.3999 8.47208L13.9519 4.92008C14.027 4.84435 14.1292 4.80176 14.2359 4.80176C14.3425 4.80176 14.4448 4.84435 14.5199 4.92008L15.0799 5.48008C15.1556 5.55518 15.1982 5.65742 15.1982 5.76408C15.1982 5.87073 15.1556 5.97297 15.0799 6.04808L11.5279 9.60008L15.0799 13.1521Z", fill: "currentColor" }) }));
 const Jobs = () => (jsxRuntimeExports.jsxs("svg", { width: "18", height: "15", viewBox: "0 0 18 15", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M17.4143 7.43701V13.0556C17.4143 13.9392 16.6414 14.6951 15.7838 14.6951L2.31002 14.7C1.19691 14.7 0.585693 13.7861 0.585693 13.0394V7.43734L8.99984 10.1597C9.26395 10.1877 17.414 7.43734 17.414 7.43734L17.4143 7.43701Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M17.4144 6.32009C14.6343 7.27584 9.00031 9.14024 9.00031 9.14024L0.601318 6.32173V4.25149C0.601318 2.87682 1.37259 2.80436 2.18041 2.80436H6.20668V1.80217C6.20668 1.39741 6.2439 0.709417 7.31551 0.709417C8.38711 0.709417 9.54665 0.700195 10.5629 0.700195C11.7979 0.700195 11.7939 1.55253 11.7939 1.80217V2.80436H15.8202C16.9274 2.80436 17.4102 2.99637 17.4102 4.25116L17.4144 6.31976V6.32009ZM7.58687 2.08146V2.80469H10.4134V2.08146H7.58687Z", fill: "currentColor" })] }));
-const Translate = () => (jsxRuntimeExports.jsxs("svg", { width: "14", height: "15", viewBox: "0 0 14 15", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M13.9994 3.78134V13.1318C13.8975 13.6906 13.4918 14.0963 12.9333 14.1979H6.64496C7.26653 13.4331 7.96069 12.7266 8.56966 11.953C8.72636 11.6706 8.73841 11.3854 8.7228 11.0676L7.68401 2.6875H12.9198C13.2697 2.6875 13.7554 3.09595 13.8871 3.41536L14 3.78107L13.9994 3.78134ZM10.6911 5.92767V6.40624C10.2917 6.40624 9.79527 6.41282 9.39888 6.41282C8.89976 6.41282 8.94085 7.20807 9.35615 7.20807C9.42682 7.20807 9.55064 7.21354 9.58434 7.25327C9.61803 7.29299 9.7098 7.63103 9.74816 7.71814C9.95224 8.18165 10.2171 8.61393 10.5204 9.01772C10.4549 9.08319 9.78815 9.62586 9.67885 9.72777C9.50435 9.89076 9.37751 10.0557 9.51914 10.2981C9.67419 10.5636 9.92375 10.5386 10.1525 10.3929C10.3078 10.2937 11.0743 9.62066 11.1091 9.61052C11.1253 9.63627 11.4334 9.89843 11.5805 10.014C11.7276 10.1296 12.0764 10.3891 12.2139 10.474C12.5629 10.6901 12.9746 10.1524 12.6867 9.86447C12.5391 9.71681 11.7613 9.09743 11.6814 9.01744C11.9706 8.63064 12.2457 8.23425 12.4451 7.79156C12.4876 7.69732 12.6163 7.28696 12.6448 7.25327C12.6785 7.21354 12.8023 7.20807 12.873 7.20807C13.3201 7.20807 13.325 6.41282 12.8303 6.41282C12.435 6.41282 11.8928 6.40624 11.5107 6.40624V5.92767C11.5107 5.48553 10.6905 5.52771 10.6905 5.92767H10.6911Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M1.08837 0.207318L5.56428 0.200195C6.06504 0.256353 6.45924 0.579603 6.63073 1.04749L7.93058 11.3151C7.97632 11.5523 7.86894 11.7235 7.7106 11.7235L1.13603 11.7372C0.513638 11.6747 0.0490353 11.2036 0 10.5765L0.0013697 1.33486C0.0536923 0.74698 0.503229 0.278542 1.08837 0.207318ZM5.35773 7.5996L4.49892 3.37078C4.4214 3.22395 4.30333 3.14752 4.14006 3.12807C3.95296 3.10588 3.24592 3.10205 3.09827 3.17382C2.99472 3.22422 2.89692 3.36092 2.87966 3.47488L2.05346 7.5996C1.98251 8.01928 2.72626 8.23158 2.85829 7.71904C2.96349 7.31005 3.0517 6.86297 3.12018 6.40906L4.27648 6.40467C4.30032 6.49863 4.58138 7.69 4.63946 7.90285C4.74547 8.29075 5.50127 8.13954 5.35745 7.59987L5.35773 7.5996Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M6.94548 12.5576L5.56564 14.0607C4.93914 13.8079 4.83367 13.1586 4.78546 12.5576H6.94548Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M11.812 7.22607C11.6315 7.64739 11.4052 8.04653 11.1146 8.40155C11.0748 8.41169 10.996 8.28129 10.9697 8.24623C10.7371 7.93585 10.5782 7.57672 10.4177 7.22607H11.812Z", fill: "#DD3F24" }), jsxRuntimeExports.jsx("path", { d: "M3.2818 5.58585L3.62669 3.94385L3.79872 3.94823L4.12937 5.58585H3.2818Z", fill: "#DD3F24" })] }));
-const NotificationTop = () => (jsxRuntimeExports.jsx("svg", { width: "10", height: "12", viewBox: "0 0 10 12", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M10 9.71429V10.2857H0V9.71429L1.11111 8.57143V5.14286C1.11111 3.37143 2.23889 1.81143 3.88889 1.30857V1.14286C3.88889 0.839753 4.00595 0.549062 4.21433 0.334735C4.4227 0.120408 4.70532 0 5 0C5.29469 0 5.5773 0.120408 5.78567 0.334735C5.99405 0.549062 6.11111 0.839753 6.11111 1.14286V1.30857C7.76111 1.81143 8.88889 3.37143 8.88889 5.14286V8.57143L10 9.71429ZM6.11111 10.8571C6.11111 11.1602 5.99405 11.4509 5.78567 11.6653C5.5773 11.8796 5.29469 12 5 12C4.70532 12 4.4227 11.8796 4.21433 11.6653C4.00595 11.4509 3.88889 11.1602 3.88889 10.8571", fill: "#FEF4F2" }) }));
-const ArrowDown = () => (jsxRuntimeExports.jsx("svg", { stroke: "currentColor", fill: "currentColor", "stroke-width": "0", viewBox: "0 0 512 512", height: "1em", width: "1em", xmlns: "http://www.w3.org/2000/svg", children: jsxRuntimeExports.jsx("path", { d: "M256 217.9L383 345c9.4 9.4 24.6 9.4 33.9 0 9.4-9.4 9.3-24.6 0-34L273 167c-9.1-9.1-23.7-9.3-33.1-.7L95 310.9c-4.7 4.7-7 10.9-7 17s2.3 12.3 7 17c9.4 9.4 24.6 9.4 33.9 0l127.1-127z" }) }));
-const MdAccountCircle = () => (jsxRuntimeExports.jsxs("svg", { stroke: "currentColor", fill: "currentColor", "stroke-width": "0", viewBox: "0 0 24 24", height: "1em", width: "1em", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { fill: "none", d: "M0 0h24v24H0z" }), jsxRuntimeExports.jsx("path", { d: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm0 14c-2.03 0-4.43-.82-6.14-2.88a9.947 9.947 0 0 1 12.28 0C16.43 19.18 14.03 20 12 20z" })] }));
 const DashboardUs = () => (jsxRuntimeExports.jsxs("svg", { width: "14", height: "14", viewBox: "0 0 14 14", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsxs("g", { "clip-path": "url(#clip0_553_16673)", children: [jsxRuntimeExports.jsx("path", { d: "M13.0903 0.5H0.909733C0.407301 0.5 0 0.89973 0 1.39282V5.80339C0 6.29648 0.407301 6.69621 0.909733 6.69621H13.0903C13.5927 6.69621 14 6.29648 14 5.80339V1.39282C14 0.89973 13.5927 0.5 13.0903 0.5Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M5.76325 7.30383H0.909733C0.407301 7.30383 0 7.70356 0 8.19665V12.6072C0 13.1003 0.407301 13.5 0.909733 13.5H5.76325C6.26568 13.5 6.67298 13.1003 6.67298 12.6072V8.19665C6.67298 7.70356 6.26568 7.30383 5.76325 7.30383Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M13.0903 7.30383H8.23676C7.73433 7.30383 7.32703 7.70356 7.32703 8.19665V12.6072C7.32703 13.1003 7.73433 13.5 8.23676 13.5H13.0903C13.5927 13.5 14 13.1003 14 12.6072V8.19665C14 7.70356 13.5927 7.30383 13.0903 7.30383Z", fill: "currentColor" })] }), jsxRuntimeExports.jsx("defs", { children: jsxRuntimeExports.jsx("clipPath", { id: "clip0_553_16673", children: jsxRuntimeExports.jsx("rect", { width: "14", height: "13", fill: "white", transform: "translate(0 0.5)" }) }) })] }));
 const CvManagementUs = () => (jsxRuntimeExports.jsxs("svg", { width: "14", height: "16", viewBox: "0 0 14 16", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M12.2146 0.222168C12.9113 0.337627 13.5271 0.713433 13.8163 1.30787C13.9055 1.49092 13.9395 1.6785 14 1.86802V14.1322C13.8503 15.0116 13.1164 15.6907 12.1247 15.7777H1.87674C0.840988 15.6801 0.0766162 14.9601 0 14.0206L0.0017901 1.9492C0.0637275 1.10476 0.844926 0.313694 1.78688 0.222168H12.2146ZM8.57206 5.9343C8.54199 5.89711 8.82304 5.54847 8.86385 5.47247C9.68192 3.9521 8.17645 2.29687 6.36559 2.73057C5.27721 2.99124 4.63134 4.01678 4.83828 5.00061C4.90344 5.31108 5.09068 5.65099 5.3216 5.88708V5.9343C4.44517 6.23993 3.73128 6.93785 3.39295 7.72537C3.22218 8.12252 2.91858 8.9469 3.54296 8.9469L10.0911 8.96986C10.9228 8.96986 10.6536 8.29393 10.4653 7.82207C10.1427 7.01386 9.43525 6.29717 8.57206 5.93398V5.9343ZM2.54445 10.4304C1.8907 10.4304 1.94082 11.3896 2.54445 11.3896H11.4244C12.1014 11.3896 12.1064 10.421 11.4244 10.421L2.54445 10.4301V10.4304ZM2.54445 12.3971C1.86564 12.3971 1.90252 13.3573 2.54445 13.3573L11.4244 13.3589C12.1265 13.3589 12.1365 12.3887 11.4119 12.3887L2.54445 12.3968V12.3971Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M9.35746 8.00056H4.42932C5.32043 6.07658 8.47745 6.05232 9.35746 8.00056Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M6.81509 3.61886C8.2622 3.51602 8.36997 5.56322 6.91104 5.58198C5.53696 5.59977 5.4317 3.71718 6.81509 3.61886Z", fill: "currentColor" })] }));
 const AppliedJobsUs = () => (jsxRuntimeExports.jsxs("svg", { width: "100%", height: "18", viewBox: "0 0 15 18", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [jsxRuntimeExports.jsx("path", { d: "M1 1.48077C1 0.939105 1.43652 0.5 1.975 0.5H5.875H6.2C10.5078 0.5 14 4.01284 14 8.34615V8.67308V16.5192C14 17.0609 13.5635 17.5 13.025 17.5H1.975C1.43652 17.5 1 17.0609 1 16.5192V1.48077Z", fill: "currentColor" }), jsxRuntimeExports.jsx("path", { d: "M5.875 0.5H1.975C1.43652 0.5 1 0.939105 1 1.48077V16.5192C1 17.0609 1.43652 17.5 1.975 17.5H13.025C13.5635 17.5 14 17.0609 14 16.5192V8.67308M5.875 0.5H6.2C10.5078 0.5 14 4.01284 14 8.34615V8.67308M5.875 0.5C7.49043 0.5 8.8 1.81732 8.8 3.44231V4.75C8.8 5.29166 9.23652 5.73077 9.775 5.73077H11.075C12.6904 5.73077 14 7.04809 14 8.67308M4.9 11.6154L6.85 13.5769L10.1 9", stroke: "#FEF4F2", "stroke-linecap": "round", "stroke-linejoin": "round" })] }));
@@ -7979,33 +7964,7 @@ axiosInstance.interceptors.response.use((response) => response.data, (error) => 
     return Promise.reject(error);
 });
 
-const checkLogin = {
-    get: async () => {
-        const response = await axiosInstance.get('users/profile');
-        return response.data;
-    },
-};
-const getCategories = {
-    get: async () => {
-        const response = await axiosInstance.get(`job-categories/job-category-with-all-type`);
-        return response.data;
-    },
-};
-const getSuggestedKeywords = {
-    get: async (keyword) => {
-        try {
-            const response = await axiosInstance.get(`/suggested-units/?keyword=${encodeURIComponent(keyword)}`);
-            const data = response.data;
-            return data;
-            // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        }
-        catch (error) {
-            throw new Error('Cannot get suggested keywords!');
-        }
-    },
-};
-
-const LIST_MENU$1 = [
+[
     {
         id: 1,
         name: 'Hot Jobs',
@@ -8142,84 +8101,12 @@ const LIST_MENU$1 = [
 ];
 
 var css_248z$3 = ".scroll-module_menuItem__3Cyxn {\n  position: relative;\n  font-size: 14px;\n  font-family: 'Inter', sans-serif;\n}\n.scroll-module_menuItem__3Cyxn::before {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 100%;\n  height: 1rem;\n  width: 100%;\n}\n.scroll-module_menuLink__0ixoI {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  border-radius: 9999px;\n  padding: 0.25rem 1rem;\n  font-weight: 600;\n  transition: background-color 0.3s;\n  text-decoration: none;\n}\n.scroll-module_menuLink__0ixoI:hover {\n  background-color: #fef4f2;\n}\n.scroll-module_nonScrollLink__4imw5 {\n  padding: 0.25rem 0.5rem;\n}\n.scroll-module_arrowIcon__hhSK0 {\n  transition: transform 0.3s;\n}\n.scroll-module_menuItem__3Cyxn:hover .scroll-module_arrowIcon__hhSK0 {\n  transform: rotate(180deg);\n}\n.scroll-module_submenu__Ux2oK {\n  position: absolute;\n  left: 0;\n  top: calc(100% + 0.5rem);\n  display: none;\n  width: max-content;\n  border-radius: 0.5rem;\n  background-color: white;\n  padding: 1.5rem 1rem;\n  box-shadow: 0px 0px 4px 0px #75757540;\n  transition: all 0.3s;\n  z-index: 50;\n}\n.scroll-module_menuItem__3Cyxn:hover .scroll-module_submenu__Ux2oK {\n  display: block;\n}\n.scroll-module_submenuLink__Deeb8 {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  border-radius: 0.25rem;\n  padding: 0.5rem;\n  font-size: 0.875rem;\n  font-weight: 500;\n  color: #5d5d5d;\n  transition: colors 0.3s;\n  text-decoration: none;\n}\n.scroll-module_submenuLink__Deeb8:hover {\n  background-color: #fef4f2;\n  color: #dd3f24;\n}\n.scroll-module_submenuLinkJobs__i0IYk {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  border-radius: 0.25rem;\n  padding: 0 0.5rem;\n  font-size: 0.875rem;\n  font-weight: 500;\n  color: #5d5d5d;\n  transition: colors 0.3s;\n  text-decoration: none;\n}\n.scroll-module_submenuIcon__zJQPm {\n  color: #dd3f24;\n}\n.scroll-module_jobsContainer__EAvJx {\n  display: flex;\n  gap: 1rem;\n}\n.scroll-module_jobsList__is3ny {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n.scroll-module_jobLink__dnRY8 {\n  display: flex;\n  height: 30px;\n  width: 246px;\n  align-items: center;\n  justify-content: space-between;\n  border-radius: 0.25rem;\n  padding: 0 0.25rem;\n  font-size: 0.875rem;\n  font-weight: 500;\n  background-color: transparent;\n  color: #5d5d5d;\n  text-decoration: none;\n}\n.scroll-module_jobLink__dnRY8:hover {\n  background-color: #fef4f2;\n  color: #dd3f24;\n}\n.scroll-module_jobLink__dnRY8:hover * {\n  color: #dd3f24;\n}\n.scroll-module_divider__r3px6 {\n  height: 200px;\n  width: 1px;\n  background-color: #fed2ca;\n}\n.scroll-module_dividerSmall__P44BO {\n  height: 20px;\n  width: 1px;\n  background-color: #fed2ca;\n}\n.scroll-module_jobButtons__ozJn0 {\n  display: flex;\n  height: fit-content;\n  width: 600px;\n  flex-wrap: wrap;\n  gap: 0.75rem;\n  padding: 1.5rem 0;\n  max-height: 180px;\n  overflow-y: auto;\n}\n.scroll-module_jobButton__1bNEX {\n  height: 30px;\n  border-radius: 9999px;\n  padding: 0 1.5rem;\n  font-size: 0.875rem;\n  line-height: 14px;\n  transition: colors 0.3s;\n}\n.scroll-module_jobButtonActive__hHdT3 {\n  background-color: #fee6e2;\n  color: #dd3f24;\n}\n.scroll-module_jobButtonInactive__RfpKl {\n  background-color: #f6f6f6;\n  color: #4f4f4f;\n}\n.scroll-module_footer__jqE5q {\n  margin-top: 0.75rem;\n  padding-top: 0.75rem;\n  border-top: 1px solid #fed2ca;\n  display: flex;\n  justify-content: flex-end;\n  height: fit-content;\n}\n.scroll-module_footerButtons__aOaQ7 {\n  height: fit-content;\n  display: flex;\n  align-items: center;\n  gap: 0.75rem;\n}\n.scroll-module_cancelButton__45ujc {\n  border-radius: 56px;\n  background-color: #e7e7e7;\n  padding: 5px 1.5rem;\n  font-size: 0.875rem;\n  font-weight: 500;\n  color: #404040;\n}\n.scroll-module_selectButton__D-AnC {\n  border-radius: 56px;\n  background-color: #dd3f24;\n  padding: 5px 1.5rem;\n  font-size: 0.875rem;\n  font-weight: 500;\n  color: white;\n}\n.scroll-module_clearButton__Idpe- {\n  color: #dd3f24;\n  font-size: 14px;\n  background-color: transparent;\n}\nbutton {\n  border: none;\n  cursor: pointer;\n}\n";
-var styles$3 = {"menuItem":"scroll-module_menuItem__3Cyxn","menuLink":"scroll-module_menuLink__0ixoI","nonScrollLink":"scroll-module_nonScrollLink__4imw5","arrowIcon":"scroll-module_arrowIcon__hhSK0","submenu":"scroll-module_submenu__Ux2oK","submenuLink":"scroll-module_submenuLink__Deeb8","submenuLinkJobs":"scroll-module_submenuLinkJobs__i0IYk","submenuIcon":"scroll-module_submenuIcon__zJQPm","jobsContainer":"scroll-module_jobsContainer__EAvJx","jobsList":"scroll-module_jobsList__is3ny","jobLink":"scroll-module_jobLink__dnRY8","divider":"scroll-module_divider__r3px6","dividerSmall":"scroll-module_dividerSmall__P44BO","jobButtons":"scroll-module_jobButtons__ozJn0","jobButton":"scroll-module_jobButton__1bNEX","jobButtonActive":"scroll-module_jobButtonActive__hHdT3","jobButtonInactive":"scroll-module_jobButtonInactive__RfpKl","footer":"scroll-module_footer__jqE5q","footerButtons":"scroll-module_footerButtons__aOaQ7","cancelButton":"scroll-module_cancelButton__45ujc","selectButton":"scroll-module_selectButton__D-AnC","clearButton":"scroll-module_clearButton__Idpe-"};
 styleInject(css_248z$3);
 
-const MagicScroll = ({ isNonScroll = false, categories, }) => {
-    const [roles, setRoles] = reactExports.useState([]);
-    const [activeButtons, setActiveButtons] = reactExports.useState([]);
-    const [selectedCategory, setSelectedCategory] = reactExports.useState();
-    const dropdownRefs = reactExports.useRef([]);
-    reactExports.useEffect(() => {
-        if (categories.length > 0) {
-            const searchParams = new URLSearchParams(window.location.search);
-            const categoryIds = searchParams.get('category_id');
-            if (categoryIds) {
-                const ids = categoryIds.split(',').map(Number);
-                setActiveButtons(ids);
-                const selectedRoles = [];
-                categories.forEach((category) => {
-                    category.roles?.forEach((role) => {
-                        if (ids.includes(role.id)) {
-                            selectedRoles.push(role);
-                        }
-                    });
-                });
-                setRoles(selectedRoles);
-            }
-        }
-    }, [categories]);
-    const handleMouseEnter = (index) => {
-        if (dropdownRefs.current[index]) {
-            dropdownRefs.current[index].style.display = 'block';
-        }
-    };
-    const handleMouseLeave = (index) => {
-        if (dropdownRefs.current[index])
-            dropdownRefs.current[index].style.display = 'none';
-    };
-    const handleClose = (index) => {
-        if (dropdownRefs.current[index])
-            dropdownRefs.current[index].style.display = 'none';
-    };
-    const handleButtonClick = (buttonId, role) => {
-        setActiveButtons((prev) => {
-            if (prev.includes(buttonId)) {
-                return prev.filter((id) => id !== buttonId);
-            }
-            return [...prev, buttonId];
-        });
-        setRoles((prev) => {
-            if (prev.some((item) => item.id === role.id)) {
-                return prev.filter((item) => item.id !== role.id);
-            }
-            return [...prev, role];
-        });
-    };
-    const handleClickJobs = () => {
-        if (roles.length === 0)
-            return;
-        const params = roles.map((role) => role.id).join(',');
-        const locate = 'it-jobs';
-        const url = `/${locate}/?category_id=${params}`;
-        window.location.href = url;
-    };
-    const handleRemoveCheck = () => {
-        setActiveButtons([]);
-        setRoles([]);
-    };
-    return (jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: LIST_MENU$1.map((item, index) => (jsxRuntimeExports.jsxs("div", { onMouseEnter: () => handleMouseEnter(index), onMouseLeave: () => handleMouseLeave(index), className: styles$3.menuItem, children: [jsxRuntimeExports.jsxs("a", { href: item.link ?? '/', className: `${styles$3.menuLink} ${isNonScroll ? styles$3.nonScrollLink : ''}`, style: { color: item.color ?? '#404040' }, children: [item.icon, item.name, item.subMenu && jsxRuntimeExports.jsx(IoIosArrowDown, {})] }), item?.subMenu && item?.name !== 'Jobs' && (jsxRuntimeExports.jsx("div", { className: styles$3.submenu, children: item.subMenu.map((subItem) => (jsxRuntimeExports.jsxs("a", { href: subItem.link, className: styles$3.submenuLink, children: [jsxRuntimeExports.jsx("span", { className: styles$3.submenuIcon, children: subItem.icon }), subItem.name] }, subItem.id))) })), categories?.length > 0 && item?.subMenu && item?.name === 'Jobs' && (jsxRuntimeExports.jsxs("div", { ref: (el) => {
-                        dropdownRefs.current[index] = el;
-                    }, className: styles$3.submenu, children: [jsxRuntimeExports.jsxs("div", { className: styles$3.jobsContainer, children: [jsxRuntimeExports.jsx("div", { className: styles$3.jobsList, children: categories.map((category) => (jsxRuntimeExports.jsxs("button", { onMouseEnter: () => setSelectedCategory(category), className: styles$3.jobLink, children: [jsxRuntimeExports.jsxs("div", { className: styles$3.submenuLinkJobs, children: [jsxRuntimeExports.jsx("span", { className: styles$3.submenuIcon }), category.name] }), jsxRuntimeExports.jsx(IoIosArrowForward, {})] }, category.id))) }), jsxRuntimeExports.jsx("div", { className: styles$3.divider }), jsxRuntimeExports.jsx("div", { className: styles$3.jobButtons, children: selectedCategory?.roles?.map((role) => (jsxRuntimeExports.jsx("button", { onClick: () => handleButtonClick(role.id, role), className: `${styles$3.jobButton} ${activeButtons.includes(role.id)
-                                            ? styles$3.jobButtonActive
-                                            : styles$3.jobButtonInactive}`, children: role.name }, role.id))) })] }), jsxRuntimeExports.jsx("div", { className: styles$3.footer, children: jsxRuntimeExports.jsxs("div", { className: styles$3.footerButtons, children: [activeButtons.length > 0 && (jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [jsxRuntimeExports.jsxs("button", { className: styles$3.clearButton, onClick: handleRemoveCheck, children: ["B\u1ECF ch\u1ECDn t\u1EA5t c\u1EA3 (", activeButtons.length, ")"] }), jsxRuntimeExports.jsx("div", { className: styles$3.dividerSmall })] })), jsxRuntimeExports.jsx("button", { onClick: () => handleClose(index), className: styles$3.cancelButton, children: "Hu\u1EF7" }), jsxRuntimeExports.jsx("button", { onClick: handleClickJobs, className: styles$3.selectButton, children: "Ch\u1ECDn" })] }) })] }))] }, index))) }));
-};
-
 var css_248z$2 = ".style-module_accountContainer__YN0BE {\n  position: relative;\n  margin-right: 0.5rem;\n  border-radius: 9999px;\n  background-color: var(--primary-color);\n  color: white;\n  font-family: 'Inter', sans-serif;\n}\n\n.style-module_accountButton__6CA2p {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  height: 32px;\n  padding: 0 0.5rem;\n  transition: all 0.3s;\n}\n\n.style-module_accountButton__6CA2p svg {\n  width: 100%;\n  height: 100%;\n  color: white;\n}\n\n.style-module_accountIcon__BY1KY {\n  height: 1.25rem;\n  width: 1.25rem;\n}\n\n.style-module_accountName__E2EjA {\n  display: -webkit-box;\n  -webkit-line-clamp: 1;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  font-size: 0.875rem;\n  color: white;\n}\n\n.style-module_arrowIcon__g85dz {\n  height: 1rem;\n  width: 1rem;\n  transition: transform 0.5s;\n}\n\n.style-module_arrowIconRotated__wK5NG {\n  transform: rotate(180deg);\n}\n\n.style-module_dropdownMenu__rnm4A {\n  position: absolute;\n  right: 0;\n  top: 100%;\n  z-index: 50;\n  margin-top: 0.5rem;\n  width: max-content;\n  transform: translateX(50%);\n  border-radius: 0.5rem;\n  background-color: white;\n  padding: 0.5rem;\n  box-shadow: 0px 0px 4px 0px #75757540;\n  transition: all 0.3s;\n}\n\n.style-module_dropdownHidden__x075O {\n  visibility: hidden;\n  transform: translateX(50%) translateY(0.5rem);\n  opacity: 0;\n}\n\n.style-module_dropdownVisible__qSUTD {\n  visibility: visible;\n  transform: translateX(50%) translateY(0);\n  opacity: 1;\n}\n\n.style-module_menuItem__GbPAU {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  border-radius: 0.5rem;\n  padding: 0.5rem 1rem;\n  font-size: 0.875rem;\n  color: #6d6d6d;\n  transition: all 0.3s;\n  text-decoration: none;\n}\n\n.style-module_menuItem__GbPAU:hover {\n  background-color: #fef4f2;\n  color: var(--primary-color);\n}\n\n.style-module_menuIcon__hVpzL {\n  font-size: 1.125rem;\n}\n\n.style-module_menuIcon__hVpzL svg {\n  width: 14px;\n  height: 14px;\n}\n";
-var styles$2 = {"accountContainer":"style-module_accountContainer__YN0BE","accountButton":"style-module_accountButton__6CA2p","accountIcon":"style-module_accountIcon__BY1KY","accountName":"style-module_accountName__E2EjA","arrowIcon":"style-module_arrowIcon__g85dz","arrowIconRotated":"style-module_arrowIconRotated__wK5NG style-module_arrowIcon__g85dz","dropdownMenu":"style-module_dropdownMenu__rnm4A","dropdownHidden":"style-module_dropdownHidden__x075O style-module_dropdownMenu__rnm4A","dropdownVisible":"style-module_dropdownVisible__qSUTD style-module_dropdownMenu__rnm4A","menuItem":"style-module_menuItem__GbPAU","menuIcon":"style-module_menuIcon__hVpzL"};
 styleInject(css_248z$2);
 
-const MENU_CONFIG = {
+({
     account: {
         resume: [
             {
@@ -8286,109 +8173,7 @@ const MENU_CONFIG = {
             },
         ],
     },
-};
-
-const SubMenu = ({ user, type = 'resume' }) => {
-    const [isDropdownOpen, setIsDropdownOpen] = reactExports.useState(false);
-    const menuItems = MENU_CONFIG.account[type];
-    return (jsxRuntimeExports.jsxs("div", { className: styles$2.accountContainer, children: [jsxRuntimeExports.jsxs("button", { onClick: () => setIsDropdownOpen(!isDropdownOpen), className: styles$2.accountButton, children: [jsxRuntimeExports.jsx("span", { className: styles$2.accountIcon, children: jsxRuntimeExports.jsx(MdAccountCircle, {}) }), jsxRuntimeExports.jsx("span", { className: styles$2.accountName, children: user?.display_name ?? 'user' }), jsxRuntimeExports.jsx("span", { className: isDropdownOpen ? styles$2.arrowIconRotated : styles$2.arrowIcon, children: jsxRuntimeExports.jsx(ArrowDown, {}) })] }), jsxRuntimeExports.jsx("div", { className: isDropdownOpen ? styles$2.dropdownVisible : styles$2.dropdownHidden, children: menuItems.map((item, index) => {
-                    return (jsxRuntimeExports.jsxs("a", { href: item.href, className: styles$2.menuItem, children: [jsxRuntimeExports.jsx("span", { className: styles$2.menuIcon, children: item.icon }), item.title] }, index));
-                }) })] }));
-};
-
-function useDebounce(value, delay = 500) {
-    const [debouncedValue, setDebouncedValue] = reactExports.useState(value);
-    reactExports.useEffect(() => {
-        const timer = setTimeout(() => {
-            setDebouncedValue(value);
-        }, delay);
-        return () => {
-            clearTimeout(timer);
-        };
-    }, [value, delay]);
-    return debouncedValue;
-}
-
-const InputSearch = ({ lang = 'vi' }) => {
-    const [isOpenSuggest, setIsOpenSuggest] = reactExports.useState(false);
-    const [search, setSearch] = reactExports.useState('');
-    const debouncedSuggest = useDebounce(search, 300);
-    const [suggestData, setSuggestData] = reactExports.useState([]);
-    const suggestRef = reactExports.useRef(null);
-    const handleClickInputSearch = () => {
-        if (suggestData.length && !isOpenSuggest) {
-            setIsOpenSuggest(true);
-        }
-    };
-    const handleChangeSearch = async (event) => {
-        setSearch(event.target.value);
-    };
-    const handleSuggestedKeywords = async () => {
-        if (search) {
-            try {
-                const response = await getSuggestedKeywords.get(search);
-                setSuggestData(response);
-                setIsOpenSuggest(true);
-                // eslint-disable-next-line @typescript-eslint/no-unused-vars
-            }
-            catch (err) {
-                throw Error('Can not get suggested keywords!');
-            }
-        }
-        else {
-            setIsOpenSuggest(false);
-            setSuggestData([]);
-        }
-    };
-    const handleClickSuggest = (suggestItem) => {
-        const locate = lang === 'vie' ? 'it-jobs' : 'viec-lam-it';
-        const formattedUrl = `/${locate}/${suggestItem.slug}-kt${suggestItem.id}`;
-        window.location.href = formattedUrl;
-        setIsOpenSuggest(false);
-    };
-    reactExports.useEffect(() => {
-        document.addEventListener('click', handleClickDocument);
-        return () => {
-            document.removeEventListener('click', handleClickDocument);
-        };
-    }, [isOpenSuggest]);
-    reactExports.useEffect(() => {
-        handleSuggestedKeywords();
-    }, [debouncedSuggest]);
-    const handleClickDocument = (event) => {
-        if (isOpenSuggest &&
-            suggestRef.current &&
-            !suggestRef.current.contains(event.target)) {
-            setIsOpenSuggest((prev) => !prev);
-        }
-    };
-    return (jsxRuntimeExports.jsxs("div", { className: styles$5.containerSearch, children: [jsxRuntimeExports.jsx("input", { type: "text", className: styles$5.input, placeholder: "Search...", onChange: handleChangeSearch, value: search, onClick: handleClickInputSearch }), jsxRuntimeExports.jsx("button", { className: styles$5.button, children: jsxRuntimeExports.jsx(SearchIcon, {}) }), isOpenSuggest && suggestData.length > 0 && (jsxRuntimeExports.jsx("div", { ref: suggestRef, className: styles$5.suggestContainer, children: jsxRuntimeExports.jsx("div", { className: styles$5.suggestList, children: suggestData.map((suggestItem) => (jsxRuntimeExports.jsx("button", { className: styles$5.suggestItem, onClick: () => handleClickSuggest(suggestItem), children: suggestItem.keyword }, suggestItem.id))) }) }))] }));
-};
-
-// interface NotificationItem {
-//   id: string;
-//   title: string;
-//   message: string;
-//   createdAt: string;
-// }
-const Notification = () => {
-    const [isOpen, setIsOpen] = reactExports.useState(false);
-    const dropdownRef = reactExports.useRef(null);
-    reactExports.useEffect(() => {
-        const handleClickOutside = (event) => {
-            if (dropdownRef.current &&
-                !dropdownRef.current.contains(event.target)) {
-                // setNotifications([1,2,3])
-                setIsOpen(false);
-            }
-        };
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => document.removeEventListener('mousedown', handleClickOutside);
-    }, []);
-    return (jsxRuntimeExports.jsxs("div", { className: styles$5.notificationContainer, ref: dropdownRef, children: [jsxRuntimeExports.jsx("button", { className: styles$5.buttonNotification, onClick: () => setIsOpen(!isOpen), children: jsxRuntimeExports.jsx(NotificationTop, {}) }), jsxRuntimeExports.jsx("div", { className: isOpen
-                    ? styles$5.notificationDropdownVisible
-                    : styles$5.notificationDropdown, children: jsxRuntimeExports.jsx("div", { className: styles$5.notificationHeader, children: jsxRuntimeExports.jsx("h3", { className: styles$5.notificationTitle, children: "Notifications" }) }) })] }));
-};
+});
 
 /*! js-cookie v3.0.5 | MIT */
 /* eslint-disable no-var */
@@ -8520,85 +8305,9 @@ function init (converter, defaultAttributes) {
   )
 }
 
-var api = init(defaultConverter, { path: '/' });
+init(defaultConverter, { path: '/' });
 
-const HeaderButtonsNotLogin = ({ isSticky = false }) => {
-    const handleClickLogin = () => {
-        if (typeof window !== 'undefined') {
-            window.location.href =
-                'https://accounts.topdev.vn/' +
-                    '?redirect_uri=' +
-                    encodeURIComponent(window?.location.href);
-        }
-    };
-    return (jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [!isSticky && (jsxRuntimeExports.jsxs("a", { href: "tel:0888 1555 00", className: styles$5.hiddenButtons, children: [jsxRuntimeExports.jsx("span", { className: styles$5.iconWrapper, children: jsxRuntimeExports.jsx(FaPhoneAlt, {}) }), jsxRuntimeExports.jsx("span", { children: "0888 1555 00" })] })), !isSticky && (jsxRuntimeExports.jsxs("a", { href: "https://accounts.topdev.vn/", className: styles$5.hiddenEmployer, children: [jsxRuntimeExports.jsx("span", { className: styles$5.iconWrapper, children: jsxRuntimeExports.jsx(Employer, {}) }), jsxRuntimeExports.jsx("span", { children: "Employer" })] })), !isSticky && jsxRuntimeExports.jsx("div", { className: styles$5.divider }), jsxRuntimeExports.jsxs("button", { onClick: handleClickLogin, className: styles$5.loginButton, children: [jsxRuntimeExports.jsx(FaUser, {}), jsxRuntimeExports.jsx("span", { children: "Log in" })] })] }));
-};
-const HeaderButtonsLogin = ({ isSticky = false }) => {
-    return (jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [!isSticky && (jsxRuntimeExports.jsxs("a", { href: "tel:0888 1555 00", className: styles$5.hiddenButtons, children: [jsxRuntimeExports.jsx("span", { className: styles$5.iconWrapper, children: jsxRuntimeExports.jsx(FaPhoneAlt, {}) }), jsxRuntimeExports.jsx("span", { children: "0888 1555 00" })] })), !isSticky && jsxRuntimeExports.jsx("div", { className: styles$5.divider }), jsxRuntimeExports.jsx(SubMenu, {}), isSticky ? jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {}) : jsxRuntimeExports.jsx(Notification, {})] }));
-};
-const Header = () => {
-    const [isSticky, setIsSticky] = reactExports.useState(false);
-    const [isLogin, setIsLogin] = reactExports.useState(false);
-    const [locale, setLocale] = reactExports.useState('vi');
-    const [categories, setCategories] = reactExports.useState([]);
-    reactExports.useEffect(() => {
-        const getCategory = async () => {
-            try {
-                const categories = await getCategories.get();
-                setCategories(categories);
-            }
-            catch (err) {
-                console.error('Error fetching categories:', err);
-            }
-        };
-        getCategory();
-    }, []);
-    reactExports.useEffect(() => {
-        const handleScroll = () => {
-            const scrollPosition = window?.scrollY;
-            setIsSticky(scrollPosition > 50);
-        };
-        handleScroll();
-        window?.addEventListener('scroll', handleScroll);
-        return () => window?.removeEventListener('scroll', handleScroll);
-    }, []);
-    reactExports.useEffect(() => {
-        const checkIsLogin = async () => {
-            try {
-                const isLogin = await checkLogin.get();
-                setIsLogin(isLogin);
-            }
-            catch (err) {
-                console.error('Error fetching categories:', err);
-            }
-        };
-        checkIsLogin();
-    }, []);
-    reactExports.useEffect(() => {
-        if (typeof window !== 'undefined') {
-            const cookieLocale = api.get('topdev_locale');
-            if (cookieLocale === 'en' || cookieLocale === 'vi') {
-                setLocale(cookieLocale);
-            }
-        }
-    }, []);
-    const handleChangeLocale = (lang) => {
-        if (typeof window !== 'undefined') {
-            if (lang === locale)
-                return;
-            const currentUrl = window?.location.href;
-            const redirectUri = encodeURIComponent(currentUrl);
-            window.location.href = `/${lang}?redirect_uri=${redirectUri}`;
-        }
-    };
-    return (jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [jsxRuntimeExports.jsxs("header", { className: isSticky ? styles$5.headerShadow : styles$5.header, children: [jsxRuntimeExports.jsxs("div", { className: styles$5.container, children: [jsxRuntimeExports.jsxs("div", { className: isSticky ? styles$5.groupSearchSticky : styles$5.groupSearch, children: [jsxRuntimeExports.jsx("a", { href: "/", children: jsxRuntimeExports.jsx("img", { className: styles$5.logo, src: "https://c.topdevvn.com/v4/assets/images/td-logo.png", alt: "topdev-logo" }) }), isSticky && (jsxRuntimeExports.jsx("div", { className: styles$5.stickyMenu, children: jsxRuntimeExports.jsx(MagicScroll, { isNonScroll: true, categories: categories }) })), jsxRuntimeExports.jsx("div", { className: isSticky
-                                            ? styles$5.searchContainerSticky
-                                            : styles$5.searchContainerNonSticky, children: jsxRuntimeExports.jsx(InputSearch, {}) })] }), jsxRuntimeExports.jsxs("div", { className: styles$5.loginContainer, children: [isLogin ? (jsxRuntimeExports.jsx(HeaderButtonsLogin, { isSticky: isSticky })) : (jsxRuntimeExports.jsx(HeaderButtonsNotLogin, { isSticky: isSticky })), isSticky ? (jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {})) : (jsxRuntimeExports.jsx("div", { className: styles$5.containerSwitch, children: jsxRuntimeExports.jsx("button", { onClick: () => handleChangeLocale(locale === 'vi' ? 'en' : 'vi'), type: "button", className: styles$5.localeButton, children: locale === 'vi' ? 'En' : 'Vi' }) }))] })] }), jsxRuntimeExports.jsx("div", { className: isSticky ? styles$5.dividerHidden : styles$5.dividerX })] }), jsxRuntimeExports.jsx("div", { className: isSticky
-                    ? styles$5.containerMenuScrollHidden
-                    : styles$5.containerMenuScroll, children: jsxRuntimeExports.jsx(MagicScroll, { categories: categories }) })] }));
-};
-
-const LIST_MENU = [
+[
     {
         id: 1,
         name: 'Hot Jobs',
@@ -8743,121 +8452,12 @@ const LIST_MENU = [
 ];
 
 var css_248z$1 = ".styles-module_container__EIonk {\n  display: flex;\n  align-items: center;\n  font-family: 'Inter', sans-serif;\n}\n.styles-module_container__EIonk button {\n  background-color: transparent;\n  padding: 0;\n  margin: 0;\n}\n.styles-module_divider__PU999 {\n  width: 1px;\n  height: 1rem;\n  background-color: #e5e7eb;\n}\n.styles-module_button__-5cJQ {\n  padding: 0 0.5rem;\n  text-transform: uppercase;\n  transition: all 0.3s;\n  color: #9ca3af;\n}\n.styles-module_buttonActive__HwOxT {\n  font-weight: 700;\n  color: var(--primary-color);\n}\n";
-var styles$1 = {"container":"styles-module_container__EIonk","divider":"styles-module_divider__PU999","button":"styles-module_button__-5cJQ","buttonActive":"styles-module_buttonActive__HwOxT styles-module_button__-5cJQ"};
 styleInject(css_248z$1);
 
-const SwitchLocale = ({ defaultLocale = 'vi' }) => {
-    const [locale, setLocale] = reactExports.useState(defaultLocale);
-    reactExports.useEffect(() => {
-        const cookieLocale = api.get('topdev_locale');
-        if (cookieLocale === 'en' || cookieLocale === 'vi') {
-            setLocale(cookieLocale);
-        }
-    }, []);
-    const handleChangeLocale = (lang) => {
-        if (lang === locale)
-            return;
-        const currentUrl = window.location.href;
-        const redirectUri = encodeURIComponent(currentUrl);
-        window.location.href = `/${lang}?redirect_uri=${redirectUri}`;
-    };
-    return (jsxRuntimeExports.jsxs("div", { className: styles$1.container, children: [jsxRuntimeExports.jsx("button", { onClick: () => handleChangeLocale('en'), type: "button", className: locale === 'en' ? styles$1.buttonActive : styles$1.button, children: "En" }), jsxRuntimeExports.jsx("div", { className: styles$1.divider }), jsxRuntimeExports.jsx("button", { onClick: () => handleChangeLocale('vi'), type: "button", className: locale === 'vi' ? styles$1.buttonActive : styles$1.button, children: "Vi" })] }));
-};
-
 var css_248z = ".styles-module_container__0bjfq {\n  position: relative;\n  overflow: hidden;\n  font-family: 'Inter', sans-serif;\n}\n\n.styles-module_menuButton__3fOfe {\n  background-color: transparent;\n  text-align: center;\n}\n\n.styles-module_menuIcon__HBM-W svg {\n  width: 14px;\n  height: 14px;\n}\n\n.styles-module_drawer__dqGeH {\n  position: fixed;\n  left: 0;\n  top: 0;\n  z-index: 60;\n  height: 100%;\n  width: 100%;\n  overflow-y: auto;\n  overflow-x: hidden;\n  background-color: white;\n  transition: all 0.3s ease;\n}\n\n.styles-module_drawerHidden__mH8EZ {\n  visibility: hidden;\n  transform: translateX(-100%);\n  opacity: 0;\n}\n\n.styles-module_drawerVisible__K-O-p {\n  visibility: visible;\n  transform: translateX(0);\n  opacity: 1;\n}\n\n.styles-module_header__DY4L- {\n  position: relative;\n  padding: 1rem;\n  padding-bottom: 5rem;\n}\n\n.styles-module_headerContent__Y5FLU {\n  display: flex;\n  flex: 1;\n  align-items: center;\n  justify-content: space-between;\n  gap: 0.5rem;\n}\n\n.styles-module_headerContent__Y5FLU button {\n  background-color: transparent;\n}\n\n.styles-module_logo__ELU0r {\n  display: block;\n  height: 2.25rem;\n  width: 7rem;\n}\n\n.styles-module_logoImage__BOPXi {\n  height: 100%;\n  width: 100%;\n  max-width: 100%;\n  object-fit: contain;\n}\n\n.styles-module_divider__rOME6 {\n  margin-top: 0.5rem;\n  height: 1px;\n  background-color: #fed2ca;\n}\n\n.styles-module_content__dg26R {\n  margin-top: 0.75rem;\n  display: flex;\n  gap: 0.75rem;\n}\n\n.styles-module_menuList__qu0ee {\n  width: fit-content;\n}\n\n.styles-module_menuItem__hOXnm {\n  display: flex;\n  height: 48px;\n  width: 88px;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 0.25rem;\n  border-radius: 4px;\n  font-weight: 500;\n  color: #4f4f4f;\n  text-decoration: none;\n  transition: colors 0.3s;\n}\n\n.styles-module_menuItemActive__S0j-m {\n  background-color: #fef4f2;\n  color: var(--primary-color);\n}\n\n.styles-module_menuName__ZLPqg {\n  text-wrap: nowrap;\n  font-size: 0.75rem;\n  transition: colors 0.3s;\n}\n\n.styles-module_menuNameNIPA__2F3E- {\n  font-weight: bold;\n}\n\n.styles-module_subMenuContainer__Osiv0 {\n  width: 100%;\n  max-height: 70vh;\n  overflow-y: auto;\n  overflow-x: hidden;\n}\n\n.styles-module_subMenuItem__mXcsw {\n  display: flex;\n  width: 100%;\n  align-items: center;\n  gap: 0.5rem;\n  border-radius: 4px;\n  padding: 0.75rem 0.5rem;\n  color: #5d5d5d;\n  text-decoration: none;\n  transition: transform 0.3s;\n}\n\n.styles-module_subMenuItem__mXcsw svg {\n  width: 10px;\n  height: 10px;\n}\n\n.styles-module_subMenuItemActive__rety4 {\n  background-color: #fef4f2;\n  color: var(--primary-color);\n}\n\n.styles-module_subMenuText__S-3uU {\n  font-size: 0.875rem;\n  font-weight: 500;\n}\n\n.styles-module_jobsContainer__lwgng {\n  margin-bottom: 0.25rem;\n}\n\n.styles-module_jobButton__5HL2B {\n  display: flex;\n  width: 100%;\n  align-items: center;\n  justify-content: space-between;\n  border-radius: 4px;\n  padding-right: 0.75rem;\n  color: #5d5d5d;\n  background-color: transparent;\n  transition: transform 0.3s;\n}\n\n.styles-module_jobButtonActive__vf9Kl {\n  background-color: #fef4f2;\n  color: var(--primary-color);\n}\n\n.styles-module_jobButtonContent__5P8J2 {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  padding: 0.5rem;\n}\n\n.styles-module_jobButtonArrow__mKH2Q {\n  transition: transform 0.3s;\n}\n\n.styles-module_jobButtonArrowExpanded__n6-Nd {\n  transform: rotate(180deg);\n}\n\n.styles-module_jobOptionsContainer__NPSFM {\n  overflow: hidden;\n  padding-left: 0.75rem;\n  transition: all 0.3s;\n}\n\n.styles-module_jobOptionsExpanded__b9tk9 {\n  max-height: 500px;\n  opacity: 1;\n}\n\n.styles-module_jobOptionsCollapsed__eBLSo {\n  max-height: 0;\n  opacity: 0;\n}\n\n.styles-module_jobOptionsList__flcb0 {\n  margin-top: 0.25rem;\n  display: flex;\n  height: fit-content;\n  flex-wrap: wrap;\n  gap: 0.25rem;\n  border-left: 1px solid #fed2ca;\n  padding: 0.25rem 0.5rem;\n}\n\n.styles-module_jobOption__u6nZ8 {\n  height: 18px;\n  border-radius: 9999px;\n  padding: 0 1rem;\n  font-size: 10px;\n  line-height: 14px;\n  transition: colors 0.3s;\n  overflow: hidden;\n  display: -webkit-box;\n  -webkit-box-orient: vertical;\n  -webkit-line-clamp: 1;\n}\n\n.styles-module_jobOptionActive__Umev0 {\n  background-color: #fee6e2;\n  color: var(--primary-color);\n}\n\n.styles-module_jobOptionInactive__HoQC8 {\n  background-color: #f6f6f6;\n  color: #4f4f4f;\n}\n\n.styles-module_footer__hHUUh {\n  position: fixed;\n  bottom: 1rem;\n  padding: 0 1rem;\n  width: 100%;\n}\n\n.styles-module_footerContent__9h5JW {\n  margin-top: 0.5rem;\n  display: flex;\n  align-items: center;\n  border-top: 1px solid #fed2ca;\n  padding-top: 1rem;\n  padding-left: 0.5rem;\n  width: 100%;\n}\n\n.styles-module_footerButtons__JmicN {\n  display: flex;\n  align-items: center;\n  gap: 0.75rem;\n  justify-content: space-between;\n  padding-bottom: 20px;\n}\n\n.styles-module_cancelButton__SZW5w {\n  background-color: #e7e7e7;\n  border-radius: 56px;\n  width: 88px;\n  height: 24px;\n  color: #404040;\n  font-size: 14px;\n}\n\n.styles-module_selectButton__Hk-UD {\n  background-color: #dd3f24;\n  color: white;\n}\n\n.styles-module_clearButton__HJe5d {\n  color: #dd3f24;\n  background-color: transparent;\n  font-size: 10px;\n}\n\n.styles-module_groupButton__qUd7s {\n  display: flex;\n  align-items: center;\n  gap: 4px;\n  padding-right: 30px;\n}\n";
-var styles = {"container":"styles-module_container__0bjfq","menuButton":"styles-module_menuButton__3fOfe","menuIcon":"styles-module_menuIcon__HBM-W","drawer":"styles-module_drawer__dqGeH","drawerHidden":"styles-module_drawerHidden__mH8EZ styles-module_drawer__dqGeH","drawerVisible":"styles-module_drawerVisible__K-O-p styles-module_drawer__dqGeH","header":"styles-module_header__DY4L-","headerContent":"styles-module_headerContent__Y5FLU","logo":"styles-module_logo__ELU0r","logoImage":"styles-module_logoImage__BOPXi","divider":"styles-module_divider__rOME6","content":"styles-module_content__dg26R","menuList":"styles-module_menuList__qu0ee","menuItem":"styles-module_menuItem__hOXnm","menuItemActive":"styles-module_menuItemActive__S0j-m styles-module_menuItem__hOXnm","menuName":"styles-module_menuName__ZLPqg","menuNameNIPA":"styles-module_menuNameNIPA__2F3E- styles-module_menuName__ZLPqg","subMenuContainer":"styles-module_subMenuContainer__Osiv0","subMenuItem":"styles-module_subMenuItem__mXcsw","subMenuItemActive":"styles-module_subMenuItemActive__rety4 styles-module_subMenuItem__mXcsw","subMenuText":"styles-module_subMenuText__S-3uU","jobsContainer":"styles-module_jobsContainer__lwgng","jobButton":"styles-module_jobButton__5HL2B","jobButtonActive":"styles-module_jobButtonActive__vf9Kl styles-module_jobButton__5HL2B","jobButtonContent":"styles-module_jobButtonContent__5P8J2","jobButtonArrow":"styles-module_jobButtonArrow__mKH2Q","jobButtonArrowExpanded":"styles-module_jobButtonArrowExpanded__n6-Nd styles-module_jobButtonArrow__mKH2Q","jobOptionsContainer":"styles-module_jobOptionsContainer__NPSFM","jobOptionsExpanded":"styles-module_jobOptionsExpanded__b9tk9 styles-module_jobOptionsContainer__NPSFM","jobOptionsCollapsed":"styles-module_jobOptionsCollapsed__eBLSo styles-module_jobOptionsContainer__NPSFM","jobOptionsList":"styles-module_jobOptionsList__flcb0","jobOption":"styles-module_jobOption__u6nZ8","jobOptionActive":"styles-module_jobOptionActive__Umev0 styles-module_jobOption__u6nZ8","jobOptionInactive":"styles-module_jobOptionInactive__HoQC8 styles-module_jobOption__u6nZ8","footer":"styles-module_footer__hHUUh","footerContent":"styles-module_footerContent__9h5JW","footerButtons":"styles-module_footerButtons__JmicN","cancelButton":"styles-module_cancelButton__SZW5w","selectButton":"styles-module_selectButton__Hk-UD styles-module_cancelButton__SZW5w","clearButton":"styles-module_clearButton__HJe5d","groupButton":"styles-module_groupButton__qUd7s"};
 styleInject(css_248z);
 
-const DrawerMenu = ({ children }) => {
-    const [isShow, setIsShow] = reactExports.useState(false);
-    const menuRef = reactExports.useRef(null);
-    const [expandedItem, setExpandedItem] = reactExports.useState();
-    const [activeButton, setActiveButton] = reactExports.useState();
-    const [roles, setRoles] = reactExports.useState([]);
-    const [activeButtons, setActiveButtons] = reactExports.useState([]);
-    const [categories, setCategories] = reactExports.useState([]);
-    const [selectedCategory, setSelectedCategory] = reactExports.useState();
-    const [activeMenu, setActiveMenu] = reactExports.useState(LIST_MENU[0] || null);
-    const handleButtonClick = (buttonId, role) => {
-        setActiveButtons((prev) => {
-            if (prev.includes(buttonId)) {
-                return prev.filter((id) => id !== buttonId);
-            }
-            return [...prev, buttonId];
-        });
-        setRoles((prev) => {
-            if (prev.some((item) => item.id === role.id)) {
-                return prev.filter((item) => item.id !== role.id);
-            }
-            return [...prev, role];
-        });
-    };
-    const toggleExpand = (subMenuId) => {
-        setExpandedItem((categoryId) => subMenuId === categoryId ? null : subMenuId);
-    };
-    reactExports.useEffect(() => {
-        const getCategory = async () => {
-            try {
-                const categories = await getCategories.get();
-                setCategories(categories);
-            }
-            catch (err) {
-                console.error('Error fetching categories:', err);
-            }
-        };
-        getCategory();
-    }, []);
-    reactExports.useEffect(() => {
-        const searchParams = new URLSearchParams(window.location.search);
-        const categoryIds = searchParams.get('category_id');
-        if (categoryIds) {
-            const ids = categoryIds.split(',').map(Number);
-            setActiveButtons(ids);
-            // Find and set roles based on category IDs
-            const selectedRoles = [];
-            categories.forEach((category) => {
-                category.roles?.forEach((role) => {
-                    if (ids.includes(role.id)) {
-                        selectedRoles.push(role);
-                    }
-                });
-            });
-            setRoles(selectedRoles);
-        }
-    }, [categories]);
-    const handleRemoveCheck = () => {
-        setActiveButtons([]);
-        setRoles([]);
-    };
-    const handleClickJobs = () => {
-        if (roles.length === 0)
-            return;
-        const params = roles.map((role) => role.id).join(',');
-        const locate = 'it-jobs';
-        const url = `/${locate}/?category_id=${params}`;
-        window.location.href = url;
-    };
-    return (jsxRuntimeExports.jsxs("div", { id: "NavigationMenu", className: styles.container, ref: menuRef, children: [jsxRuntimeExports.jsx("button", { onClick: () => setIsShow(true), className: styles.menuButton, role: "button", "aria-label": "Menu", "aria-labelledby": "labelmenu", tabIndex: -1, children: children }), jsxRuntimeExports.jsxs("div", { className: isShow ? styles.drawerVisible : styles.drawerHidden, children: [jsxRuntimeExports.jsxs("div", { className: styles.header, children: [jsxRuntimeExports.jsxs("div", { className: styles.headerContent, children: [jsxRuntimeExports.jsx("a", { href: "/", className: styles.logo, children: jsxRuntimeExports.jsx("img", { src: "https://c.topdevvn.com/v4/assets/images/td-logo.png", width: 114, height: 22, loading: "lazy", className: styles.logoImage, alt: "TopDev" }) }), jsxRuntimeExports.jsx("button", { role: "button", onClick: () => setIsShow(false), children: jsxRuntimeExports.jsx(MdClear, {}) })] }), jsxRuntimeExports.jsx("div", { className: styles.divider }), jsxRuntimeExports.jsxs("div", { className: styles.content, children: [jsxRuntimeExports.jsx("div", { className: styles.menuList, children: LIST_MENU.map((menu) => (jsxRuntimeExports.jsxs("a", { href: menu?.link ?? '#', className: activeMenu?.id === menu.id
-                                                ? styles.menuItemActive
-                                                : styles.menuItem, onClick: () => setActiveMenu(menu), children: [jsxRuntimeExports.jsx("span", { className: styles.menuIcon, children: menu?.icon }), jsxRuntimeExports.jsx("span", { style: { color: menu?.color ?? '' }, className: menu?.name === 'NIPA'
-                                                        ? styles.menuNameNIPA
-                                                        : styles.menuName, children: menu?.name })] }, menu?.id))) }), activeMenu?.subMenu && activeMenu?.name !== 'Jobs' && (jsxRuntimeExports.jsx("div", { className: styles.subMenuContainer, children: activeMenu?.subMenu.map((subMenu) => (jsxRuntimeExports.jsxs("a", { href: subMenu?.link ?? '#', className: activeButton === subMenu?.id
-                                                ? styles.subMenuItemActive
-                                                : styles.subMenuItem, onClick: () => setActiveButton(subMenu.id), children: [subMenu?.icon, jsxRuntimeExports.jsx("span", { className: styles.subMenuText, children: subMenu?.name })] }, subMenu?.id))) })), categories?.length > 0 && activeMenu?.name === 'Jobs' && (jsxRuntimeExports.jsx("div", { className: styles.subMenuContainer, children: categories.map((category) => (jsxRuntimeExports.jsxs("div", { className: styles.jobsContainer, children: [jsxRuntimeExports.jsxs("button", { className: expandedItem === category.id
-                                                        ? styles.jobButtonActive
-                                                        : styles.jobButton, onClick: () => {
-                                                        setSelectedCategory(category);
-                                                        toggleExpand(category.id);
-                                                    }, children: [jsxRuntimeExports.jsx("div", { className: styles.jobButtonContent, children: jsxRuntimeExports.jsx("span", { className: styles.subMenuText, children: category?.name }) }), jsxRuntimeExports.jsx("span", { className: expandedItem === category.id
-                                                                ? styles.jobButtonArrowExpanded
-                                                                : styles.jobButtonArrow, children: jsxRuntimeExports.jsx(IoIosArrowDown, {}) })] }), jsxRuntimeExports.jsx("div", { className: expandedItem === category.id
-                                                        ? styles.jobOptionsExpanded
-                                                        : styles.jobOptionsCollapsed, children: jsxRuntimeExports.jsx("div", { className: styles.jobOptionsList, children: selectedCategory?.roles?.map((role) => (jsxRuntimeExports.jsx("button", { onClick: () => handleButtonClick(role.id, role), className: activeButtons.includes(role.id)
-                                                                ? styles.jobOptionActive
-                                                                : styles.jobOptionInactive, children: role.name }, role.id))) }) })] }, category?.id))) }))] })] }), jsxRuntimeExports.jsxs("div", { className: styles.footer, children: [activeButtons.length > 0 && (jsxRuntimeExports.jsxs("div", { className: styles.footerButtons, children: [jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [jsxRuntimeExports.jsxs("button", { className: styles.clearButton, onClick: handleRemoveCheck, children: ["B\u1ECF ch\u1ECDn t\u1EA5t c\u1EA3 (", activeButtons.length, ")"] }), jsxRuntimeExports.jsx("div", { className: styles.dividerSmall })] }), jsxRuntimeExports.jsxs("div", { className: styles.groupButton, children: [jsxRuntimeExports.jsx("button", { role: "button", onClick: () => setIsShow(false), className: styles.cancelButton, children: "Hu\u1EF7" }), jsxRuntimeExports.jsx("button", { onClick: handleClickJobs, className: styles.selectButton, children: "Ch\u1ECDn" })] })] })), jsxRuntimeExports.jsxs("div", { className: styles.footerContent, children: [jsxRuntimeExports.jsx(Translate, {}), jsxRuntimeExports.jsx(SwitchLocale, {})] })] })] })] }));
-};
-
-const MENU_LIST = [
+[
     {
         id: 'home',
         name: 'Home',
@@ -8982,214 +8582,4 @@ const MENU_LIST = [
         ],
     },
 ];
-
-// interface HeaderMobileProps {
-//   locale?: string;
-// }
-// const InputSearch = ({ lang = 'vi' }) => {
-//   const [isOpenSuggest, setIsOpenSuggest] = useState(false);
-//   const [search, setSearch] = useState('');
-//   const debouncedSuggest = useDebounce<string>(search, 500);
-//   const [suggestData, setSuggestData] = useState<SuggestedType[]>([]);
-//   const suggestRef = useRef<HTMLDivElement>(null);
-//   const handleClickInputSearch = () => {
-//     if (suggestData.length && !isOpenSuggest) {
-//       setIsOpenSuggest(true);
-//     }
-//   };
-//   const handleChangeSearch = async (event: ChangeEvent<HTMLInputElement>) => {
-//     setSearch(event.target.value);
-//   };
-//   const handleSuggestedKeywords = async () => {
-//     if (search) {
-//       try {
-//         const response = await getSuggestedKeywords.get(search);
-//         setSuggestData(response);
-//         setIsOpenSuggest(true);
-//         // eslint-disable-next-line @typescript-eslint/no-unused-vars
-//       } catch (err) {
-//         throw Error('Can not get suggested keywords!');
-//       }
-//     } else {
-//       setIsOpenSuggest(false);
-//       setSuggestData([]);
-//     }
-//   };
-//   const handleClickSuggest = (suggestItem: SuggestedType) => {
-//     const locate = lang === 'vie' ? 'it-jobs' : 'viec-lam-it';
-//     const formattedUrl = `${locate}/${suggestItem.slug}-kt${suggestItem.id}`;
-//     window.location.href = formattedUrl;
-//     setIsOpenSuggest(false);
-//   };
-//   useEffect(() => {
-//     document.addEventListener('click', handleClickDocument);
-//     return () => {
-//       document.removeEventListener('click', handleClickDocument);
-//     };
-//   }, [isOpenSuggest]);
-//   useEffect(() => {
-//     handleSuggestedKeywords();
-//   }, [debouncedSuggest]);
-//   const handleClickDocument = (event: globalThis.MouseEvent) => {
-//     if (
-//       isOpenSuggest &&
-//       suggestRef.current &&
-//       !suggestRef.current.contains(event.target as Node)
-//     ) {
-//       setIsOpenSuggest((prev) => !prev);
-//     }
-//   };
-//   return (
-//     <div className={styles.containerSearch}>
-//       <input
-//         type="text"
-//         className={styles.input}
-//         placeholder="Search..."
-//         onChange={handleChangeSearch}
-//         value={search}
-//         onClick={handleClickInputSearch}
-//       />
-//       <button className={styles.button}>
-//         <SearchIcon />
-//       </button>
-//       {isOpenSuggest && suggestData.length > 0 && (
-//         <div ref={suggestRef} className={styles.suggestContainer}>
-//           <div className={styles.suggestList}>
-//             {suggestData.map((suggestItem) => (
-//               <button
-//                 key={suggestItem.id}
-//                 className={styles.suggestItem}
-//                 onClick={() => handleClickSuggest(suggestItem)}
-//               >
-//                 {suggestItem.keyword}
-//               </button>
-//             ))}
-//           </div>
-//         </div>
-//       )}
-//     </div>
-//   );
-// };
-const InputSearchSticky = ({ isSticky = false, lang = 'vie' }) => {
-    const [isOpenSuggest, setIsOpenSuggest] = reactExports.useState(false);
-    const [search, setSearch] = reactExports.useState('');
-    const debouncedSuggest = useDebounce(search, 500);
-    const [suggestData, setSuggestData] = reactExports.useState([]);
-    const suggestRef = reactExports.useRef(null);
-    const handleClickInputSearch = () => {
-        if (suggestData.length && !isOpenSuggest) {
-            setIsOpenSuggest(true);
-        }
-    };
-    const handleChangeSearch = async (event) => {
-        setSearch(event.target.value);
-    };
-    const handleSuggestedKeywords = async () => {
-        if (search) {
-            try {
-                const response = await getSuggestedKeywords.get(search);
-                setSuggestData(response);
-                setIsOpenSuggest(true);
-                // eslint-disable-next-line @typescript-eslint/no-unused-vars
-            }
-            catch (err) {
-                throw Error('Can not get suggested keywords!');
-            }
-        }
-        else {
-            setIsOpenSuggest(false);
-            setSuggestData([]);
-        }
-    };
-    const handleClickSuggest = (suggestItem) => {
-        const locate = lang === 'vie' ? 'it-jobs' : 'viec-lam-it';
-        const formattedUrl = `${locate}/${suggestItem.slug}-kt${suggestItem.id}`;
-        window.location.href = formattedUrl;
-        setIsOpenSuggest(false);
-    };
-    reactExports.useEffect(() => {
-        document.addEventListener('click', handleClickDocument);
-        return () => {
-            document.removeEventListener('click', handleClickDocument);
-        };
-    }, [isOpenSuggest]);
-    reactExports.useEffect(() => {
-        handleSuggestedKeywords();
-    }, [debouncedSuggest]);
-    const handleClickDocument = (event) => {
-        if (isOpenSuggest &&
-            suggestRef.current &&
-            !suggestRef.current.contains(event.target)) {
-            setIsOpenSuggest((prev) => !prev);
-        }
-    };
-    return (jsxRuntimeExports.jsxs("div", { className: isSticky ? styles$4.containerSearchSticky : styles$4.hiddenSearch, children: [jsxRuntimeExports.jsx("input", { type: "text", className: styles$4.inputSticky, placeholder: "Search...", onChange: handleChangeSearch, value: search, onClick: handleClickInputSearch }), jsxRuntimeExports.jsx("button", { className: styles$4.buttonSticky, children: jsxRuntimeExports.jsx(SearchIcon, {}) }), isOpenSuggest && suggestData.length > 0 && (jsxRuntimeExports.jsx("div", { ref: suggestRef, className: styles$4.suggestContainer, children: jsxRuntimeExports.jsx("div", { className: styles$4.suggestList, children: suggestData.map((suggestItem) => (jsxRuntimeExports.jsx("button", { className: styles$4.suggestItem, onClick: () => handleClickSuggest(suggestItem), children: suggestItem.keyword }, suggestItem.id))) }) }))] }));
-};
-const HeaderMobile = () => {
-    const [isSticky, setIsSticky] = reactExports.useState(false);
-    const [activeSubmenu, setActiveSubmenu] = reactExports.useState(null);
-    const [isLogin, setIsLogin] = reactExports.useState(false);
-    const isActive = (path, exact = false) => {
-        if (!path)
-            return false;
-        const currentPath = window.location.pathname;
-        const cleanPath = path.split('?')[0];
-        return exact
-            ? currentPath === cleanPath
-            : currentPath === cleanPath || currentPath.startsWith(`${cleanPath}/`);
-    };
-    const handleMenuClick = (item) => {
-        if (!isLogin && item.id === 'account') {
-            window.location.href =
-                'https://accounts.topdev.vn/' +
-                    '/?redirect_uri=' +
-                    encodeURIComponent(window.location.href);
-        }
-        else if (item.subMenu) {
-            setActiveSubmenu((prevItem) => (prevItem?.id === item?.id ? null : item));
-        }
-    };
-    reactExports.useEffect(() => {
-        const checkIsLogin = async () => {
-            try {
-                const isLogin = await checkLogin.get();
-                setIsLogin(isLogin);
-            }
-            catch (err) {
-                console.error('Error fetching categories:', err);
-            }
-        };
-        checkIsLogin();
-    }, []);
-    reactExports.useEffect(() => {
-        const handleScroll = () => {
-            setIsSticky(window.scrollY > 80);
-        };
-        handleScroll();
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
-    const renderMenuItem = (item) => {
-        if (item.subMenu) {
-            return (jsxRuntimeExports.jsxs("button", { className: activeSubmenu?.id === item.id
-                    ? styles$4.menuItemActive
-                    : styles$4.menuItem, onClick: () => handleMenuClick(item), children: [jsxRuntimeExports.jsx("span", { className: styles$4.menuIcon, children: item.icon }), item.name] }, item.id));
-        }
-        return (jsxRuntimeExports.jsxs("a", { href: item.link, className: isActive(item.link ?? null, true)
-                ? styles$4.menuItemActive
-                : styles$4.menuItem, children: [jsxRuntimeExports.jsx("span", { className: styles$4.menuIcon, children: item.icon }), item.name] }, item.id));
-    };
-    const renderSubMenuItem = (subItem) => {
-        return (jsxRuntimeExports.jsxs("a", { href: subItem.link ?? '/', className: isActive(subItem.link ?? '/')
-                ? styles$4.subMenuItemActive
-                : styles$4.subMenuItem, children: [jsxRuntimeExports.jsx("span", { className: styles$4.menuIcon, children: subItem.icon }), subItem.name] }, subItem.id));
-    };
-    const renderDrawer = () => {
-        return (jsxRuntimeExports.jsxs("div", { className: activeSubmenu?.subMenu ? styles$4.drawerOpen : styles$4.drawer, children: [jsxRuntimeExports.jsx("div", { className: styles$4.wrapperStick, children: jsxRuntimeExports.jsx("div", { className: styles$4.dragHandle }) }), activeSubmenu?.id === 'account' ? (jsxRuntimeExports.jsxs("div", { className: styles$4.accountContainer, children: [jsxRuntimeExports.jsxs("div", { className: styles$4.information, children: [jsxRuntimeExports.jsx("span", { className: styles$4.hello, children: "Hello," }), jsxRuntimeExports.jsx("span", { className: styles$4.name, children: "Nguy\u1EC5n Minh Anh" }), jsxRuntimeExports.jsx("span", { className: styles$4.email, children: "anh.ng@gmailcom" })] }), jsxRuntimeExports.jsx("div", { className: styles$4.avatar, children: jsxRuntimeExports.jsx("img", { src: "https://c.topdevvn.com/v4/_next/static/media/no-avatar.6db79731.svg", alt: "" }) })] })) : null, activeSubmenu?.subMenu?.map(renderSubMenuItem)] }));
-    };
-    return (jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [jsxRuntimeExports.jsxs("header", { className: isSticky ? styles$4.headerMobileSticky : styles$4.headerMobile, children: [jsxRuntimeExports.jsxs("div", { className: styles$4.containerImage, children: [jsxRuntimeExports.jsx("a", { href: "/", children: jsxRuntimeExports.jsx("img", { src: "https://cdn.topdev.vn/v4/assets/images/common/logo-mobile-2.svg", width: 114, height: 20, loading: "lazy", alt: "TopDev", className: isSticky ? styles$4.logoLargeHidden : styles$4.logoLarge }) }), jsxRuntimeExports.jsx("a", { className: isSticky ? styles$4.logoSmallVisible : styles$4.logoSmall, href: "/", children: jsxRuntimeExports.jsx("img", { src: "https://c.topdevvn.com/v4/assets/images/common/logo-mobile.svg", width: 24, height: 24, loading: "lazy", alt: "TopDev" }) }), jsxRuntimeExports.jsx(InputSearchSticky, { isSticky: isSticky })] }), jsxRuntimeExports.jsxs("div", { className: styles$4.notificationGroup, children: [jsxRuntimeExports.jsx("button", { className: styles$4.wrapperButton, children: jsxRuntimeExports.jsx(Notification$1, {}) }), jsxRuntimeExports.jsx(DrawerMenu, { children: jsxRuntimeExports.jsx("span", { className: styles$4.wrapperButton, children: jsxRuntimeExports.jsx(Hamburger, {}) }) })] })] }), jsxRuntimeExports.jsx("nav", { className: styles$4.menuList, children: MENU_LIST.map(renderMenuItem) }), renderDrawer(), jsxRuntimeExports.jsx("div", { className: activeSubmenu ? styles$4.backdropOpen : styles$4.backdrop, onClick: () => setActiveSubmenu(null) })] }));
-};
-
-exports.Header = Header;
-exports.HeaderMobile = HeaderMobile;
 //# sourceMappingURL=index.js.map
